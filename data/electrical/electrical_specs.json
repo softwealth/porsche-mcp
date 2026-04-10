@@ -1,0 +1,213 @@
+{
+  "996": {
+    "battery": {
+      "location": "Front trunk (left side)",
+      "group": "H6/L3",
+      "voltage": 12,
+      "cca": 520,
+      "ah": 70
+    },
+    "alternator": {
+      "output_amps": 120
+    },
+    "fuse_boxes": {
+      "main_fuse_box": {
+        "location": "Left side of dash (behind panel)",
+        "fuse_count": 36
+      },
+      "relay_box": {
+        "location": "Front trunk (left side near battery)"
+      },
+      "key_fuses": {
+        "F1": "15A - Headlight washer",
+        "F3": "10A - Instrument cluster",
+        "F5": "15A - Horn",
+        "F7": "10A - Brake lights",
+        "F9": "20A - Fuel pump",
+        "F14": "15A - Wipers",
+        "F18": "30A - Blower motor",
+        "F24": "15A - Cigarette lighter",
+        "F31": "30A - Heated seats",
+        "F36": "10A - OBD port"
+      }
+    },
+    "obd_port": {
+      "location": "Under dash, left of steering column",
+      "protocol": "OBD-II CAN"
+    },
+    "common_electrical_issues": [
+      "Window regulator failure",
+      "Headlight switch failure",
+      "Ignition switch recall"
+    ]
+  },
+  "997": {
+    "battery": {
+      "location": "Front trunk (left side)",
+      "group": "H6/L3",
+      "voltage": 12,
+      "cca": 520,
+      "ah": 70
+    },
+    "alternator": {
+      "output_amps": 150
+    },
+    "fuse_boxes": {
+      "main_fuse_box": {
+        "location": "Left side of dash",
+        "fuse_count": 44
+      },
+      "engine_fuse_box": {
+        "location": "Engine compartment (left side)"
+      },
+      "key_fuses": {
+        "F1": "30A - Engine fan",
+        "F3": "15A - DME relay",
+        "F5": "10A - Brake lights",
+        "F8": "20A - Fuel pump",
+        "F15": "30A - Blower motor",
+        "F22": "15A - Power outlets",
+        "F33": "30A - Heated seats",
+        "F40": "10A - PCM/Radio"
+      }
+    },
+    "obd_port": {
+      "location": "Under dash, left of steering column"
+    },
+    "common_electrical_issues": [
+      "Headlight condensation",
+      "Rain sensor failure",
+      "Battery drain from PCM"
+    ]
+  },
+  "991": {
+    "battery": {
+      "location": "Front trunk (right side)",
+      "group": "H7/L4",
+      "voltage": 12,
+      "cca": 600,
+      "ah": 80
+    },
+    "alternator": {
+      "output_amps": 180
+    },
+    "fuse_boxes": {
+      "main_fuse_box": {
+        "location": "Left side of dash (behind knee panel)",
+        "fuse_count": 52
+      },
+      "rear_fuse_box": {
+        "location": "Engine compartment (left side)"
+      },
+      "key_fuses": {
+        "F1": "40A - Engine fan 1",
+        "F2": "40A - Engine fan 2",
+        "F5": "10A - DME",
+        "F9": "20A - Fuel pump",
+        "F17": "30A - HVAC blower",
+        "F25": "10A - Instrument cluster",
+        "F38": "15A - Power outlets",
+        "F45": "10A - OBD port"
+      }
+    },
+    "obd_port": {
+      "location": "Under dash, left of steering column"
+    },
+    "common_electrical_issues": [
+      "PCM screen delamination (early)",
+      "Backup camera failure",
+      "TPMS sensor battery death"
+    ]
+  },
+  "992": {
+    "battery": {
+      "location": "Front trunk (right side)",
+      "group": "H7/L4",
+      "voltage": 12,
+      "cca": 640,
+      "ah": 80
+    },
+    "alternator": {
+      "output_amps": 200
+    },
+    "fuse_boxes": {
+      "main_fuse_box": {
+        "location": "Left side of dash",
+        "fuse_count": 58
+      },
+      "rear_fuse_box": {
+        "location": "Rear compartment"
+      }
+    },
+    "obd_port": {
+      "location": "Under dash, left of steering column"
+    },
+    "common_electrical_issues": [
+      "Infotainment software glitches",
+      "Apple CarPlay disconnects"
+    ]
+  },
+  "cayenne": {
+    "battery": {
+      "location": "Under front passenger seat (955/957) or front trunk (958/E3)",
+      "voltage": 12,
+      "cca": 600,
+      "ah": 80
+    },
+    "alternator": {
+      "output_amps": 170
+    },
+    "fuse_boxes": {
+      "main_fuse_box": {
+        "location": "Left side of dash"
+      },
+      "engine_fuse_box": {
+        "location": "Engine compartment (left fender)"
+      },
+      "rear_fuse_box": {
+        "location": "Right side of rear cargo area"
+      }
+    },
+    "obd_port": {
+      "location": "Under dash, left of steering column"
+    },
+    "common_electrical_issues": [
+      "Battery drain",
+      "Alternator failure (955)",
+      "TPMS issues",
+      "Window regulator"
+    ]
+  },
+  "taycan": {
+    "battery_hv": {
+      "type": "Lithium-ion",
+      "voltage": 800,
+      "capacity_kwh": "79.2 or 93.4",
+      "location": "Floor-mounted (skateboard)"
+    },
+    "battery_12v": {
+      "location": "Front trunk",
+      "voltage": 12,
+      "ah": 45,
+      "notes": "AGM battery. Known for drain issues."
+    },
+    "fuse_boxes": {
+      "main_fuse_box": {
+        "location": "Left side of dash"
+      },
+      "hv_fuse": {
+        "location": "Integrated in battery pack",
+        "notes": "Not user-serviceable"
+      }
+    },
+    "obd_port": {
+      "location": "Under dash, left of steering column"
+    },
+    "common_electrical_issues": [
+      "12V battery drain",
+      "Charging port actuator",
+      "Software bugs",
+      "HV battery coolant pump"
+    ]
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "XAA": {
+    "description": "Adaptive Cruise Control (ACC)",
+    "category": "Driver Assistance"
+  },
+  "XMB": {
+    "description": "LED Matrix Headlights (PDLS+)",
+    "category": "Exterior Lighting"
+  },
+  "XSH": {
+    "description": "SportDesign Package",
+    "category": "Exterior"
+  },
+  "XSC": {
+    "description": "Sport Exhaust System (PSE)",
+    "category": "Exhaust",
+    "desirability": "Very High"
+  },
+  "XLB": {
+    "description": "Porsche Dynamic Light System (PDLS)",
+    "category": "Exterior Lighting"
+  },
+  "XLF": {
+    "description": "Full Carbon Fiber Interior Package",
+    "category": "Interior"
+  },
+  "XRD": {
+    "description": "Radio/PCM Delete",
+    "category": "Weight Reduction",
+    "desirability": "Niche"
+  },
+  "XDJ": {
+    "description": "Porsche Exclusive Manufaktur Interior",
+    "category": "Interior"
+  },
+  "XEH": {
+    "description": "Extended Range Fuel Tank",
+    "category": "Performance",
+    "desirability": "Very High"
+  },
+  "XFB": {
+    "description": "Front Axle Lift System",
+    "category": "Suspension",
+    "desirability": "Very High"
+  },
+  "XCH": {
+    "description": "Carbon Fiber Roof",
+    "category": "Exterior/Weight",
+    "desirability": "Very High"
+  },
+  "XRB": {
+    "description": "Rear Axle Steering",
+    "category": "Steering/Handling",
+    "desirability": "Very High"
+  },
+  "XPH": {
+    "description": "Porsche InnoDrive (Level 2 ADAS)",
+    "category": "Driver Assistance"
+  },
+  "XJL": {
+    "description": "Entry & Drive (Keyless)",
+    "category": "Comfort"
+  },
+  "XPA": {
+    "description": "Parking Assist with Surround View",
+    "category": "Driver Assistance"
+  },
+  "XSA": {
+    "description": "Adaptive Sport Seats Plus (18-way)",
+    "category": "Seats",
+    "desirability": "Very High"
+  },
+  "XNA": {
+    "description": "Smoking Package Delete (adds storage)",
+    "category": "Interior"
+  },
+  "010": {
+    "description": "Stainless steel brake lines",
+    "category": "Brakes"
+  },
+  "025": {
+    "description": "Deleted model designation (debage)",
+    "category": "Exterior",
+    "desirability": "Medium"
+  },
+  "029": {
+    "description": "Roof transport system",
+    "category": "Exterior"
+  },
+  "030": {
+    "description": "Floor mats",
+    "category": "Interior"
+  },
+  "031": {
+    "description": "Luggage net (front trunk)",
+    "category": "Interior"
+  },
+  "058": {
+    "description": "Full bucket seats (Sport/Lightweight)",
+    "category": "Seats"
+  },
+  "066": {
+    "description": "Wheel centers with colored Porsche crest",
+    "category": "Wheels"
+  },
+  "139": {
+    "description": "Seat heating",
+    "category": "Comfort",
+    "desirability": "High"
+  },
+  "140": {
+    "description": "Adaptive Sport Seats",
+    "category": "Seats"
+  },
+  "146": {
+    "description": "Ventilated seats",
+    "category": "Comfort"
+  },
+  "220": {
+    "description": "PSM Sport (with ESC Sport/Off)",
+    "category": "Chassis"
+  },
+  "224": {
+    "description": "PASM (Porsche Active Suspension Management)",
+    "category": "Suspension",
+    "desirability": "Very High"
+  },
+  "225": {
+    "description": "PASM Sport (10mm lower)",
+    "category": "Suspension"
+  },
+  "250": {
+    "description": "Power steering plus",
+    "category": "Steering"
+  },
+  "288": {
+    "description": "Bi-Xenon headlights with PDLS",
+    "category": "Lighting"
+  },
+  "340": {
+    "description": "Heated seats",
+    "category": "Comfort"
+  },
+  "342": {
+    "description": "Heated steering wheel",
+    "category": "Comfort"
+  },
+  "345": {
+    "description": "Heated windshield",
+    "category": "Comfort"
+  },
+  "350": {
+    "description": "Heated windshield (older code)",
+    "category": "Comfort"
+  },
+  "377": {
+    "description": "Alcantara steering wheel + shift paddles",
+    "category": "Interior",
+    "desirability": "Very High"
+  },
+  "396": {
+    "description": "Full bucket seats (carbon fiber back)",
+    "category": "Seats",
+    "desirability": "Very High"
+  },
+  "403": {
+    "description": "Panoramic roof",
+    "category": "Exterior"
+  },
+  "431": {
+    "description": "Rear wiper",
+    "category": "Exterior"
+  },
+  "454": {
+    "description": "Cruise control",
+    "category": "Driver Assistance"
+  },
+  "455": {
+    "description": "Adaptive cruise control",
+    "category": "Driver Assistance"
+  },
+  "456": {
+    "description": "InnoDrive (predictive ACC)",
+    "category": "Driver Assistance"
+  },
+  "490": {
+    "description": "Sound Package Plus",
+    "category": "Audio"
+  },
+  "499": {
+    "description": "Aluminum interior package",
+    "category": "Interior"
+  },
+  "583": {
+    "description": "Smoking package",
+    "category": "Interior"
+  },
+  "602": {
+    "description": "Aerokit Cup (GT3 wing on Carrera)",
+    "category": "Aero"
+  },
+  "603": {
+    "description": "Aero Kit Performance",
+    "category": "Aero"
+  },
+  "610": {
+    "description": "PDLS+ (LED Matrix)",
+    "category": "Lighting",
+    "desirability": "High"
+  },
+  "630": {
+    "description": "Front axle lift system",
+    "category": "Suspension",
+    "desirability": "Very High"
+  },
+  "636": {
+    "description": "Sport Chrono Package",
+    "category": "Performance",
+    "includes": "Launch control, Sport Plus mode, dynamic engine mounts, dash stopwatch",
+    "desirability": "Very High"
+  },
+  "637": {
+    "description": "Sport Chrono Package with track app",
+    "category": "Performance"
+  },
+  "639": {
+    "description": "Porsche Ceramic Composite Brakes (PCCB)",
+    "category": "Brakes",
+    "desirability": "Very High",
+    "note": "$8-15K replacement cost"
+  },
+  "642": {
+    "description": "Yellow brake calipers (PCCB indicator)",
+    "category": "Brakes"
+  },
+  "643": {
+    "description": "Red brake calipers",
+    "category": "Brakes"
+  },
+  "644": {
+    "description": "Black brake calipers",
+    "category": "Brakes"
+  },
+  "645": {
+    "description": "White brake calipers",
+    "category": "Brakes"
+  },
+  "650": {
+    "description": "Electric sunroof",
+    "category": "Exterior",
+    "desirability": "Low on 911"
+  },
+  "658": {
+    "description": "Power folding mirrors",
+    "category": "Exterior"
+  },
+  "659": {
+    "description": "Auto-dimming mirrors (interior + exterior)",
+    "category": "Comfort"
+  },
+  "670": {
+    "description": "Front camera",
+    "category": "Driver Assistance"
+  },
+  "680": {
+    "description": "Burmester High-End Surround Sound",
+    "category": "Audio",
+    "desirability": "Very High"
+  },
+  "681": {
+    "description": "Burmester 3D High-End Surround Sound",
+    "category": "Audio"
+  },
+  "682": {
+    "description": "Bose Surround Sound",
+    "category": "Audio"
+  },
+  "691": {
+    "description": "Full bucket seats (GT3/GT4)",
+    "category": "Seats",
+    "desirability": "Very High"
+  },
+  "692": {
+    "description": "Lightweight bucket seats (carbon/kevlar)",
+    "category": "Seats"
+  },
+  "748": {
+    "description": "Fire extinguisher",
+    "category": "Safety"
+  },
+  "810": {
+    "description": "Floor mats with leather edging",
+    "category": "Interior"
+  },
+  "840": {
+    "description": "SportDesign side skirts",
+    "category": "Exterior"
+  },
+  "841": {
+    "description": "SportDesign front bumper",
+    "category": "Exterior"
+  },
+  "946": {
+    "description": "Wheels painted in body color",
+    "category": "Wheels"
+  },
+  "980": {
+    "description": "LED headlights",
+    "category": "Lighting"
+  },
+  "982": {
+    "description": "LED taillights (darkened)",
+    "category": "Lighting"
+  },
+  "003": {
+    "description": "GT Sport manual transmission",
+    "category": "Transmission",
+    "desirability": "Extremely High"
+  },
+  "005": {
+    "description": "Club Sport Package",
+    "category": "Performance",
+    "includes": "Roll cage, harness bar, fire extinguisher, battery kill switch"
+  },
+  "014": {
+    "description": "Chrono Package (GT cars)",
+    "category": "Performance"
+  },
+  "025_gt": {
+    "description": "Model designation delete (GT)",
+    "category": "Exterior"
+  },
+  "062": {
+    "description": "No air conditioning (weight delete)",
+    "category": "Weight Reduction"
+  },
+  "070": {
+    "description": "GT3 Touring Package",
+    "category": "Exterior",
+    "desirability": "Extremely High",
+    "notes": "Deletes fixed rear wing, adds retractable spoiler. Makes GT3 look like a Carrera."
+  },
+  "L1": {
+    "description": "Special color (Paint to Sample - PTS)",
+    "category": "Exterior Color",
+    "desirability": "Very High"
+  },
+  "L2": {
+    "description": "Two-tone paint",
+    "category": "Exterior Color"
+  },
+  "L3": {
+    "description": "Metallic paint",
+    "category": "Exterior Color"
+  },
+  "P77": {
+    "description": "Porsche Doppelkupplung (PDK) 7-speed",
+    "category": "Transmission"
+  },
+  "P79": {
+    "description": "PDK 8-speed (992)",
+    "category": "Transmission"
+  },
+  "P01": {
+    "description": "Comfort Package",
+    "category": "Package"
+  },
+  "P03": {
+    "description": "Premium Package",
+    "category": "Package"
+  },
+  "P13": {
+    "description": "Sport Seats Plus (14-way)",
+    "category": "Seats"
+  },
+  "P15": {
+    "description": "Comfort Seats (18-way)",
+    "category": "Seats"
+  },
+  "P16": {
+    "description": "Comfort Seats with memory",
+    "category": "Seats"
+  },
+  "P17": {
+    "description": "Lightweight Sport Package",
+    "category": "Performance"
+  },
+  "P22": {
+    "description": "Premium Package Plus",
+    "category": "Package"
+  },
+  "P73": {
+    "description": "Smoking Package",
+    "category": "Interior",
+    "desirability": "Low"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "964": {
+    "front": {
+      "type": "MacPherson strut",
+      "spring_rate_lbs_in": 154,
+      "sway_bar_mm": 20
+    },
+    "rear": {
+      "type": "Semi-trailing arm (LSA)",
+      "spring_rate_lbs_in": 205,
+      "sway_bar_mm": 21
+    },
+    "alignment": {
+      "front_camber_deg": -0.33,
+      "front_toe_in_mm": 0.5,
+      "front_caster_deg": 6.5,
+      "rear_camber_deg": -1.5,
+      "rear_toe_in_mm": 2.0
+    },
+    "track_alignment": {
+      "front_camber_deg": -1.5,
+      "rear_camber_deg": -2.0,
+      "front_toe_in_mm": 0,
+      "rear_toe_in_mm": 1.0
+    },
+    "ride_height_mm": {
+      "front": 130,
+      "rear": 140
+    }
+  },
+  "993": {
+    "front": {
+      "type": "MacPherson strut",
+      "spring_rate_lbs_in": 167,
+      "sway_bar_mm": 22
+    },
+    "rear": {
+      "type": "Multi-link (LSA)",
+      "spring_rate_lbs_in": 223,
+      "sway_bar_mm": 22
+    },
+    "alignment": {
+      "front_camber_deg": -0.17,
+      "front_toe_in_mm": 0.5,
+      "front_caster_deg": 7.0,
+      "rear_camber_deg": -1.33,
+      "rear_toe_in_mm": 2.0
+    },
+    "ride_height_mm": {
+      "front": 125,
+      "rear": 135
+    },
+    "notes": "First 911 with multi-link rear. Massive handling improvement over 964."
+  },
+  "996": {
+    "front": {
+      "type": "MacPherson strut",
+      "spring_rate_lbs_in": 179,
+      "sway_bar_mm": 22
+    },
+    "rear": {
+      "type": "Multi-link (5-link)",
+      "spring_rate_lbs_in": 268,
+      "sway_bar_mm": 20
+    },
+    "alignment": {
+      "front_camber_deg": -0.25,
+      "front_toe_in_mm": 0.5,
+      "front_caster_deg": 7.17,
+      "rear_camber_deg": -1.42,
+      "rear_toe_in_mm": 2.0
+    },
+    "ride_height_mm": {
+      "front": 115,
+      "rear": 127
+    }
+  },
+  "997": {
+    "front": {
+      "type": "MacPherson strut",
+      "spring_rate_lbs_in": 201,
+      "sway_bar_mm": 24
+    },
+    "rear": {
+      "type": "Multi-link (5-link)",
+      "spring_rate_lbs_in": 290,
+      "sway_bar_mm": 22
+    },
+    "alignment": {
+      "front_camber_deg": -0.25,
+      "front_toe_in_mm": 0.5,
+      "front_caster_deg": 7.33,
+      "rear_camber_deg": -1.5,
+      "rear_toe_in_mm": 2.0
+    },
+    "pasm": {
+      "comfort_rebound_n": 2200,
+      "sport_rebound_n": 3100,
+      "notes": "PASM electronically adjustable dampers. 10mm lower than standard."
+    },
+    "ride_height_mm": {
+      "front": 110,
+      "rear": 125
+    }
+  },
+  "991": {
+    "front": {
+      "type": "MacPherson strut",
+      "spring_rate_lbs_in": 223,
+      "sway_bar_mm": 26
+    },
+    "rear": {
+      "type": "Multi-link (5-link)",
+      "spring_rate_lbs_in": 312,
+      "sway_bar_mm": 24
+    },
+    "alignment": {
+      "front_camber_deg": -0.33,
+      "front_toe_in_mm": 0.5,
+      "front_caster_deg": 7.5,
+      "rear_camber_deg": -1.58,
+      "rear_toe_in_mm": 2.0
+    },
+    "pasm": {
+      "comfort_rebound_n": 2400,
+      "sport_rebound_n": 3400
+    },
+    "gt3_rs": {
+      "front_spring_rate_lbs_in": 446,
+      "rear_spring_rate_lbs_in": 580,
+      "front_sway_bar_mm": 28,
+      "rear_sway_bar_mm": 27,
+      "ride_height_mm": {
+        "front": 85,
+        "rear": 95
+      }
+    },
+    "ride_height_mm": {
+      "front": 108,
+      "rear": 122
+    }
+  },
+  "992": {
+    "front": {
+      "type": "MacPherson strut",
+      "spring_rate_lbs_in": 245,
+      "sway_bar_mm": 27
+    },
+    "rear": {
+      "type": "Multi-link (5-link)",
+      "spring_rate_lbs_in": 334,
+      "sway_bar_mm": 25
+    },
+    "alignment": {
+      "front_camber_deg": -0.42,
+      "front_toe_in_mm": 0.5,
+      "front_caster_deg": 7.5,
+      "rear_camber_deg": -1.67,
+      "rear_toe_in_mm": 2.0
+    },
+    "pasm": {
+      "standard": true,
+      "notes": "PASM standard on all 992 models. Sport suspension lowers 10mm."
+    },
+    "pdcc": {
+      "type": "Active anti-roll bars (48V)",
+      "notes": "Replaces mechanical sway bars. Available on Turbo/GTS."
+    },
+    "rear_axle_steering": {
+      "available": true,
+      "angle_deg": 2.8,
+      "notes": "Turns opposite at low speed, same direction above 50mph"
+    },
+    "ride_height_mm": {
+      "front": 105,
+      "rear": 120
+    }
+  },
+  "718": {
+    "front": {
+      "type": "MacPherson strut",
+      "spring_rate_lbs_in": 190,
+      "sway_bar_mm": 24
+    },
+    "rear": {
+      "type": "MacPherson strut",
+      "spring_rate_lbs_in": 245,
+      "sway_bar_mm": 22
+    },
+    "alignment": {
+      "front_camber_deg": -0.33,
+      "front_toe_in_mm": 0.5,
+      "rear_camber_deg": -1.5,
+      "rear_toe_in_mm": 2.0
+    },
+    "ride_height_mm": {
+      "front": 110,
+      "rear": 120
+    }
+  },
+  "cayenne": {
+    "front": {
+      "type": "Double wishbone",
+      "sway_bar_mm": 30
+    },
+    "rear": {
+      "type": "Multi-link",
+      "sway_bar_mm": 27
+    },
+    "air_suspension": {
+      "available": true,
+      "modes": [
+        "Normal",
+        "Comfort",
+        "Off-Road (+30mm)",
+        "Off-Road+ (+55mm)",
+        "Loading (-28mm)"
+      ]
+    },
+    "alignment": {
+      "front_camber_deg": -0.25,
+      "front_toe_in_mm": 1.0,
+      "rear_camber_deg": -1.75,
+      "rear_toe_in_mm": 2.5
+    },
+    "ride_height_mm": {
+      "front": 195,
+      "rear": 200
+    }
+  },
+  "macan": {
+    "front": {
+      "type": "Double wishbone (aluminum)",
+      "sway_bar_mm": 26
+    },
+    "rear": {
+      "type": "Multi-link (trapezoidal)",
+      "sway_bar_mm": 22
+    },
+    "alignment": {
+      "front_camber_deg": -0.33,
+      "front_toe_in_mm": 0.8,
+      "rear_camber_deg": -1.67,
+      "rear_toe_in_mm": 2.0
+    },
+    "pasm": {
+      "available": true,
+      "air_suspension_option": true
+    },
+    "ride_height_mm": {
+      "front": 180,
+      "rear": 185
+    }
+  }
+}

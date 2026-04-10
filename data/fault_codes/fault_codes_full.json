@@ -1,0 +1,603 @@
+{
+  "P0100": {
+    "desc": "Mass Air Flow Circuit Malfunction",
+    "causes": [
+      "Dirty MAF sensor",
+      "Wiring issue",
+      "Failed MAF"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "Medium",
+    "fix": "Clean MAF with electronics cleaner. Replace if cleaning doesn't help."
+  },
+  "P0102": {
+    "desc": "Mass Air Flow Circuit Low Input",
+    "causes": [
+      "Dirty MAF",
+      "Intake leak",
+      "Wiring"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "Medium"
+  },
+  "P0128": {
+    "desc": "Coolant Thermostat Below Regulating Temperature",
+    "causes": [
+      "Failed thermostat (stuck open)",
+      "Low coolant",
+      "Faulty temp sensor"
+    ],
+    "models": [
+      "996",
+      "997",
+      "991"
+    ],
+    "severity": "Low",
+    "fix": "Replace thermostat. ~$200 DIY."
+  },
+  "P0171": {
+    "desc": "System Too Lean Bank 1",
+    "causes": [
+      "Vacuum leak",
+      "Weak fuel pump",
+      "Dirty MAF",
+      "Cracked intake boot",
+      "AOS failure (997)"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "Medium"
+  },
+  "P0174": {
+    "desc": "System Too Lean Bank 2",
+    "causes": [
+      "Same as P0171 - bank 2"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "Medium"
+  },
+  "P0300": {
+    "desc": "Random/Multiple Cylinder Misfire",
+    "causes": [
+      "Bad coil pack",
+      "Worn spark plugs",
+      "Low compression (bore scoring)",
+      "Vacuum leak",
+      "Fuel delivery issue"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "High"
+  },
+  "P0301": {
+    "desc": "Cylinder 1 Misfire",
+    "causes": [
+      "Coil pack failure",
+      "Spark plug fouled",
+      "Injector stuck",
+      "Low compression"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "High"
+  },
+  "P0302": {
+    "desc": "Cylinder 2 Misfire",
+    "causes": [
+      "Same as P0301"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "High"
+  },
+  "P0303": {
+    "desc": "Cylinder 3 Misfire",
+    "causes": [
+      "Same as P0301"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "High"
+  },
+  "P0304": {
+    "desc": "Cylinder 4 Misfire",
+    "causes": [
+      "Same as P0301"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "High"
+  },
+  "P0305": {
+    "desc": "Cylinder 5 Misfire",
+    "causes": [
+      "Same as P0301"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "High"
+  },
+  "P0306": {
+    "desc": "Cylinder 6 Misfire",
+    "causes": [
+      "Same as P0301"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "High"
+  },
+  "P0325": {
+    "desc": "Knock Sensor 1 Circuit",
+    "causes": [
+      "Knock sensor failure",
+      "Wiring",
+      "Low octane fuel"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "Medium"
+  },
+  "P0335": {
+    "desc": "Crankshaft Position Sensor Circuit",
+    "causes": [
+      "Failed sensor",
+      "Wiring",
+      "Reluctor wheel damage"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "High"
+  },
+  "P0340": {
+    "desc": "Camshaft Position Sensor Circuit Bank 1",
+    "causes": [
+      "Sensor failure",
+      "Variocam issue",
+      "Wiring"
+    ],
+    "models": [
+      "996",
+      "997",
+      "991"
+    ],
+    "severity": "High"
+  },
+  "P0345": {
+    "desc": "Camshaft Position Sensor Circuit Bank 2",
+    "causes": [
+      "Same as P0340"
+    ],
+    "models": [
+      "996",
+      "997",
+      "991"
+    ],
+    "severity": "High"
+  },
+  "P0410": {
+    "desc": "Secondary Air Injection System",
+    "causes": [
+      "AIR pump failure",
+      "Check valve stuck",
+      "Relay failure",
+      "Hose disconnected"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "Low",
+    "fix": "Check relay first. Replace AIR pump if failed ($300-600)."
+  },
+  "P0411": {
+    "desc": "Secondary Air Injection Incorrect Flow",
+    "causes": [
+      "AIR valve stuck",
+      "Hose leak",
+      "Pump weak"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "Low"
+  },
+  "P0420": {
+    "desc": "Catalyst Efficiency Below Threshold Bank 1",
+    "causes": [
+      "Cat failure",
+      "O2 sensor",
+      "Exhaust leak"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "Medium"
+  },
+  "P0430": {
+    "desc": "Catalyst Efficiency Below Threshold Bank 2",
+    "causes": [
+      "Same as P0420"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "Medium"
+  },
+  "P0442": {
+    "desc": "EVAP System Small Leak",
+    "causes": [
+      "Loose gas cap",
+      "EVAP canister crack",
+      "Purge valve"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "Low",
+    "fix": "Tighten gas cap. Replace purge valve if persists."
+  },
+  "P0455": {
+    "desc": "EVAP System Large Leak",
+    "causes": [
+      "Gas cap missing/damaged",
+      "EVAP hose disconnected",
+      "Filler neck crack"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "Low"
+  },
+  "P0016": {
+    "desc": "Crank/Cam Position Correlation Bank 1",
+    "causes": [
+      "Variocam solenoid failure",
+      "Timing chain stretch",
+      "Oil supply issue"
+    ],
+    "models": [
+      "996",
+      "997",
+      "991"
+    ],
+    "severity": "High"
+  },
+  "P0017": {
+    "desc": "Crank/Cam Position Correlation Bank 2",
+    "causes": [
+      "Same as P0016"
+    ],
+    "models": [
+      "996",
+      "997",
+      "991"
+    ],
+    "severity": "High"
+  },
+  "P0505": {
+    "desc": "Idle Air Control System",
+    "causes": [
+      "Dirty throttle body",
+      "IAC valve failure",
+      "Vacuum leak"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "Medium"
+  },
+  "P0507": {
+    "desc": "Idle Speed Higher Than Expected",
+    "causes": [
+      "Vacuum leak",
+      "Dirty throttle body",
+      "AOS failure"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "Medium"
+  },
+  "P1128": {
+    "desc": "Long Term Fuel Trim Bank 1 System Too Lean",
+    "causes": [
+      "AOS failure (997/987)",
+      "Vacuum leak",
+      "MAF"
+    ],
+    "models": [
+      "997",
+      "987"
+    ],
+    "severity": "Medium",
+    "fix": "Replace AOS \u2014 most common cause on 997/987."
+  },
+  "P1130": {
+    "desc": "Long Term Fuel Trim Bank 2 System Too Lean",
+    "causes": [
+      "Same as P1128"
+    ],
+    "models": [
+      "997",
+      "987"
+    ],
+    "severity": "Medium"
+  },
+  "P1157": {
+    "desc": "O2 Sensor Bank 2 Sensor 1 Lean Limit",
+    "causes": [
+      "AOS failure",
+      "Vacuum leak",
+      "O2 sensor"
+    ],
+    "models": [
+      "997"
+    ],
+    "severity": "Medium"
+  },
+  "P1397": {
+    "desc": "Camshaft Position Sensor 2 No Signal",
+    "causes": [
+      "Sensor failure",
+      "Wiring",
+      "Variocam actuator"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "High"
+  },
+  "P1470": {
+    "desc": "EVAP Leak Detection Pump Control Circuit",
+    "causes": [
+      "DM-TL pump failure",
+      "Wiring"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "Low"
+  },
+  "P1524": {
+    "desc": "Camshaft Adjustment Bank 1 Regulation Deviation",
+    "causes": [
+      "Variocam solenoid stuck",
+      "Oil flow restriction",
+      "Chain stretch"
+    ],
+    "models": [
+      "997",
+      "991"
+    ],
+    "severity": "High"
+  },
+  "P1530": {
+    "desc": "Camshaft Adjustment Bank 2 Regulation Deviation",
+    "causes": [
+      "Same as P1524"
+    ],
+    "models": [
+      "997",
+      "991"
+    ],
+    "severity": "High"
+  },
+  "P0700": {
+    "desc": "Transmission Control System Malfunction",
+    "causes": [
+      "TCM error",
+      "PDK mechatronic issue",
+      "Wiring"
+    ],
+    "models": [
+      "All PDK/Tiptronic"
+    ],
+    "severity": "High"
+  },
+  "P0730": {
+    "desc": "Incorrect Gear Ratio",
+    "causes": [
+      "PDK clutch wear",
+      "Mechatronic valve body",
+      "Solenoid failure"
+    ],
+    "models": [
+      "PDK cars"
+    ],
+    "severity": "High"
+  },
+  "P0868": {
+    "desc": "Transmission Fluid Pressure Low",
+    "causes": [
+      "Low PDK fluid",
+      "Pump failure",
+      "Internal leak"
+    ],
+    "models": [
+      "PDK cars"
+    ],
+    "severity": "Critical"
+  },
+  "PSM_FAULT": {
+    "desc": "PSM (Stability Management) Warning",
+    "causes": [
+      "Wheel speed sensor",
+      "Steering angle sensor",
+      "Yaw sensor",
+      "Low brake fluid",
+      "ABS module"
+    ],
+    "models": [
+      "All water-cooled"
+    ],
+    "severity": "Medium"
+  },
+  "PASM_FAULT": {
+    "desc": "PASM (Active Suspension) Malfunction",
+    "causes": [
+      "Damper failure",
+      "Wiring harness",
+      "Control module",
+      "Sensor failure"
+    ],
+    "models": [
+      "997+"
+    ],
+    "severity": "Medium"
+  },
+  "ABS_FAULT": {
+    "desc": "ABS System Malfunction",
+    "causes": [
+      "Wheel speed sensor",
+      "ABS module",
+      "Wiring",
+      "Low brake fluid"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "High"
+  },
+  "TPMS_WARN": {
+    "desc": "Tire Pressure Monitoring",
+    "causes": [
+      "Low tire pressure",
+      "TPMS sensor battery dead",
+      "Sensor damaged"
+    ],
+    "models": [
+      "2007+"
+    ],
+    "severity": "Low"
+  },
+  "AIRBAG_LIGHT": {
+    "desc": "Airbag/SRS Warning",
+    "causes": [
+      "Clockspring failure",
+      "Seat occupancy sensor",
+      "Wiring under seat",
+      "Module fault"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "High"
+  },
+  "CHECK_ENGINE": {
+    "desc": "Generic MIL (Check Engine Light)",
+    "causes": [
+      "Read specific codes with PIWIS or generic OBD-II scanner"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "Varies"
+  },
+  "P0117": {
+    "desc": "Coolant Temp Sensor Circuit Low",
+    "causes": [
+      "Sensor failure",
+      "Wiring short",
+      "Low coolant"
+    ],
+    "models": [
+      "All water-cooled"
+    ],
+    "severity": "Medium"
+  },
+  "P0118": {
+    "desc": "Coolant Temp Sensor Circuit High",
+    "causes": [
+      "Sensor failure",
+      "Open circuit"
+    ],
+    "models": [
+      "All water-cooled"
+    ],
+    "severity": "Medium"
+  },
+  "P0480": {
+    "desc": "Cooling Fan 1 Control Circuit",
+    "causes": [
+      "Fan relay",
+      "Fan motor failure",
+      "Wiring",
+      "FCM failure"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "High",
+    "fix": "Check fan relay first. Replace fan motor if failed. Overheating risk."
+  },
+  "P0481": {
+    "desc": "Cooling Fan 2 Control Circuit",
+    "causes": [
+      "Same as P0480"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "High"
+  },
+  "P2096": {
+    "desc": "Post Catalyst Fuel Trim Too Lean Bank 1",
+    "causes": [
+      "Exhaust leak",
+      "O2 sensor",
+      "Cat failure"
+    ],
+    "models": [
+      "997",
+      "991"
+    ],
+    "severity": "Medium"
+  },
+  "P2098": {
+    "desc": "Post Catalyst Fuel Trim Too Lean Bank 2",
+    "causes": [
+      "Same as P2096"
+    ],
+    "models": [
+      "997",
+      "991"
+    ],
+    "severity": "Medium"
+  },
+  "P2404": {
+    "desc": "EVAP Leak Detection Pump Sense Circuit",
+    "causes": [
+      "DM-TL pump failure",
+      "Wiring"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "Low"
+  }
+}

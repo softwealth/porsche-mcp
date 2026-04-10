@@ -1,0 +1,755 @@
+{
+  "metadata": {
+    "title": "Porsche at the 24 Hours of Le Mans",
+    "description": "Complete record of Porsche overall wins, class wins, and notable entries",
+    "total_overall_wins": 19,
+    "record_holder": true,
+    "record_note": "Most overall wins by any manufacturer in Le Mans history",
+    "first_entry": 1951,
+    "first_overall_win": 1970,
+    "most_recent_overall_win": 2017,
+    "total_class_wins": 108,
+    "sources": [
+      "ACO official records",
+      "Wikipedia - Porsche at Le Mans",
+      "Porsche Newsroom",
+      "Racing Sports Cars database"
+    ],
+    "last_updated": "2025-01-01"
+  },
+  "overall_wins": [
+    {
+      "year": 1970,
+      "car_model": "917K",
+      "car_number": 23,
+      "team": "Porsche Salzburg",
+      "drivers": [
+        "Hans Herrmann",
+        "Richard Attwood"
+      ],
+      "class": "S 5.0",
+      "finishing_position": 1,
+      "laps_completed": 343,
+      "distance_km": 4607.81,
+      "engine": "4.5L Flat-12",
+      "notes": "Porsche first overall Le Mans victory. Iconic red and white Salzburg livery."
+    },
+    {
+      "year": 1971,
+      "car_model": "917K",
+      "car_number": 22,
+      "team": "Martini Racing Team",
+      "drivers": [
+        "Helmut Marko",
+        "Gijs van Lennep"
+      ],
+      "class": "S 5.0",
+      "finishing_position": 1,
+      "laps_completed": 397,
+      "distance_km": 5335.16,
+      "engine": "4.9L Flat-12",
+      "notes": "Distance record stood for 39 years until 2010. Magnesium-framed 917K weighed just 800kg."
+    },
+    {
+      "year": 1976,
+      "car_model": "936",
+      "car_number": 20,
+      "team": "Martini Racing Porsche System",
+      "drivers": [
+        "Jacky Ickx",
+        "Gijs van Lennep"
+      ],
+      "class": "Group 6",
+      "finishing_position": 1,
+      "laps_completed": 348,
+      "distance_km": 4769.93,
+      "engine": "2.1L Turbocharged Flat-6",
+      "notes": "First Le Mans win for the turbocharged era at Porsche."
+    },
+    {
+      "year": 1977,
+      "car_model": "936",
+      "car_number": 4,
+      "team": "Martini Racing Porsche System",
+      "drivers": [
+        "Jacky Ickx",
+        "Juergen Barth",
+        "Hurley Haywood"
+      ],
+      "class": "Group 6",
+      "finishing_position": 1,
+      "laps_completed": 354,
+      "distance_km": 4850.52,
+      "engine": "2.1L Turbocharged Flat-6",
+      "notes": "Won despite losing a cylinder in the night. Car ran on 5 cylinders for much of the race."
+    },
+    {
+      "year": 1979,
+      "car_model": "935 K3",
+      "car_number": 41,
+      "team": "Kremer Racing",
+      "drivers": [
+        "Klaus Ludwig",
+        "Bill Whittington",
+        "Don Whittington"
+      ],
+      "class": "IMSA GTX",
+      "finishing_position": 1,
+      "laps_completed": 338,
+      "distance_km": 4173.93,
+      "engine": "2.9L Twin-Turbocharged Flat-6",
+      "notes": "Privateer victory with Kremer Racing modified 935. Only GT-class car to win Le Mans outright in modern era."
+    },
+    {
+      "year": 1981,
+      "car_model": "936/81",
+      "car_number": 11,
+      "team": "Porsche System",
+      "drivers": [
+        "Jacky Ickx",
+        "Derek Bell"
+      ],
+      "class": "Group 6",
+      "finishing_position": 1,
+      "laps_completed": 354,
+      "distance_km": 4825.89,
+      "engine": "2.65L Turbocharged Flat-6 (Indycar-derived)",
+      "notes": "Engine derived from the Porsche Indycar project. Ickx record-equalling 5th Le Mans win."
+    },
+    {
+      "year": 1982,
+      "car_model": "956",
+      "car_number": 1,
+      "team": "Rothmans Porsche",
+      "drivers": [
+        "Jacky Ickx",
+        "Derek Bell"
+      ],
+      "class": "Group C",
+      "finishing_position": 1,
+      "laps_completed": 359,
+      "distance_km": 4899.09,
+      "engine": "2.65L Twin-Turbocharged Flat-6",
+      "notes": "Debut of the dominant 956. Porsche 1-2-3 finish. Ickx record 6th and final Le Mans victory."
+    },
+    {
+      "year": 1983,
+      "car_model": "956",
+      "car_number": 3,
+      "team": "Rothmans Porsche",
+      "drivers": [
+        "Vern Schuppan",
+        "Hurley Haywood",
+        "Al Holbert"
+      ],
+      "class": "Group C",
+      "finishing_position": 1,
+      "laps_completed": 370,
+      "distance_km": 5047.93,
+      "engine": "2.65L Twin-Turbocharged Flat-6",
+      "notes": "Porsche swept the top 8 positions. The 956 was nearly unbeatable in Group C."
+    },
+    {
+      "year": 1984,
+      "car_model": "956B",
+      "car_number": 7,
+      "team": "Joest Racing (New Man Porsche)",
+      "drivers": [
+        "Henri Pescarolo",
+        "Klaus Ludwig"
+      ],
+      "class": "Group C",
+      "finishing_position": 1,
+      "laps_completed": 359,
+      "distance_km": 4900.28,
+      "engine": "2.65L Twin-Turbocharged Flat-6",
+      "notes": "First privateer 956 victory."
+    },
+    {
+      "year": 1985,
+      "car_model": "956B",
+      "car_number": 7,
+      "team": "Joest Racing (New Man Porsche)",
+      "drivers": [
+        "Klaus Ludwig",
+        "Paolo Barilla",
+        "John Winter"
+      ],
+      "class": "Group C",
+      "finishing_position": 1,
+      "laps_completed": 372,
+      "distance_km": 5088.51,
+      "engine": "2.65L Twin-Turbocharged Flat-6",
+      "notes": "Second consecutive win for Joest Racing. John Winter was the pseudonym of Louis Krages."
+    },
+    {
+      "year": 1986,
+      "car_model": "962C",
+      "car_number": 1,
+      "team": "Rothmans Porsche",
+      "drivers": [
+        "Hans-Joachim Stuck",
+        "Derek Bell",
+        "Al Holbert"
+      ],
+      "class": "Group C",
+      "finishing_position": 1,
+      "laps_completed": 368,
+      "distance_km": 5042.21,
+      "engine": "2.65L Twin-Turbocharged Flat-6",
+      "notes": "First Le Mans win for the 962, successor to the 956."
+    },
+    {
+      "year": 1987,
+      "car_model": "962C",
+      "car_number": 17,
+      "team": "Rothmans Porsche",
+      "drivers": [
+        "Derek Bell",
+        "Hans-Joachim Stuck",
+        "Al Holbert"
+      ],
+      "class": "Group C",
+      "finishing_position": 1,
+      "laps_completed": 354,
+      "distance_km": 4791.72,
+      "engine": "2.65L Twin-Turbocharged Flat-6",
+      "notes": "Derek Bell record-equalling 5th Le Mans victory."
+    },
+    {
+      "year": 1994,
+      "car_model": "962 Dauer GT",
+      "car_number": 36,
+      "team": "Joest Racing (Dauer Porsche)",
+      "drivers": [
+        "Yannick Dalmas",
+        "Hurley Haywood",
+        "Mauro Baldi"
+      ],
+      "class": "GT1",
+      "finishing_position": 1,
+      "laps_completed": 341,
+      "distance_km": 4678.4,
+      "engine": "2.99L Twin-Turbocharged Flat-6",
+      "notes": "Road-homologated 962 in GT category. Controversial entry exploiting regulations loophole."
+    },
+    {
+      "year": 1996,
+      "car_model": "911 GT1 (993)",
+      "car_number": 25,
+      "team": "Joest Racing (Porsche AG)",
+      "drivers": [
+        "Alexander Wurz",
+        "Thierry Boutsen",
+        "Davy Jones"
+      ],
+      "class": "GT1",
+      "finishing_position": 1,
+      "laps_completed": 354,
+      "distance_km": 4814.62,
+      "engine": "3.2L Twin-Turbocharged Flat-6 (water-cooled)",
+      "notes": "Won after the leading TWR Porsche WSC-95 retired. The GT1 was essentially a prototype with 911 styling."
+    },
+    {
+      "year": 1998,
+      "car_model": "911 GT1-98",
+      "car_number": 26,
+      "team": "Porsche AG",
+      "drivers": [
+        "Allan McNish",
+        "Laurent Aiello",
+        "Stephane Ortelli"
+      ],
+      "class": "GT1",
+      "finishing_position": 1,
+      "laps_completed": 351,
+      "distance_km": 4773.33,
+      "engine": "3.2L Twin-Turbocharged Flat-6 (water-cooled)",
+      "notes": "Porsche 1-2 finish. Carbon fiber monocoque design resembling the 911."
+    },
+    {
+      "year": 2015,
+      "car_model": "919 Hybrid",
+      "car_number": 19,
+      "team": "Porsche Team",
+      "drivers": [
+        "Nico Huelkenberg",
+        "Earl Bamber",
+        "Nick Tandy"
+      ],
+      "class": "LMP1-H",
+      "finishing_position": 1,
+      "laps_completed": 395,
+      "distance_km": 5382.82,
+      "engine": "2.0L V4 Turbo Hybrid (approx 900hp combined)",
+      "notes": "Porsche return to top class after 16 years. Huelkenberg first active F1 driver to win Le Mans since 1991."
+    },
+    {
+      "year": 2016,
+      "car_model": "919 Hybrid",
+      "car_number": 2,
+      "team": "Porsche Team",
+      "drivers": [
+        "Romain Dumas",
+        "Neel Jani",
+        "Marc Lieb"
+      ],
+      "class": "LMP1-H",
+      "finishing_position": 1,
+      "laps_completed": 384,
+      "distance_km": 5233.54,
+      "engine": "2.0L V4 Turbo Hybrid (approx 900hp combined)",
+      "notes": "Won after Toyota heartbreaking failure on the last lap when the leading TS050 stopped with electrical problems."
+    },
+    {
+      "year": 2017,
+      "car_model": "919 Hybrid",
+      "car_number": 2,
+      "team": "Porsche Team",
+      "drivers": [
+        "Timo Bernhard",
+        "Earl Bamber",
+        "Brendon Hartley"
+      ],
+      "class": "LMP1-H",
+      "finishing_position": 1,
+      "laps_completed": 367,
+      "distance_km": 5001.33,
+      "engine": "2.0L V4 Turbo Hybrid (approx 900hp combined)",
+      "notes": "Third consecutive Le Mans win. Porsche 19th and most recent overall victory. Porsche withdrew from LMP1 at season end."
+    }
+  ],
+  "notable_non_winning_entries": [
+    {
+      "year": 1951,
+      "car_model": "356 SL",
+      "car_number": 46,
+      "team": "Porsche KG",
+      "drivers": [
+        "Auguste Veuillet",
+        "Edmond Mouche"
+      ],
+      "class": "S 1.1",
+      "finishing_position": 20,
+      "class_position": 1,
+      "laps_completed": 280,
+      "notes": "Porsche Le Mans debut. Won the 1.1L class."
+    },
+    {
+      "year": 1953,
+      "car_model": "550 Spyder",
+      "car_number": 44,
+      "team": "Porsche KG",
+      "drivers": [
+        "Hans Herrmann",
+        "Helmut Gloeckler"
+      ],
+      "class": "S 1.5",
+      "finishing_position": 16,
+      "class_position": 1,
+      "notes": "Class win in the 550 first Le Mans appearance."
+    },
+    {
+      "year": 1956,
+      "car_model": "550 RS Spyder",
+      "car_number": 25,
+      "team": "Porsche KG",
+      "drivers": [
+        "Wolfgang von Trips",
+        "Umberto Maglioli"
+      ],
+      "class": "S 1.5",
+      "finishing_position": 5,
+      "class_position": 1,
+      "notes": "Best overall finish for Porsche at the time."
+    },
+    {
+      "year": 1958,
+      "car_model": "718 RSK",
+      "car_number": 31,
+      "team": "Porsche KG",
+      "drivers": [
+        "Jean Behra",
+        "Hans Herrmann"
+      ],
+      "class": "S 1.5",
+      "finishing_position": 3,
+      "class_position": 1,
+      "notes": "First podium finish for Porsche at Le Mans."
+    },
+    {
+      "year": 1960,
+      "car_model": "718 RS 60",
+      "car_number": 36,
+      "team": "Porsche KG",
+      "drivers": [
+        "Edgar Barth",
+        "Wolfgang Seidel"
+      ],
+      "class": "S 2.0",
+      "finishing_position": 8,
+      "class_position": 1,
+      "notes": "Class win in the 2.0L category."
+    },
+    {
+      "year": 1969,
+      "car_model": "908 LH",
+      "car_number": 64,
+      "team": "Porsche System Engineering",
+      "drivers": [
+        "Hans Herrmann",
+        "Gerard Larrousse"
+      ],
+      "class": "S 3.0",
+      "finishing_position": 2,
+      "notes": "Lost to Ford GT40 by the closest margin in Le Mans history, just 120 meters after 24 hours."
+    },
+    {
+      "year": 1969,
+      "car_model": "917 LH",
+      "car_number": 12,
+      "team": "Porsche System Engineering",
+      "drivers": [
+        "Vic Elford",
+        "Richard Attwood"
+      ],
+      "class": "S 5.0",
+      "finishing_position": "DNF",
+      "notes": "First Le Mans entry for the 917. Retired with gearbox failure while leading."
+    },
+    {
+      "year": 1971,
+      "car_model": "917/20 Pink Pig",
+      "car_number": 23,
+      "team": "Martini Racing Team",
+      "drivers": [
+        "Reinhold Joest",
+        "Willi Kauhsen"
+      ],
+      "class": "S 5.0",
+      "finishing_position": "DNF",
+      "notes": "The legendary Pink Pig with butcher chart livery. Crashed after 12 hours. One of the most iconic racing liveries ever."
+    },
+    {
+      "year": 1973,
+      "car_model": "911 Carrera RSR",
+      "car_number": 46,
+      "team": "Martini Racing",
+      "drivers": [
+        "Gijs van Lennep",
+        "Herbert Mueller"
+      ],
+      "class": "GT 3.0",
+      "finishing_position": 4,
+      "class_position": 1,
+      "notes": "Class win for the legendary Carrera RSR."
+    },
+    {
+      "year": 1980,
+      "car_model": "908/80",
+      "car_number": 9,
+      "team": "Joest Racing",
+      "drivers": [
+        "Jacky Ickx",
+        "Reinhold Joest"
+      ],
+      "class": "Group 6",
+      "finishing_position": 2,
+      "notes": "The revived 908 finished second to the Rondeau."
+    },
+    {
+      "year": 1997,
+      "car_model": "911 GT1 (993 Evo)",
+      "car_number": 25,
+      "team": "Porsche AG",
+      "drivers": [
+        "Hans-Joachim Stuck",
+        "Thierry Boutsen",
+        "Bob Wollek"
+      ],
+      "class": "GT1",
+      "finishing_position": 2,
+      "notes": "Lost to the TWR Joest Porsche WSC-95."
+    },
+    {
+      "year": 2013,
+      "car_model": "911 RSR (991)",
+      "car_number": 92,
+      "team": "Porsche AG Team Manthey",
+      "drivers": [
+        "Marc Lieb",
+        "Richard Lietz",
+        "Romain Dumas"
+      ],
+      "class": "GTE-Pro",
+      "finishing_position": 21,
+      "class_position": 1,
+      "notes": "GTE-Pro class win for the new 991-based RSR."
+    },
+    {
+      "year": 2014,
+      "car_model": "919 Hybrid",
+      "car_number": 20,
+      "team": "Porsche Team",
+      "drivers": [
+        "Timo Bernhard",
+        "Mark Webber",
+        "Brendon Hartley"
+      ],
+      "class": "LMP1-H",
+      "finishing_position": 3,
+      "notes": "The 919 Hybrid debut at Le Mans. Third overall, behind two Audis."
+    },
+    {
+      "year": 2018,
+      "car_model": "911 RSR (991.2)",
+      "car_number": 92,
+      "team": "Porsche GT Team",
+      "drivers": [
+        "Michael Christensen",
+        "Kevin Estre",
+        "Laurens Vanthoor"
+      ],
+      "class": "GTE-Pro",
+      "finishing_position": 13,
+      "class_position": 1,
+      "notes": "GTE-Pro class victory with the mid-engine 911 RSR."
+    },
+    {
+      "year": 2022,
+      "car_model": "911 RSR-19",
+      "car_number": 91,
+      "team": "Porsche GT Team",
+      "drivers": [
+        "Gianmaria Bruni",
+        "Richard Lietz",
+        "Frederic Makowiecki"
+      ],
+      "class": "GTE-Pro",
+      "finishing_position": 7,
+      "class_position": 1,
+      "notes": "GTE-Pro class victory."
+    },
+    {
+      "year": 2023,
+      "car_model": "963",
+      "car_number": 75,
+      "team": "Porsche Penske Motorsport",
+      "drivers": [
+        "Felipe Nasr",
+        "Dane Cameron",
+        "Matt Campbell"
+      ],
+      "class": "Hypercar",
+      "finishing_position": 4,
+      "notes": "First Le Mans for the 963 LMDh."
+    },
+    {
+      "year": 2024,
+      "car_model": "963",
+      "car_number": 6,
+      "team": "Porsche Penske Motorsport",
+      "drivers": [
+        "Kevin Estre",
+        "Andre Lotterer",
+        "Laurens Vanthoor"
+      ],
+      "class": "Hypercar",
+      "finishing_position": 3,
+      "notes": "Podium finish for the 963 in its second Le Mans."
+    }
+  ],
+  "class_wins_summary": {
+    "description": "Porsche holds the record for most class wins at Le Mans with over 100 class victories spanning seven decades",
+    "notable_class_winning_models": [
+      {
+        "model": "356",
+        "class_wins_approximate": 6,
+        "years": "1951-1957"
+      },
+      {
+        "model": "550/550A Spyder",
+        "class_wins_approximate": 5,
+        "years": "1953-1958"
+      },
+      {
+        "model": "718 RSK/RS 60/RS 61",
+        "class_wins_approximate": 4,
+        "years": "1958-1962"
+      },
+      {
+        "model": "904",
+        "class_wins_approximate": 2,
+        "years": "1964-1965"
+      },
+      {
+        "model": "906",
+        "class_wins_approximate": 2,
+        "years": "1966-1967"
+      },
+      {
+        "model": "910",
+        "class_wins_approximate": 1,
+        "years": "1967"
+      },
+      {
+        "model": "907",
+        "class_wins_approximate": 1,
+        "years": "1968"
+      },
+      {
+        "model": "908",
+        "class_wins_approximate": 3,
+        "years": "1968-1972"
+      },
+      {
+        "model": "911 Carrera RSR",
+        "class_wins_approximate": 5,
+        "years": "1973-1977"
+      },
+      {
+        "model": "935",
+        "class_wins_approximate": 4,
+        "years": "1976-1982"
+      },
+      {
+        "model": "911 GT1",
+        "class_wins_approximate": 2,
+        "years": "1996-1998"
+      },
+      {
+        "model": "911 GT3 R/RS/RSR",
+        "class_wins_approximate": 20,
+        "years": "1999-2024"
+      }
+    ]
+  },
+  "le_mans_statistics": {
+    "overall_wins": 19,
+    "overall_win_years": [
+      1970,
+      1971,
+      1976,
+      1977,
+      1979,
+      1981,
+      1982,
+      1983,
+      1984,
+      1985,
+      1986,
+      1987,
+      1994,
+      1996,
+      1998,
+      2015,
+      2016,
+      2017
+    ],
+    "consecutive_win_streaks": [
+      {
+        "years": "1970-1971",
+        "count": 2,
+        "model": "917"
+      },
+      {
+        "years": "1976-1977",
+        "count": 2,
+        "model": "936"
+      },
+      {
+        "years": "1981-1987",
+        "count": 7,
+        "model": "936/956/962"
+      },
+      {
+        "years": "2015-2017",
+        "count": 3,
+        "model": "919 Hybrid"
+      }
+    ],
+    "models_with_overall_wins": {
+      "917": 2,
+      "936": 3,
+      "935": 1,
+      "956": 4,
+      "962": 2,
+      "962 Dauer GT": 1,
+      "911 GT1": 2,
+      "919 Hybrid": 3
+    },
+    "winningest_drivers_for_porsche": [
+      {
+        "name": "Jacky Ickx",
+        "wins_with_porsche": 4,
+        "years": [
+          1976,
+          1977,
+          1981,
+          1982
+        ]
+      },
+      {
+        "name": "Derek Bell",
+        "wins_with_porsche": 4,
+        "years": [
+          1981,
+          1982,
+          1986,
+          1987
+        ]
+      },
+      {
+        "name": "Hurley Haywood",
+        "wins_with_porsche": 3,
+        "years": [
+          1977,
+          1983,
+          1994
+        ]
+      },
+      {
+        "name": "Al Holbert",
+        "wins_with_porsche": 3,
+        "years": [
+          1983,
+          1986,
+          1987
+        ]
+      },
+      {
+        "name": "Klaus Ludwig",
+        "wins_with_porsche": 3,
+        "years": [
+          1979,
+          1984,
+          1985
+        ]
+      },
+      {
+        "name": "Hans-Joachim Stuck",
+        "wins_with_porsche": 2,
+        "years": [
+          1986,
+          1987
+        ]
+      },
+      {
+        "name": "Gijs van Lennep",
+        "wins_with_porsche": 2,
+        "years": [
+          1971,
+          1976
+        ]
+      },
+      {
+        "name": "Earl Bamber",
+        "wins_with_porsche": 2,
+        "years": [
+          2015,
+          2017
+        ]
+      }
+    ]
+  }
+}

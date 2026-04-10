@@ -1,0 +1,306 @@
+{
+  "964": {
+    "bolt_pattern": "5x130",
+    "center_bore_mm": 71.6,
+    "lug_type": "Lug bolts (M14x1.5)",
+    "oem_wheels": {
+      "standard": {
+        "front": "6Jx16 ET52.3",
+        "rear": "8Jx16 ET52.3"
+      },
+      "turbo": {
+        "front": "7Jx17 ET55",
+        "rear": "9Jx17 ET55"
+      }
+    },
+    "oem_tires": {
+      "standard": {
+        "front": "205/55R16",
+        "rear": "225/50R16"
+      },
+      "turbo": {
+        "front": "225/45R17",
+        "rear": "255/40R17"
+      }
+    },
+    "tire_pressure_psi": {
+      "front": 29,
+      "rear": 36,
+      "note": "Cold pressures. Increase 3-4 psi for track use."
+    }
+  },
+  "993": {
+    "bolt_pattern": "5x130",
+    "center_bore_mm": 71.6,
+    "lug_type": "Lug bolts (M14x1.5)",
+    "oem_wheels": {
+      "standard_16": {
+        "front": "7Jx16 ET55",
+        "rear": "9Jx16 ET55"
+      },
+      "standard_17": {
+        "front": "7Jx17 ET55",
+        "rear": "9Jx17 ET55"
+      },
+      "turbo_18": {
+        "front": "8Jx18 ET50",
+        "rear": "10Jx18 ET65"
+      }
+    },
+    "oem_tires": {
+      "standard_16": {
+        "front": "205/55R16",
+        "rear": "245/45R16"
+      },
+      "standard_17": {
+        "front": "205/50R17",
+        "rear": "255/40R17"
+      },
+      "turbo_18": {
+        "front": "225/40R18",
+        "rear": "285/30R18"
+      }
+    },
+    "tire_pressure_psi": {
+      "front": 29,
+      "rear": 36
+    }
+  },
+  "996": {
+    "bolt_pattern": "5x130",
+    "center_bore_mm": 71.6,
+    "lug_type": "Lug bolts (M14x1.5)",
+    "oem_wheels": {
+      "base_17": {
+        "front": "7Jx17 ET55",
+        "rear": "9Jx17 ET55"
+      },
+      "carrera_18": {
+        "front": "8Jx18 ET50",
+        "rear": "10Jx18 ET65"
+      },
+      "turbo_18": {
+        "front": "8Jx18 ET50",
+        "rear": "11Jx18 ET45"
+      }
+    },
+    "oem_tires": {
+      "base_17": {
+        "front": "205/50R17",
+        "rear": "255/40R17"
+      },
+      "carrera_18": {
+        "front": "225/40R18",
+        "rear": "285/30R18"
+      },
+      "turbo_18": {
+        "front": "225/40R18",
+        "rear": "295/30R18"
+      }
+    },
+    "tire_pressure_psi": {
+      "front": 33,
+      "rear": 38
+    }
+  },
+  "997": {
+    "bolt_pattern": "5x130",
+    "center_bore_mm": 71.6,
+    "lug_type": "Lug bolts (M14x1.5)",
+    "oem_wheels": {
+      "base_18": {
+        "front": "8Jx18 ET57",
+        "rear": "10Jx18 ET51"
+      },
+      "carrera_s_19": {
+        "front": "8Jx19 ET57",
+        "rear": "11Jx19 ET51"
+      },
+      "turbo_19": {
+        "front": "8.5Jx19 ET56",
+        "rear": "11Jx19 ET51"
+      },
+      "gt3_rs_19": {
+        "front": "9Jx19 ET47",
+        "rear": "12Jx19 ET48"
+      }
+    },
+    "oem_tires": {
+      "base_18": {
+        "front": "235/40R18",
+        "rear": "265/40R18"
+      },
+      "carrera_s_19": {
+        "front": "235/35R19",
+        "rear": "295/30R19"
+      },
+      "gt3_rs_19": {
+        "front": "245/35R19",
+        "rear": "325/30R19"
+      }
+    },
+    "tire_pressure_psi": {
+      "front": 33,
+      "rear": 38
+    }
+  },
+  "991": {
+    "bolt_pattern": "5x130",
+    "center_bore_mm": 71.6,
+    "lug_type": "Lug bolts (M14x1.5) \u2014 center lock on GT/Turbo",
+    "oem_wheels": {
+      "base_19": {
+        "front": "8.5Jx19 ET54",
+        "rear": "11Jx19 ET69"
+      },
+      "carrera_s_20": {
+        "front": "8.5Jx20 ET51",
+        "rear": "11Jx20 ET70"
+      },
+      "turbo_s_20": {
+        "front": "9Jx20 ET51",
+        "rear": "11.5Jx20 ET56"
+      },
+      "gt3_rs_20_21": {
+        "front": "9.5Jx20 ET50",
+        "rear": "12.5Jx21 ET48"
+      }
+    },
+    "oem_tires": {
+      "base_19": {
+        "front": "235/40R19",
+        "rear": "285/35R19"
+      },
+      "carrera_s_20": {
+        "front": "245/35R20",
+        "rear": "305/30R20"
+      },
+      "gt3_rs": {
+        "front": "265/35R20",
+        "rear": "325/30R21"
+      }
+    },
+    "tire_pressure_psi": {
+      "front": 33,
+      "rear": 38
+    },
+    "center_lock_torque_ft_lb": 443
+  },
+  "992": {
+    "bolt_pattern": "5x130",
+    "center_bore_mm": 71.6,
+    "lug_type": "Lug bolts (M14x1.5) \u2014 center lock on GT/Turbo",
+    "oem_wheels": {
+      "base_19": {
+        "front": "8.5Jx19 ET52",
+        "rear": "11Jx19 ET67"
+      },
+      "carrera_s_20_21": {
+        "front": "8.5Jx20 ET53",
+        "rear": "11.5Jx21 ET67"
+      },
+      "turbo_s_20_21": {
+        "front": "9.5Jx20 ET46",
+        "rear": "12Jx21 ET64"
+      },
+      "gt3_rs_20_21": {
+        "front": "9.5Jx20 ET48",
+        "rear": "13Jx21 ET50"
+      }
+    },
+    "oem_tires": {
+      "base_19": {
+        "front": "235/40R19",
+        "rear": "295/35R19"
+      },
+      "carrera_s_20_21": {
+        "front": "245/35R20",
+        "rear": "305/30R21"
+      },
+      "gt3": {
+        "front": "255/35R20",
+        "rear": "315/30R21"
+      },
+      "gt3_rs": {
+        "front": "275/35R20",
+        "rear": "335/30R21"
+      }
+    },
+    "tire_pressure_psi": {
+      "front": 34,
+      "rear": 40
+    },
+    "center_lock_torque_ft_lb": 443
+  },
+  "cayenne": {
+    "bolt_pattern": "5x130",
+    "center_bore_mm": 71.6,
+    "lug_type": "Lug bolts (M14x1.5)",
+    "oem_wheels": {
+      "base_19": {
+        "all": "8.5Jx19"
+      },
+      "turbo_21": {
+        "front": "10Jx21",
+        "rear": "10Jx21"
+      },
+      "turbo_gt_22": {
+        "front": "10.5Jx22",
+        "rear": "11.5Jx22"
+      }
+    },
+    "oem_tires": {
+      "base_19": {
+        "all": "255/55R19"
+      },
+      "turbo_21": {
+        "front": "285/40R21",
+        "rear": "315/35R21"
+      }
+    },
+    "tire_pressure_psi": {
+      "front": 36,
+      "rear": 40
+    }
+  },
+  "macan": {
+    "bolt_pattern": "5x112",
+    "center_bore_mm": 66.6,
+    "lug_type": "Lug bolts (M14x1.5)",
+    "note": "Macan is the ONLY Porsche with 5x112 bolt pattern (Audi/VW platform)",
+    "oem_wheels": {
+      "base_18": {
+        "all": "8Jx18"
+      },
+      "s_19": {
+        "front": "8Jx19",
+        "rear": "9Jx19"
+      },
+      "gts_20": {
+        "front": "9Jx20",
+        "rear": "10Jx20"
+      },
+      "turbo_21": {
+        "front": "9Jx21",
+        "rear": "10Jx21"
+      }
+    },
+    "oem_tires": {
+      "base_18": {
+        "all": "235/60R18"
+      },
+      "s_19": {
+        "front": "235/55R19",
+        "rear": "255/50R19"
+      },
+      "turbo_21": {
+        "front": "265/40R21",
+        "rear": "295/35R21"
+      }
+    },
+    "tire_pressure_psi": {
+      "front": 36,
+      "rear": 42
+    }
+  }
+}

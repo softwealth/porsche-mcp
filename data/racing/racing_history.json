@@ -1,0 +1,192 @@
+{
+  "550_spyder": {
+    "name": "Porsche 550 Spyder",
+    "years": "1953-1957",
+    "engine": "1.5L Flat-4 (Fuhrmann)",
+    "hp": 110,
+    "weight_lbs": 1210,
+    "major_wins": [
+      "1st in class Le Mans 1953",
+      "1st overall Targa Florio 1956",
+      "1st overall Carrera Panamericana 1954"
+    ],
+    "notes": "The car that established Porsche as a racing marque. James Dean's 'Little Bastard' was a 550."
+  },
+  "718_rsk": {
+    "name": "Porsche 718 RSK",
+    "years": "1957-1962",
+    "engine": "1.5-1.7L Flat-4 (Fuhrmann)",
+    "hp": "142-178",
+    "major_wins": [
+      "1st Targa Florio 1959",
+      "2nd overall Le Mans 1958",
+      "3rd overall Le Mans 1959"
+    ],
+    "notes": "Evolution of 550. Won on pure handling vs more powerful rivals."
+  },
+  "904_gts": {
+    "name": "Porsche 904 Carrera GTS",
+    "years": "1964-1965",
+    "engine": "2.0L Flat-4/Flat-6/Flat-8",
+    "hp": "155-240",
+    "weight_lbs": 1430,
+    "production": 106,
+    "major_wins": [
+      "1st in class Le Mans 1964",
+      "2nd overall Targa Florio 1964"
+    ],
+    "notes": "First Porsche with fiberglass body. Also road-legal."
+  },
+  "906": {
+    "name": "Porsche 906 Carrera 6",
+    "years": "1966-1967",
+    "engine": "2.0L Flat-6",
+    "hp": 210,
+    "weight_lbs": 1320,
+    "major_wins": [
+      "1st in class Le Mans 1966",
+      "1st Targa Florio 1966"
+    ],
+    "notes": "Last customer racing car before FIA homologation rules changed."
+  },
+  "908": {
+    "name": "Porsche 908",
+    "years": "1968-1971",
+    "engine": "3.0L Flat-8",
+    "hp": 350,
+    "weight_lbs": 1400,
+    "major_wins": [
+      "1st Targa Florio 1969, 1970",
+      "1st Nurburgring 1000km 1968",
+      "2nd Le Mans 1968"
+    ],
+    "notes": "Porsche's first purpose-built prototype racer."
+  },
+  "917": {
+    "name": "Porsche 917",
+    "years": "1969-1973",
+    "engine": "4.5-5.0L Flat-12",
+    "hp": "580-1100 (turbo)",
+    "weight_lbs": 1764,
+    "major_wins": [
+      "1st Le Mans 1970 (first overall win)",
+      "1st Le Mans 1971",
+      "1st Can-Am 1972, 1973 (917/30)",
+      "Multiple World Sportscar Championship wins"
+    ],
+    "notes": "The most iconic Porsche race car ever. 917/30 produced 1,100hp in Can-Am trim \u2014 most powerful racing car of its era. Steve McQueen film 'Le Mans' featured the 917."
+  },
+  "935": {
+    "name": "Porsche 935",
+    "years": "1976-1984",
+    "engine": "2.85-3.2L Flat-6 Turbo",
+    "hp": "590-850",
+    "major_wins": [
+      "1st Le Mans 1979 (Kremer K3)",
+      "World Championship for Makes 1976, 1977, 1978, 1979",
+      "1st Daytona 24h 1978, 1979, 1982, 1983, 1984",
+      "1st Sebring 12h multiple years"
+    ],
+    "notes": "Based on 911 Turbo (930). 'Baby' 935 raced in 2.0L class. Moby Dick variant had 845hp."
+  },
+  "936": {
+    "name": "Porsche 936",
+    "years": "1976-1981",
+    "engine": "2.14L Flat-6 Turbo",
+    "hp": 540,
+    "major_wins": [
+      "1st Le Mans 1976",
+      "1st Le Mans 1977",
+      "1st Le Mans 1981",
+      "World Sportscar Championship 1976, 1977"
+    ],
+    "notes": "Open-top Group 6 prototype. Jacky Ickx drove 1981 Le Mans winner solo for final stint."
+  },
+  "956": {
+    "name": "Porsche 956",
+    "years": "1982-1986",
+    "engine": "2.65L Flat-6 Twin-Turbo",
+    "hp": 620,
+    "weight_lbs": 1874,
+    "major_wins": [
+      "1st Le Mans 1982",
+      "1st Le Mans 1983",
+      "1st Le Mans 1984",
+      "1st Le Mans 1985",
+      "World Endurance Championship 1982, 1983, 1984, 1985"
+    ],
+    "notes": "First race car to use ground effect aerodynamics in endurance racing. Set 6:11.13 Nurburgring record in 1983 that stood for 35 years. 1-2-3 finish at Le Mans 1982."
+  },
+  "962": {
+    "name": "Porsche 962",
+    "years": "1984-1994",
+    "engine": "2.65-3.0L Flat-6 Twin-Turbo",
+    "hp": "600-750",
+    "major_wins": [
+      "1st Le Mans 1986",
+      "1st Le Mans 1987",
+      "1st Daytona 24h 1984-1991 (8 consecutive)",
+      "IMSA GTP Championship multiple years"
+    ],
+    "notes": "American version of 956 (modified for IMSA rules). Dominated IMSA for a decade. Dauer 962 Le Mans won 1994 Le Mans as a GT car."
+  },
+  "gt1_98": {
+    "name": "Porsche 911 GT1",
+    "years": "1996-1998",
+    "engine": "3.2L Flat-6 Twin-Turbo (water-cooled)",
+    "hp": 600,
+    "weight_lbs": 2138,
+    "major_wins": [
+      "1st Le Mans 1998 (1-2 finish)"
+    ],
+    "notes": "Mid-engine race car wearing 911 bodywork. 1998 Le Mans win was Porsche's 16th overall. Road car version: 25 built."
+  },
+  "rs_spyder": {
+    "name": "Porsche RS Spyder (9R6)",
+    "years": "2005-2008",
+    "engine": "3.4L V8",
+    "hp": 503,
+    "weight_lbs": 1764,
+    "major_wins": [
+      "ALMS LMP2 Championship 2006, 2007, 2008",
+      "Overall ALMS wins vs LMP1 cars"
+    ],
+    "notes": "LMP2 car that regularly beat LMP1 machinery. Penske Racing partnership."
+  },
+  "911_rsr": {
+    "name": "Porsche 911 RSR (991)",
+    "years": "2013-2022",
+    "engine": "4.0L Flat-6 NA",
+    "hp": 510,
+    "major_wins": [
+      "1st GTE-Pro Le Mans 2013, 2018, 2019",
+      "WEC GTE Manufacturers Championship multiple years",
+      "IMSA GTLM Championship multiple years"
+    ],
+    "notes": "Mid-engine 911 (engine moved ahead of rear axle). Most successful modern GT race car."
+  },
+  "919_hybrid": {
+    "name": "Porsche 919 Hybrid",
+    "years": "2014-2017",
+    "engine": "2.0L V4 Turbo + Electric (850hp combined)",
+    "hp": 900,
+    "major_wins": [
+      "1st Le Mans 2015",
+      "1st Le Mans 2016",
+      "1st Le Mans 2017",
+      "WEC LMP1 Championship 2015, 2016, 2017"
+    ],
+    "notes": "Triple Le Mans winner. 919 Evo (unrestricted) set all-time Nurburgring lap record of 5:19.55 in 2018, breaking the 35-year-old 956 record."
+  },
+  "963_lmdh": {
+    "name": "Porsche 963",
+    "years": "2023-present",
+    "engine": "4.6L V8 Twin-Turbo + Hybrid",
+    "hp": 697,
+    "major_wins": [
+      "WEC Hypercar class entries",
+      "IMSA GTP class entries"
+    ],
+    "notes": "LMDh prototype built with Multimatic. Porsche's return to prototype racing after 919 program ended."
+  }
+}
