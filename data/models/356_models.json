@@ -1,0 +1,301 @@
+{
+  "356_pre_a": {
+    "name": "Porsche 356 (Pre-A)",
+    "generation": "Pre-A",
+    "years": "1948-1955",
+    "year_start": 1948,
+    "year_end": 1955,
+    "era": "air-cooled",
+    "layout": "RR",
+    "body_style": "Coupe/Cabriolet",
+    "variants": [
+      {
+        "name": "356 1100 Coupe (Gm\u00fcnd)",
+        "engine": "Flat-4 1086cc",
+        "hp": 40,
+        "torque_lb_ft": 51,
+        "transmission": "4-speed manual (non-synchro)",
+        "curb_weight_lbs": 1520,
+        "zero_to_sixty": 23.0,
+        "top_speed_mph": 84,
+        "production_numbers": 52,
+        "years": "1948-1950",
+        "notes": "Hand-built aluminum bodies in Gm\u00fcnd, Austria"
+      },
+      {
+        "name": "356 1300",
+        "engine": "Flat-4 1286cc",
+        "hp": 44,
+        "torque_lb_ft": 56,
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1720,
+        "top_speed_mph": 90,
+        "years": "1951-1955"
+      },
+      {
+        "name": "356 1300S",
+        "engine": "Flat-4 1286cc",
+        "hp": 60,
+        "torque_lb_ft": 62,
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1720,
+        "top_speed_mph": 100,
+        "years": "1953-1955"
+      },
+      {
+        "name": "356 1500",
+        "engine": "Flat-4 1488cc",
+        "hp": 55,
+        "torque_lb_ft": 67,
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1720,
+        "top_speed_mph": 95,
+        "years": "1951-1955"
+      },
+      {
+        "name": "356 1500S",
+        "engine": "Flat-4 1488cc",
+        "hp": 70,
+        "torque_lb_ft": 75,
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1720,
+        "top_speed_mph": 105,
+        "years": "1953-1955"
+      },
+      {
+        "name": "356 Speedster",
+        "engine": "Flat-4 1488cc/1582cc",
+        "hp": "55-70",
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1675,
+        "top_speed_mph": 100,
+        "years": "1954-1955",
+        "production_numbers": 1234,
+        "notes": "Designed by Max Hoffman for American market. Low windshield, minimal top."
+      }
+    ],
+    "wheelbase_in": 82.7,
+    "length_in": 152.4,
+    "width_in": 65.4,
+    "height_in": 48.0,
+    "fuel_tank_gal": 13.5,
+    "production_total": 7627,
+    "notable_features": [
+      "First Porsche production car",
+      "Volkswagen-derived flat-4",
+      "Split windshield (early)"
+    ]
+  },
+  "356a": {
+    "name": "Porsche 356A",
+    "generation": "356A (T1/T2)",
+    "years": "1955-1959",
+    "year_start": 1955,
+    "year_end": 1959,
+    "era": "air-cooled",
+    "layout": "RR",
+    "body_style": "Coupe/Cabriolet/Speedster/Convertible D",
+    "variants": [
+      {
+        "name": "356A 1600",
+        "engine": "Flat-4 1582cc (616/1)",
+        "hp": 60,
+        "torque_lb_ft": 81,
+        "compression": "7.5:1",
+        "transmission": "4-speed manual (synchro 2-4)",
+        "curb_weight_lbs": 1830,
+        "top_speed_mph": 99,
+        "years": "1955-1959"
+      },
+      {
+        "name": "356A 1600S",
+        "engine": "Flat-4 1582cc (616/2)",
+        "hp": 75,
+        "torque_lb_ft": 86,
+        "compression": "8.5:1",
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1830,
+        "top_speed_mph": 109,
+        "years": "1955-1959"
+      },
+      {
+        "name": "356A 1600GS Carrera",
+        "engine": "Flat-4 1588cc Fuhrmann 4-cam (547/1)",
+        "hp": 100,
+        "torque_lb_ft": 86,
+        "compression": "9.0:1",
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1874,
+        "top_speed_mph": 124,
+        "years": "1955-1959",
+        "production_numbers": 700,
+        "notes": "Roller-bearing crankshaft, dry sump. Race-bred engine."
+      },
+      {
+        "name": "356A Speedster",
+        "engine": "Flat-4 1582cc",
+        "hp": "60-75",
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1785,
+        "years": "1955-1958",
+        "production_numbers": 3667,
+        "notes": "Most collectible 356 variant. James Dean owned one."
+      },
+      {
+        "name": "356A Convertible D",
+        "engine": "Flat-4 1582cc",
+        "hp": "60-75",
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1830,
+        "years": "1958-1959",
+        "production_numbers": 1331,
+        "notes": "Built by Drauz. Higher windshield and more comfort than Speedster."
+      }
+    ],
+    "wheelbase_in": 82.7,
+    "length_in": 152.4,
+    "width_in": 65.4,
+    "height_in": 48.8,
+    "fuel_tank_gal": 13.5,
+    "production_total": 21045,
+    "notable_features": [
+      "One-piece curved windshield (T2)",
+      "Improved synchro transmission",
+      "Carrera 4-cam engine option"
+    ]
+  },
+  "356b": {
+    "name": "Porsche 356B",
+    "generation": "356B (T5/T6)",
+    "years": "1960-1963",
+    "year_start": 1960,
+    "year_end": 1963,
+    "era": "air-cooled",
+    "layout": "RR",
+    "body_style": "Coupe/Cabriolet/Roadster/Hardtop",
+    "variants": [
+      {
+        "name": "356B 1600",
+        "engine": "Flat-4 1582cc (616/1)",
+        "hp": 60,
+        "torque_lb_ft": 81,
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1940,
+        "top_speed_mph": 97,
+        "years": "1960-1963"
+      },
+      {
+        "name": "356B 1600S",
+        "engine": "Flat-4 1582cc (616/7)",
+        "hp": 75,
+        "torque_lb_ft": 86,
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1940,
+        "top_speed_mph": 108,
+        "years": "1960-1963"
+      },
+      {
+        "name": "356B Super 90",
+        "engine": "Flat-4 1582cc (616/7)",
+        "hp": 90,
+        "torque_lb_ft": 89,
+        "compression": "9.0:1",
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1940,
+        "top_speed_mph": 115,
+        "years": "1960-1963"
+      },
+      {
+        "name": "356B 2000GS Carrera 2",
+        "engine": "Flat-4 1966cc Fuhrmann 4-cam (587/1)",
+        "hp": 130,
+        "torque_lb_ft": 121,
+        "compression": "9.5:1",
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 2050,
+        "top_speed_mph": 130,
+        "years": "1962-1963",
+        "production_numbers": 310,
+        "notes": "Disc brakes \u2014 first Porsche with them. Most powerful 356."
+      },
+      {
+        "name": "356B Roadster",
+        "engine": "Flat-4 1582cc",
+        "hp": "60-90",
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 1874,
+        "years": "1960-1962",
+        "production_numbers": 2652,
+        "notes": "Built by D'Ieteren in Belgium. Replaced Convertible D."
+      }
+    ],
+    "wheelbase_in": 82.7,
+    "length_in": 157.1,
+    "width_in": 65.4,
+    "height_in": 48.8,
+    "fuel_tank_gal": 13.5,
+    "production_total": 30963,
+    "notable_features": [
+      "Raised bumpers and headlights (T5)",
+      "Twin-grille engine lid (T6)",
+      "Disc brakes on Carrera 2"
+    ]
+  },
+  "356c": {
+    "name": "Porsche 356C",
+    "generation": "356C",
+    "years": "1964-1965",
+    "year_start": 1964,
+    "year_end": 1965,
+    "era": "air-cooled",
+    "layout": "RR",
+    "body_style": "Coupe/Cabriolet",
+    "variants": [
+      {
+        "name": "356C 1600C",
+        "engine": "Flat-4 1582cc (616/15)",
+        "hp": 75,
+        "torque_lb_ft": 86,
+        "compression": "8.5:1",
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 2013,
+        "top_speed_mph": 109,
+        "years": "1964-1965"
+      },
+      {
+        "name": "356C 1600SC",
+        "engine": "Flat-4 1582cc (616/16)",
+        "hp": 95,
+        "torque_lb_ft": 90,
+        "compression": "9.5:1",
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 2013,
+        "top_speed_mph": 116,
+        "years": "1964-1965"
+      },
+      {
+        "name": "356SC Carrera 2 (2000GS)",
+        "engine": "Flat-4 1966cc 4-cam (587/1)",
+        "hp": 130,
+        "torque_lb_ft": 121,
+        "transmission": "4-speed manual",
+        "curb_weight_lbs": 2094,
+        "top_speed_mph": 130,
+        "years": "1964",
+        "production_numbers": 126,
+        "notes": "Final Carrera 4-cam. Extremely rare and valuable."
+      }
+    ],
+    "wheelbase_in": 82.7,
+    "length_in": 158.3,
+    "width_in": 65.4,
+    "height_in": 48.8,
+    "fuel_tank_gal": 13.5,
+    "production_total": 16674,
+    "notable_features": [
+      "Disc brakes standard on all models",
+      "Last of the 356 line",
+      "Flat hubcaps distinguish from B"
+    ]
+  }
+}

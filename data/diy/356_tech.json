@@ -1,0 +1,123 @@
+{
+  "fluids": {
+    "engine_oil": {
+      "type": "SAE 30 (summer) or 20W-50 (all-season)",
+      "capacity_qt": 4.5,
+      "filter": "No spin-on filter \u2014 uses strainer screen",
+      "notes": "Air-cooled engines run hot. Use quality conventional or air-cooled specific oil (Brad Penn, Driven Racing)."
+    },
+    "transmission": {
+      "type": "SAE 80 or 90 gear oil",
+      "capacity_qt": 2.5
+    },
+    "brake_fluid": {
+      "type": "DOT 3 or DOT 4",
+      "notes": "Early cars use single-circuit brakes \u2014 upgrade to DOT 4."
+    },
+    "fuel": {
+      "type": "Premium unleaded (91+ octane)",
+      "notes": "Ethanol-free recommended. Original cars designed for leaded fuel \u2014 use lead substitute additive if needed."
+    }
+  },
+  "torque_specs": {
+    "engine": {
+      "cylinder_head_nuts_ft_lb": 23,
+      "rod_bolts_ft_lb": 25,
+      "main_bearing_nuts_ft_lb": 25,
+      "flywheel_gland_nut_ft_lb": 217,
+      "spark_plugs_ft_lb": 18,
+      "oil_drain_plug_ft_lb": 22,
+      "valve_cover_ft_lb": 5
+    },
+    "wheels": {
+      "lug_bolts_ft_lb": 94,
+      "note": "5 lug bolts per wheel"
+    },
+    "suspension": {
+      "king_pin_ft_lb": 110,
+      "trailing_arm_ft_lb": 72,
+      "torsion_bar_ft_lb": 47
+    }
+  },
+  "valve_adjustment": {
+    "intake_clearance_mm": 0.1,
+    "intake_clearance_in": 0.004,
+    "exhaust_clearance_mm": 0.1,
+    "exhaust_clearance_in": 0.004,
+    "procedure": "Adjust with engine cold. Remove valve covers. Use feeler gauge. Adjust by loosening locknut and turning adjusting screw. Check after a few heat cycles.",
+    "interval_miles": 3000
+  },
+  "common_issues": [
+    {
+      "name": "Oil Leaks",
+      "description": "Every 356 leaks oil to some degree. Common from pushrod tubes, case halves, and oil cooler seals.",
+      "severity": 2,
+      "fix": "Reseal pushrod tubes with quality seals. Case half reseal requires engine removal."
+    },
+    {
+      "name": "Generator/Voltage Regulator",
+      "description": "6V system (early) or 12V (late 356C) generators wear out. Voltage regulators fail.",
+      "severity": 3,
+      "fix": "Rebuild generator. Replace regulator. Many owners convert early cars to 12V."
+    },
+    {
+      "name": "Rust (Body)",
+      "description": "356 bodies rust in battery boxes, longitudinals, wheel wells, and rockers. Especially cars from wet climates.",
+      "severity": 4,
+      "fix": "Professional restoration metalwork. Good used panels are very expensive."
+    },
+    {
+      "name": "Heater Box Deterioration",
+      "description": "The heat exchangers rust through, allowing exhaust into the cabin (dangerous).",
+      "severity": 5,
+      "fix": "Replace heater boxes. Critical safety item. Inspect annually."
+    },
+    {
+      "name": "Fuel Pump Failure",
+      "description": "Mechanical fuel pump diaphragm fails. Car won't run or runs lean.",
+      "severity": 3,
+      "fix": "Rebuild or replace mechanical fuel pump. Keep a rebuild kit in the car."
+    },
+    {
+      "name": "Synchro Wear (Transmission)",
+      "description": "2nd gear synchro wears first. Grinding on 2nd gear downshift.",
+      "severity": 3,
+      "fix": "Transmission rebuild with new synchro rings. Double-clutch as preventive habit."
+    },
+    {
+      "name": "Wheel Bearing Noise",
+      "description": "Front wheel bearings wear and become noisy.",
+      "severity": 3,
+      "fix": "Repack or replace wheel bearings. Fairly straightforward."
+    }
+  ],
+  "electrical": {
+    "battery": {
+      "early": "6V system (Pre-A through 356B)",
+      "late": "12V system (most 356C)",
+      "battery_group": "Group 42"
+    },
+    "generator_output": {
+      "6v": "180W",
+      "12v": "360W"
+    },
+    "spark_plugs": {
+      "type": "Bosch W175T1 (6V) or W8AC (12V equivalent)",
+      "gap_in": 0.024
+    },
+    "firing_order": "1-4-3-2",
+    "point_gap_in": 0.016
+  },
+  "production_numbers": {
+    "total_all_356": 76313,
+    "by_generation": {
+      "Pre-A (1948-1955)": 7627,
+      "356A (1955-1959)": 21045,
+      "356B (1960-1963)": 30963,
+      "356C (1964-1965)": 16674
+    },
+    "gmund_coupes": 52,
+    "speedsters_total": 4901,
+    "carrera_4cam_total": 1136
+  }
+}
