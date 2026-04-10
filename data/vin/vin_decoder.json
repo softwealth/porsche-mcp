@@ -1,0 +1,104 @@
+{
+  "wmi_codes": {
+    "WP0": "Porsche AG (Germany)",
+    "WP1": "Porsche AG (SUVs \u2014 Cayenne, Macan)",
+    "VP1": "Porsche (newer allocation)"
+  },
+  "position_4_model": {
+    "A": "911 Carrera",
+    "B": "911 Turbo/GT",
+    "C": "911 Targa",
+    "D": "911 Cabriolet",
+    "E": "Boxster/Cayman (986/987)",
+    "F": "Cayenne",
+    "G": "Panamera",
+    "H": "Macan",
+    "J": "718 Boxster/Cayman",
+    "K": "Taycan",
+    "Z": "911 Special (GT2/GT3/Speedster)"
+  },
+  "position_5_engine": {
+    "A": "Flat-6 NA (3.4L-3.6L)",
+    "B": "Flat-6 NA (3.8L+)",
+    "C": "Flat-6 Turbo",
+    "D": "V8 NA",
+    "E": "V8 Turbo",
+    "F": "V6 NA",
+    "G": "V6 Turbo",
+    "H": "Flat-4 Turbo",
+    "J": "V8 Hybrid",
+    "K": "Electric Motor",
+    "L": "Flat-6 NA (4.0L GT)",
+    "M": "V10 (Carrera GT)"
+  },
+  "position_6_restraint": {
+    "0": "Active belts (no airbags \u2014 early models)",
+    "1": "Active belts, driver airbag",
+    "2": "Active belts, driver & passenger airbags",
+    "4": "Active belts, full front airbags + side",
+    "6": "Active belts, full front + side + curtain",
+    "8": "Active belts, full airbag system + knee"
+  },
+  "position_7_body": {
+    "A": "Coupe",
+    "B": "Targa",
+    "C": "Cabriolet",
+    "D": "SUV (5-door)",
+    "E": "Sedan/Liftback (Panamera)",
+    "F": "Sport Turismo/Cross Turismo",
+    "G": "Roadster/Spyder"
+  },
+  "position_10_year": {
+    "Y": 2000,
+    "1": 2001,
+    "2": 2002,
+    "3": 2003,
+    "4": 2004,
+    "5": 2005,
+    "6": 2006,
+    "7": 2007,
+    "8": 2008,
+    "9": 2009,
+    "A": 2010,
+    "B": 2011,
+    "C": 2012,
+    "D": 2013,
+    "E": 2014,
+    "F": 2015,
+    "G": 2016,
+    "H": 2017,
+    "J": 2018,
+    "K": 2019,
+    "L": 2020,
+    "M": 2021,
+    "N": 2022,
+    "P": 2023,
+    "R": 2024,
+    "S": 2025,
+    "T": 2026,
+    "V": 2027,
+    "W": 2028,
+    "X": 2029
+  },
+  "position_11_plant": {
+    "S": "Stuttgart-Zuffenhausen (911, 718, Taycan)",
+    "Z": "Zuffenhausen",
+    "L": "Leipzig (Cayenne, Macan, Panamera)",
+    "N": "Neckarsulm (shared with Audi for some models)",
+    "U": "Uusikaupunki, Finland (Boxster/Cayman overflow)",
+    "O": "Osnabr\u00fcck (Karmann \u2014 some Boxster/Cayman)"
+  },
+  "pre_1981_vin": {
+    "description": "Pre-1981 Porsche VINs are 10-11 digits. Format: 91 X Y ZZZZZZ where 91=911, X=model year, Y=body type, Z=sequential",
+    "body_codes": {
+      "0": "Coupe",
+      "1": "Targa",
+      "2": "Cabriolet (if applicable)",
+      "9": "Turbo"
+    },
+    "examples": {
+      "9115100001": "1975 911S Coupe, serial #1",
+      "9307700001": "1977 930 Turbo, serial #1"
+    }
+  }
+}

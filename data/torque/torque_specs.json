@@ -1,0 +1,248 @@
+{
+  "964": {
+    "engine": {
+      "head_studs_ft_lb": 25,
+      "head_studs_note": "Torque then angle 90\u00b0",
+      "main_bearing_caps_ft_lb": 25,
+      "main_bearing_note": "Plus 90\u00b0 angle",
+      "rod_bolts_ft_lb": 36,
+      "spark_plugs_ft_lb": 22,
+      "oil_drain_plug_ft_lb": 26,
+      "valve_cover_bolts_ft_lb": 7,
+      "flywheel_bolts_ft_lb": 66,
+      "cam_sprocket_bolts_ft_lb": 110
+    },
+    "wheels": {
+      "lug_nuts_ft_lb": 96,
+      "note": "Torque in star pattern"
+    },
+    "suspension": {
+      "front_strut_top_nut_ft_lb": 54,
+      "rear_torsion_bar_clamp_ft_lb": 47,
+      "tie_rod_end_ft_lb": 33,
+      "sway_bar_link_ft_lb": 34
+    },
+    "brakes": {
+      "front_caliper_bolts_ft_lb": 63,
+      "rear_caliper_bolts_ft_lb": 48,
+      "bleed_screws_ft_lb": 7
+    },
+    "drivetrain": {
+      "axle_nut_ft_lb": 340,
+      "cv_joint_bolts_ft_lb": 60,
+      "transmission_to_engine_ft_lb": 42
+    }
+  },
+  "993": {
+    "engine": {
+      "head_studs_ft_lb": 25,
+      "head_studs_note": "Plus 90\u00b0 turn",
+      "rod_bolts_ft_lb": 36,
+      "spark_plugs_ft_lb": 22,
+      "oil_drain_plug_ft_lb": 26,
+      "valve_cover_ft_lb": 7,
+      "flywheel_ft_lb": 66,
+      "cam_sprocket_ft_lb": 110
+    },
+    "wheels": {
+      "lug_nuts_ft_lb": 96
+    },
+    "suspension": {
+      "front_strut_mount_ft_lb": 54,
+      "control_arm_ft_lb": 63,
+      "tie_rod_ft_lb": 33,
+      "sway_bar_link_ft_lb": 34
+    },
+    "brakes": {
+      "front_caliper_ft_lb": 63,
+      "rear_caliper_ft_lb": 48
+    },
+    "drivetrain": {
+      "axle_nut_ft_lb": 340,
+      "cv_bolts_ft_lb": 60,
+      "trans_bell_housing_ft_lb": 42
+    }
+  },
+  "996": {
+    "engine": {
+      "head_bolts_ft_lb": 7,
+      "head_bolts_note": "Then 90\u00b0 + 90\u00b0 (3 stages)",
+      "main_bearing_ft_lb": 48,
+      "rod_bolts_ft_lb": 22,
+      "rod_bolts_note": "Plus 45\u00b0 angle",
+      "spark_plugs_ft_lb": 22,
+      "oil_drain_ft_lb": 26,
+      "intake_manifold_ft_lb": 7,
+      "exhaust_manifold_ft_lb": 15,
+      "flywheel_ft_lb": 66,
+      "cam_cap_bolts_ft_lb": 7
+    },
+    "wheels": {
+      "lug_nuts_ft_lb": 118
+    },
+    "suspension": {
+      "front_strut_top_ft_lb": 43,
+      "front_lower_arm_ft_lb": 63,
+      "rear_lower_arm_ft_lb": 63,
+      "tie_rod_ft_lb": 33,
+      "sway_bar_end_link_ft_lb": 34
+    },
+    "brakes": {
+      "front_caliper_carrier_ft_lb": 85,
+      "front_caliper_slide_ft_lb": 26,
+      "rear_caliper_carrier_ft_lb": 63,
+      "rear_caliper_slide_ft_lb": 22
+    },
+    "drivetrain": {
+      "axle_nut_ft_lb": 340,
+      "cv_bolts_ft_lb": 60,
+      "trans_to_engine_ft_lb": 48
+    }
+  },
+  "997": {
+    "engine": {
+      "head_bolts_ft_lb": 7,
+      "head_bolts_note": "Then 90\u00b0 + 90\u00b0",
+      "rod_bolts_ft_lb": 22,
+      "rod_note": "Plus 45\u00b0 angle",
+      "spark_plugs_ft_lb": 22,
+      "oil_drain_ft_lb": 26,
+      "flywheel_ft_lb": 74,
+      "cam_cap_ft_lb": 7
+    },
+    "wheels": {
+      "lug_nuts_ft_lb": 118
+    },
+    "suspension": {
+      "strut_top_ft_lb": 43,
+      "lower_arm_ft_lb": 74,
+      "tie_rod_ft_lb": 37,
+      "sway_bar_link_ft_lb": 34
+    },
+    "brakes": {
+      "front_caliper_bracket_ft_lb": 85,
+      "rear_caliper_bracket_ft_lb": 63
+    },
+    "drivetrain": {
+      "axle_nut_ft_lb": 340,
+      "cv_bolts_ft_lb": 60
+    }
+  },
+  "991": {
+    "engine": {
+      "head_bolts_ft_lb": 7,
+      "head_note": "90\u00b0 + 90\u00b0 TTY",
+      "spark_plugs_ft_lb": 22,
+      "oil_drain_ft_lb": 26,
+      "flywheel_ft_lb": 74
+    },
+    "wheels": {
+      "lug_nuts_ft_lb": 118,
+      "note": "Center lock: 443 ft-lb (GT3/Turbo)"
+    },
+    "suspension": {
+      "strut_mount_ft_lb": 43,
+      "lower_arm_ft_lb": 74,
+      "tie_rod_ft_lb": 37,
+      "sway_bar_link_ft_lb": 48
+    },
+    "brakes": {
+      "front_caliper_bracket_ft_lb": 85,
+      "rear_caliper_bracket_ft_lb": 63
+    },
+    "drivetrain": {
+      "axle_nut_ft_lb": 340,
+      "cv_bolts_ft_lb": 60
+    }
+  },
+  "992": {
+    "engine": {
+      "spark_plugs_ft_lb": 22,
+      "oil_drain_ft_lb": 26,
+      "flywheel_ft_lb": 74
+    },
+    "wheels": {
+      "lug_nuts_ft_lb": 118,
+      "center_lock_ft_lb": 443
+    },
+    "suspension": {
+      "strut_mount_ft_lb": 43,
+      "lower_arm_ft_lb": 81,
+      "tie_rod_ft_lb": 37
+    },
+    "brakes": {
+      "front_caliper_bracket_ft_lb": 85,
+      "rear_caliper_bracket_ft_lb": 74
+    },
+    "drivetrain": {
+      "axle_nut_ft_lb": 340
+    }
+  },
+  "cayenne": {
+    "engine": {
+      "spark_plugs_ft_lb": 22,
+      "oil_drain_ft_lb": 26,
+      "intake_manifold_ft_lb": 11
+    },
+    "wheels": {
+      "lug_nuts_ft_lb": 133
+    },
+    "suspension": {
+      "upper_arm_ft_lb": 74,
+      "lower_arm_ft_lb": 148,
+      "tie_rod_ft_lb": 59,
+      "sway_bar_link_ft_lb": 59
+    },
+    "brakes": {
+      "front_caliper_bracket_ft_lb": 118,
+      "rear_caliper_bracket_ft_lb": 85
+    },
+    "drivetrain": {
+      "axle_nut_ft_lb": 340,
+      "transfer_case_bolts_ft_lb": 33
+    }
+  },
+  "718": {
+    "engine": {
+      "spark_plugs_ft_lb": 22,
+      "oil_drain_ft_lb": 26,
+      "flywheel_ft_lb": 74
+    },
+    "wheels": {
+      "lug_nuts_ft_lb": 118
+    },
+    "suspension": {
+      "strut_mount_ft_lb": 43,
+      "lower_arm_ft_lb": 74,
+      "tie_rod_ft_lb": 37
+    },
+    "brakes": {
+      "front_caliper_bracket_ft_lb": 85,
+      "rear_caliper_bracket_ft_lb": 63
+    },
+    "drivetrain": {
+      "axle_nut_ft_lb": 295
+    }
+  },
+  "macan": {
+    "engine": {
+      "spark_plugs_ft_lb": 22,
+      "oil_drain_ft_lb": 26
+    },
+    "wheels": {
+      "lug_nuts_ft_lb": 133
+    },
+    "suspension": {
+      "lower_arm_ft_lb": 110,
+      "upper_arm_ft_lb": 74,
+      "tie_rod_ft_lb": 48
+    },
+    "brakes": {
+      "front_caliper_bracket_ft_lb": 118,
+      "rear_caliper_bracket_ft_lb": 63
+    },
+    "drivetrain": {
+      "axle_nut_ft_lb": 295
+    }
+  }
+}

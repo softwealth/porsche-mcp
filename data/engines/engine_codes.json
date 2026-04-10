@@ -1,0 +1,978 @@
+{
+  "547/1": {
+    "name": "Fuhrmann Four-Cam",
+    "displacement_cc": 1498,
+    "cylinders": 4,
+    "configuration": "Flat-4",
+    "aspiration": "NA",
+    "hp": 110,
+    "torque_lb_ft": 86,
+    "compression": "9.0:1",
+    "fuel_system": "Dual Solex carbs",
+    "oil_capacity_qt": 4.5,
+    "redline": 7000,
+    "models": [
+      "356 Carrera",
+      "550 Spyder"
+    ],
+    "years": "1953-1965",
+    "known_issues": [
+      "Complex valve train maintenance"
+    ]
+  },
+  "616/1": {
+    "name": "356 Normal",
+    "displacement_cc": 1582,
+    "cylinders": 4,
+    "configuration": "Flat-4",
+    "aspiration": "NA",
+    "hp": 60,
+    "torque_lb_ft": 81,
+    "compression": "7.5:1",
+    "fuel_system": "Zenith carbs",
+    "oil_capacity_qt": 4.0,
+    "redline": 5500,
+    "models": [
+      "356A",
+      "356B"
+    ],
+    "years": "1955-1963",
+    "known_issues": [
+      "Oil leaks from case halves"
+    ]
+  },
+  "616/36": {
+    "name": "912 Engine",
+    "displacement_cc": 1582,
+    "cylinders": 4,
+    "configuration": "Flat-4",
+    "aspiration": "NA",
+    "hp": 90,
+    "torque_lb_ft": 86,
+    "compression": "9.3:1",
+    "fuel_system": "Solex carbs",
+    "oil_capacity_qt": 4.5,
+    "redline": 5800,
+    "models": [
+      "912"
+    ],
+    "years": "1965-1969",
+    "known_issues": [
+      "Valve guide wear"
+    ]
+  },
+  "901/01": {
+    "name": "Original 911 2.0",
+    "displacement_cc": 1991,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 130,
+    "torque_lb_ft": 128,
+    "compression": "9.0:1",
+    "fuel_system": "Solex carbs",
+    "oil_capacity_qt": 9.0,
+    "redline": 6800,
+    "models": [
+      "911 (1964-1967)"
+    ],
+    "years": "1964-1967",
+    "known_issues": [
+      "Cam chain tensioner wear",
+      "Valve guide wear"
+    ]
+  },
+  "911/83": {
+    "name": "Carrera 2.7 RS",
+    "displacement_cc": 2687,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 210,
+    "torque_lb_ft": 188,
+    "compression": "8.5:1",
+    "fuel_system": "Bosch MFI",
+    "oil_capacity_qt": 10.5,
+    "redline": 7300,
+    "models": [
+      "911 Carrera RS 2.7"
+    ],
+    "years": "1973",
+    "known_issues": [
+      "Magnesium case corrosion"
+    ]
+  },
+  "930/60": {
+    "name": "930 Turbo 3.0",
+    "displacement_cc": 2994,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "Turbocharged",
+    "hp": 260,
+    "torque_lb_ft": 291,
+    "compression": "6.5:1",
+    "fuel_system": "Bosch K-Jetronic",
+    "oil_capacity_qt": 10.5,
+    "redline": 6500,
+    "models": [
+      "930 Turbo"
+    ],
+    "years": "1975-1977",
+    "known_issues": [
+      "Wastegate diaphragm failure",
+      "Turbo lag"
+    ]
+  },
+  "930/66": {
+    "name": "930 Turbo 3.3",
+    "displacement_cc": 3299,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "Turbocharged",
+    "hp": 300,
+    "torque_lb_ft": 317,
+    "compression": "7.0:1",
+    "fuel_system": "Bosch K-Jetronic",
+    "oil_capacity_qt": 10.5,
+    "redline": 6500,
+    "models": [
+      "930 Turbo 3.3"
+    ],
+    "years": "1978-1989",
+    "known_issues": [
+      "Wastegate diaphragm",
+      "Turbo lag",
+      "Oil leaks"
+    ]
+  },
+  "930/25": {
+    "name": "SC 3.0",
+    "displacement_cc": 2994,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 180,
+    "torque_lb_ft": 175,
+    "compression": "8.6:1",
+    "fuel_system": "Bosch K-Jetronic",
+    "oil_capacity_qt": 10.5,
+    "redline": 6500,
+    "models": [
+      "911 SC"
+    ],
+    "years": "1978-1983",
+    "known_issues": [
+      "Thermal reactor cracking",
+      "Chain tensioner wear"
+    ]
+  },
+  "930/20": {
+    "name": "Carrera 3.2",
+    "displacement_cc": 3164,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 217,
+    "torque_lb_ft": 195,
+    "compression": "10.3:1",
+    "fuel_system": "Bosch Motronic DME",
+    "oil_capacity_qt": 10.5,
+    "redline": 6400,
+    "models": [
+      "911 Carrera 3.2"
+    ],
+    "years": "1984-1989",
+    "known_issues": [
+      "Oil leaks",
+      "Chain tensioner update needed"
+    ]
+  },
+  "M64/01": {
+    "name": "964 Carrera",
+    "displacement_cc": 3600,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 247,
+    "torque_lb_ft": 228,
+    "compression": "11.3:1",
+    "fuel_system": "Bosch DME",
+    "oil_capacity_qt": 11.5,
+    "redline": 6800,
+    "models": [
+      "964 Carrera 2",
+      "964 Carrera 4"
+    ],
+    "years": "1989-1994",
+    "known_issues": [
+      "Oil leaks from valve covers",
+      "Dual-mass flywheel failure",
+      "Distributor drive belt"
+    ]
+  },
+  "M64/50": {
+    "name": "964 Turbo 3.6",
+    "displacement_cc": 3600,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "Turbocharged",
+    "hp": 360,
+    "torque_lb_ft": 383,
+    "compression": "7.5:1",
+    "fuel_system": "Bosch DME",
+    "oil_capacity_qt": 11.5,
+    "redline": 6500,
+    "models": [
+      "964 Turbo 3.6"
+    ],
+    "years": "1993-1994",
+    "known_issues": [
+      "Wastegate rod wear"
+    ]
+  },
+  "M64/05": {
+    "name": "993 Carrera",
+    "displacement_cc": 3600,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 272,
+    "torque_lb_ft": 243,
+    "compression": "11.3:1",
+    "fuel_system": "Bosch Motronic M5.2",
+    "oil_capacity_qt": 11.5,
+    "redline": 6800,
+    "models": [
+      "993 Carrera",
+      "993 Carrera 4"
+    ],
+    "years": "1995-1998",
+    "known_issues": [
+      "D-chunk cylinder liner separation",
+      "Oil leaks"
+    ]
+  },
+  "M64/60": {
+    "name": "993 Turbo",
+    "displacement_cc": 3600,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "Twin-Turbocharged",
+    "hp": 408,
+    "torque_lb_ft": 398,
+    "compression": "8.0:1",
+    "fuel_system": "Bosch Motronic M5.2",
+    "oil_capacity_qt": 12.0,
+    "redline": 6500,
+    "models": [
+      "993 Turbo"
+    ],
+    "years": "1996-1998",
+    "known_issues": [
+      "Wastegate actuator wear"
+    ]
+  },
+  "M96/01": {
+    "name": "996 Carrera 3.4",
+    "displacement_cc": 3387,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 296,
+    "torque_lb_ft": 258,
+    "compression": "11.3:1",
+    "fuel_system": "Bosch ME 7.2",
+    "oil_capacity_qt": 8.75,
+    "coolant_capacity_qt": 6.3,
+    "redline": 7300,
+    "models": [
+      "996 Carrera",
+      "986 Boxster S"
+    ],
+    "years": "1999-2001",
+    "known_issues": [
+      "IMS bearing failure",
+      "RMS oil leak",
+      "Bore scoring"
+    ]
+  },
+  "M96/03": {
+    "name": "996 Carrera 3.6",
+    "displacement_cc": 3596,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 320,
+    "torque_lb_ft": 273,
+    "compression": "11.3:1",
+    "fuel_system": "Bosch ME 7.8",
+    "oil_capacity_qt": 8.75,
+    "coolant_capacity_qt": 6.3,
+    "redline": 7300,
+    "models": [
+      "996 Carrera (2002-2004)"
+    ],
+    "years": "2002-2004",
+    "known_issues": [
+      "IMS bearing failure",
+      "RMS oil leak",
+      "Bore scoring"
+    ]
+  },
+  "M96/20": {
+    "name": "Boxster 2.5",
+    "displacement_cc": 2480,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 201,
+    "torque_lb_ft": 181,
+    "compression": "11.0:1",
+    "fuel_system": "Bosch ME 7.2",
+    "oil_capacity_qt": 8.0,
+    "coolant_capacity_qt": 5.8,
+    "redline": 6700,
+    "models": [
+      "986 Boxster"
+    ],
+    "years": "1997-1999",
+    "known_issues": [
+      "IMS bearing failure",
+      "RMS oil leak"
+    ]
+  },
+  "M96/21": {
+    "name": "Boxster 2.7",
+    "displacement_cc": 2687,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 217,
+    "torque_lb_ft": 192,
+    "compression": "11.0:1",
+    "fuel_system": "Bosch ME 7.2",
+    "oil_capacity_qt": 8.0,
+    "coolant_capacity_qt": 5.8,
+    "redline": 6700,
+    "models": [
+      "986 Boxster 2.7"
+    ],
+    "years": "2000-2004",
+    "known_issues": [
+      "IMS bearing failure",
+      "RMS oil leak"
+    ]
+  },
+  "M96/76": {
+    "name": "996 GT3",
+    "displacement_cc": 3600,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 380,
+    "torque_lb_ft": 284,
+    "compression": "11.7:1",
+    "fuel_system": "Bosch ME 7.8",
+    "oil_capacity_qt": 9.0,
+    "coolant_capacity_qt": 6.3,
+    "redline": 8200,
+    "models": [
+      "996 GT3"
+    ],
+    "years": "1999-2005",
+    "known_issues": [
+      "Throttle body issues",
+      "Rare compared to M96 bearing issues"
+    ]
+  },
+  "M64/60R": {
+    "name": "996 GT2 (Mezger Turbo)",
+    "displacement_cc": 3600,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "Twin-Turbocharged",
+    "hp": 456,
+    "torque_lb_ft": 457,
+    "compression": "9.4:1",
+    "fuel_system": "Bosch ME 7.8",
+    "oil_capacity_qt": 12.0,
+    "coolant_capacity_qt": 7.4,
+    "redline": 6750,
+    "models": [
+      "996 GT2"
+    ],
+    "years": "2002-2005",
+    "known_issues": [
+      "Very reliable Mezger engine",
+      "Turbo hose leaks"
+    ]
+  },
+  "M96/70": {
+    "name": "996 Turbo (Mezger)",
+    "displacement_cc": 3600,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "Twin-Turbocharged",
+    "hp": 415,
+    "torque_lb_ft": 413,
+    "compression": "9.4:1",
+    "fuel_system": "Bosch ME 7.8",
+    "oil_capacity_qt": 12.0,
+    "coolant_capacity_qt": 7.4,
+    "redline": 6750,
+    "models": [
+      "996 Turbo",
+      "996 Turbo S"
+    ],
+    "years": "2001-2005",
+    "known_issues": [
+      "Very reliable Mezger engine",
+      "Coolant pipe O-rings"
+    ]
+  },
+  "M97/01": {
+    "name": "997 Carrera 3.6",
+    "displacement_cc": 3596,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 325,
+    "torque_lb_ft": 273,
+    "compression": "11.8:1",
+    "fuel_system": "Bosch ME 7.8",
+    "oil_capacity_qt": 8.75,
+    "coolant_capacity_qt": 6.3,
+    "redline": 7300,
+    "models": [
+      "997.1 Carrera",
+      "997.1 Carrera 4"
+    ],
+    "years": "2005-2008",
+    "known_issues": [
+      "IMS bearing failure (single row)",
+      "Bore scoring",
+      "AOS failure"
+    ]
+  },
+  "M97/01S": {
+    "name": "997 Carrera S 3.8",
+    "displacement_cc": 3824,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 355,
+    "torque_lb_ft": 295,
+    "compression": "11.8:1",
+    "fuel_system": "Bosch ME 7.8",
+    "oil_capacity_qt": 8.75,
+    "coolant_capacity_qt": 6.3,
+    "redline": 7300,
+    "models": [
+      "997.1 Carrera S",
+      "997.1 Carrera 4S"
+    ],
+    "years": "2005-2008",
+    "known_issues": [
+      "IMS bearing (less common on 3.8)",
+      "Bore scoring",
+      "AOS failure"
+    ]
+  },
+  "M97/74": {
+    "name": "997 GT3 3.6 (Mezger)",
+    "displacement_cc": 3600,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 415,
+    "torque_lb_ft": 300,
+    "compression": "12.0:1",
+    "fuel_system": "Bosch ME 7.8",
+    "oil_capacity_qt": 9.5,
+    "coolant_capacity_qt": 6.5,
+    "redline": 8400,
+    "models": [
+      "997.1 GT3",
+      "997.1 GT3 RS"
+    ],
+    "years": "2007-2009",
+    "known_issues": [
+      "Nearly bulletproof Mezger engine"
+    ]
+  },
+  "M97/76": {
+    "name": "997.2 GT3 3.8 (Mezger)",
+    "displacement_cc": 3797,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 435,
+    "torque_lb_ft": 317,
+    "compression": "12.2:1",
+    "fuel_system": "Bosch ME 7.8.1",
+    "oil_capacity_qt": 9.5,
+    "coolant_capacity_qt": 6.5,
+    "redline": 8500,
+    "models": [
+      "997.2 GT3",
+      "997.2 GT3 RS",
+      "997 GT3 RS 4.0"
+    ],
+    "years": "2010-2012",
+    "known_issues": [
+      "Nearly bulletproof Mezger engine"
+    ]
+  },
+  "MA1.01": {
+    "name": "991 Carrera 3.4",
+    "displacement_cc": 3436,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 350,
+    "torque_lb_ft": 287,
+    "compression": "12.5:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 8.5,
+    "coolant_capacity_qt": 6.0,
+    "redline": 7800,
+    "models": [
+      "991.1 Carrera",
+      "991.1 Carrera 4"
+    ],
+    "years": "2012-2016",
+    "known_issues": [
+      "Rare bore scoring early production",
+      "Generally very reliable"
+    ]
+  },
+  "MA1.02": {
+    "name": "991 Carrera S 3.8",
+    "displacement_cc": 3800,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 400,
+    "torque_lb_ft": 325,
+    "compression": "12.5:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 8.5,
+    "coolant_capacity_qt": 6.0,
+    "redline": 7800,
+    "models": [
+      "991.1 Carrera S",
+      "991.1 Carrera 4S",
+      "991.1 Carrera GTS"
+    ],
+    "years": "2012-2016",
+    "known_issues": [
+      "Generally very reliable"
+    ]
+  },
+  "MA1.03": {
+    "name": "991 GT3 3.8",
+    "displacement_cc": 3800,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 475,
+    "torque_lb_ft": 324,
+    "compression": "12.9:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 9.0,
+    "coolant_capacity_qt": 6.5,
+    "redline": 9000,
+    "models": [
+      "991.1 GT3",
+      "991.1 GT3 RS"
+    ],
+    "years": "2014-2016",
+    "known_issues": [
+      "Connecting rod recall (early 2014 cars)"
+    ]
+  },
+  "9A2.Evo": {
+    "name": "991.2 Carrera 3.0 Turbo",
+    "displacement_cc": 2981,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "Twin-Turbocharged",
+    "hp": 370,
+    "torque_lb_ft": 331,
+    "compression": "10.0:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 8.5,
+    "coolant_capacity_qt": 6.0,
+    "redline": 7500,
+    "models": [
+      "991.2 Carrera",
+      "991.2 Carrera 4"
+    ],
+    "years": "2017-2019",
+    "known_issues": [
+      "Generally very reliable"
+    ]
+  },
+  "9A2.Evo.S": {
+    "name": "991.2 Carrera S 3.0 Turbo",
+    "displacement_cc": 2981,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "Twin-Turbocharged",
+    "hp": 420,
+    "torque_lb_ft": 368,
+    "compression": "10.0:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 8.5,
+    "coolant_capacity_qt": 6.0,
+    "redline": 7500,
+    "models": [
+      "991.2 Carrera S",
+      "991.2 Carrera 4S",
+      "991.2 Carrera GTS"
+    ],
+    "years": "2017-2019",
+    "known_issues": [
+      "Generally very reliable"
+    ]
+  },
+  "9A1.GT": {
+    "name": "991.2 GT3 4.0 (Mezger-derived)",
+    "displacement_cc": 3996,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 500,
+    "torque_lb_ft": 339,
+    "compression": "13.3:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 9.5,
+    "coolant_capacity_qt": 6.5,
+    "redline": 9000,
+    "models": [
+      "991.2 GT3",
+      "991.2 GT3 RS",
+      "991 Speedster"
+    ],
+    "years": "2018-2019",
+    "known_issues": [
+      "Bulletproof"
+    ]
+  },
+  "9A2.S10": {
+    "name": "992 Carrera 3.0 Turbo",
+    "displacement_cc": 2981,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "Twin-Turbocharged",
+    "hp": 379,
+    "torque_lb_ft": 331,
+    "compression": "10.2:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 8.5,
+    "coolant_capacity_qt": 6.0,
+    "redline": 7500,
+    "models": [
+      "992 Carrera",
+      "992 Carrera 4"
+    ],
+    "years": "2020-present",
+    "known_issues": [
+      "Too new for patterns"
+    ]
+  },
+  "9A2.S11": {
+    "name": "992 Carrera S 3.0 Turbo",
+    "displacement_cc": 2981,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "Twin-Turbocharged",
+    "hp": 443,
+    "torque_lb_ft": 390,
+    "compression": "10.2:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 8.5,
+    "coolant_capacity_qt": 6.0,
+    "redline": 7500,
+    "models": [
+      "992 Carrera S",
+      "992 Carrera 4S",
+      "992 Carrera GTS"
+    ],
+    "years": "2020-present",
+    "known_issues": [
+      "Too new for patterns"
+    ]
+  },
+  "9A2.S91": {
+    "name": "992 Turbo S 3.8",
+    "displacement_cc": 3745,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "Twin-Turbocharged",
+    "hp": 640,
+    "torque_lb_ft": 590,
+    "compression": "8.7:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 9.5,
+    "coolant_capacity_qt": 7.0,
+    "redline": 7200,
+    "models": [
+      "992 Turbo S"
+    ],
+    "years": "2021-present",
+    "known_issues": [
+      "Too new for patterns"
+    ]
+  },
+  "9A1.GT3": {
+    "name": "992 GT3 4.0",
+    "displacement_cc": 3996,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 502,
+    "torque_lb_ft": 346,
+    "compression": "13.3:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 10.0,
+    "coolant_capacity_qt": 6.5,
+    "redline": 9000,
+    "models": [
+      "992 GT3",
+      "992 GT3 RS",
+      "992 GT3 Touring"
+    ],
+    "years": "2022-present",
+    "known_issues": [
+      "Wrist pin bearing noise (some early cars)"
+    ]
+  },
+  "9A2.B40": {
+    "name": "718 2.0 Turbo Flat-4",
+    "displacement_cc": 1988,
+    "cylinders": 4,
+    "configuration": "Flat-4",
+    "aspiration": "Turbocharged",
+    "hp": 300,
+    "torque_lb_ft": 280,
+    "compression": "9.5:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 6.5,
+    "coolant_capacity_qt": 5.5,
+    "redline": 7500,
+    "models": [
+      "718 Boxster",
+      "718 Cayman"
+    ],
+    "years": "2017-present",
+    "known_issues": [
+      "Cylinder scoring (rare)",
+      "Exhaust note complaints"
+    ]
+  },
+  "9A2.B44": {
+    "name": "718 S/GTS 2.5 Turbo Flat-4",
+    "displacement_cc": 2497,
+    "cylinders": 4,
+    "configuration": "Flat-4",
+    "aspiration": "Turbocharged",
+    "hp": 350,
+    "torque_lb_ft": 309,
+    "compression": "9.5:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 6.5,
+    "coolant_capacity_qt": 5.5,
+    "redline": 7500,
+    "models": [
+      "718 Boxster S",
+      "718 Cayman S",
+      "718 GTS 2.5"
+    ],
+    "years": "2017-2020",
+    "known_issues": [
+      "Generally reliable"
+    ]
+  },
+  "4.0 GT4": {
+    "name": "718 GT4/Spyder 4.0",
+    "displacement_cc": 3996,
+    "cylinders": 6,
+    "configuration": "Flat-6",
+    "aspiration": "NA",
+    "hp": 414,
+    "torque_lb_ft": 309,
+    "compression": "13.0:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 9.0,
+    "coolant_capacity_qt": 6.0,
+    "redline": 8000,
+    "models": [
+      "718 Cayman GT4",
+      "718 Boxster Spyder",
+      "718 Cayman GT4 RS"
+    ],
+    "years": "2020-present",
+    "known_issues": [
+      "Valve guide wear (GT4 RS)"
+    ]
+  },
+  "M48.00": {
+    "name": "Cayenne S 4.5 V8",
+    "displacement_cc": 4511,
+    "cylinders": 8,
+    "configuration": "V8",
+    "aspiration": "NA",
+    "hp": 340,
+    "torque_lb_ft": 310,
+    "compression": "11.5:1",
+    "fuel_system": "Bosch ME 7.1",
+    "oil_capacity_qt": 8.5,
+    "coolant_capacity_qt": 8.0,
+    "redline": 6500,
+    "models": [
+      "Cayenne S (955)"
+    ],
+    "years": "2003-2006",
+    "known_issues": [
+      "Coolant pipe failure",
+      "Alternator bracket failure",
+      "Plastic coolant tubes"
+    ]
+  },
+  "M48.50": {
+    "name": "Cayenne S 4.8 V8",
+    "displacement_cc": 4806,
+    "cylinders": 8,
+    "configuration": "V8",
+    "aspiration": "NA",
+    "hp": 385,
+    "torque_lb_ft": 369,
+    "compression": "11.5:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 9.5,
+    "coolant_capacity_qt": 8.0,
+    "redline": 6500,
+    "models": [
+      "Cayenne S (957)",
+      "Cayenne S (958)"
+    ],
+    "years": "2007-2014",
+    "known_issues": [
+      "Plastic coolant tubes",
+      "Timing chain stretch"
+    ]
+  },
+  "MCG.EA": {
+    "name": "Macan 2.0 Turbo I4",
+    "displacement_cc": 1984,
+    "cylinders": 4,
+    "configuration": "I4",
+    "aspiration": "Turbocharged",
+    "hp": 252,
+    "torque_lb_ft": 273,
+    "compression": "9.6:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 5.7,
+    "coolant_capacity_qt": 7.0,
+    "redline": 6800,
+    "models": [
+      "Macan (95B)"
+    ],
+    "years": "2015-present",
+    "known_issues": [
+      "Oil consumption",
+      "Timing chain tensioner"
+    ]
+  },
+  "MCT.MA": {
+    "name": "Macan S/GTS 3.0 V6 Turbo",
+    "displacement_cc": 2997,
+    "cylinders": 6,
+    "configuration": "V6",
+    "aspiration": "Twin-Turbocharged",
+    "hp": 348,
+    "torque_lb_ft": 354,
+    "compression": "10.5:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 7.5,
+    "coolant_capacity_qt": 7.5,
+    "redline": 6500,
+    "models": [
+      "Macan S",
+      "Macan GTS"
+    ],
+    "years": "2015-present",
+    "known_issues": [
+      "Coolant leaks",
+      "Oil separator issues"
+    ]
+  },
+  "M80/01": {
+    "name": "Carrera GT V10",
+    "displacement_cc": 5733,
+    "cylinders": 10,
+    "configuration": "V10",
+    "aspiration": "NA",
+    "hp": 612,
+    "torque_lb_ft": 435,
+    "compression": "12.0:1",
+    "fuel_system": "Bosch ME 7.1.1",
+    "oil_capacity_qt": 11.0,
+    "coolant_capacity_qt": 8.5,
+    "redline": 8400,
+    "models": [
+      "Carrera GT"
+    ],
+    "years": "2004-2007",
+    "known_issues": [
+      "Clutch wear (difficult to learn)",
+      "Very reliable engine"
+    ]
+  },
+  "M18/02": {
+    "name": "918 Spyder V8 Hybrid",
+    "displacement_cc": 4593,
+    "cylinders": 8,
+    "configuration": "V8",
+    "aspiration": "NA",
+    "hp": 608,
+    "torque_lb_ft": 398,
+    "compression": "12.5:1",
+    "fuel_system": "DFI",
+    "oil_capacity_qt": 10.0,
+    "coolant_capacity_qt": 9.0,
+    "redline": 9150,
+    "models": [
+      "918 Spyder"
+    ],
+    "years": "2013-2015",
+    "known_issues": [
+      "Hybrid cooling system complexity",
+      "High-voltage battery degradation"
+    ]
+  },
+  "Taycan_PMG": {
+    "name": "Taycan Permanent Magnet Motor",
+    "displacement_cc": 0,
+    "cylinders": 0,
+    "configuration": "Dual Electric Motor",
+    "aspiration": "Electric",
+    "hp": 670,
+    "torque_lb_ft": 752,
+    "compression": "N/A",
+    "fuel_system": "800V Electric",
+    "oil_capacity_qt": 0,
+    "coolant_capacity_qt": 12.0,
+    "redline": 16000,
+    "models": [
+      "Taycan Turbo S"
+    ],
+    "years": "2020-present",
+    "known_issues": [
+      "12V battery drain",
+      "Software glitches",
+      "Charging port issues"
+    ]
+  }
+}

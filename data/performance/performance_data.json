@@ -1,0 +1,258 @@
+{
+  "911_930_turbo_33": {
+    "name": "930 Turbo 3.3",
+    "zero_60": 5.0,
+    "quarter_mile": 13.4,
+    "quarter_speed": 104,
+    "top_speed": 167,
+    "braking_60_0_ft": 130
+  },
+  "964_carrera_2": {
+    "name": "964 Carrera 2",
+    "zero_60": 5.4,
+    "quarter_mile": 13.8,
+    "quarter_speed": 101,
+    "top_speed": 162,
+    "braking_60_0_ft": 121,
+    "lateral_g": 0.88
+  },
+  "964_turbo_36": {
+    "name": "964 Turbo 3.6",
+    "zero_60": 4.6,
+    "quarter_mile": 12.9,
+    "quarter_speed": 110,
+    "top_speed": 174,
+    "lateral_g": 0.9
+  },
+  "993_carrera": {
+    "name": "993 Carrera",
+    "zero_60": 5.2,
+    "quarter_mile": 13.6,
+    "quarter_speed": 103,
+    "top_speed": 168,
+    "braking_60_0_ft": 118,
+    "lateral_g": 0.9
+  },
+  "993_turbo": {
+    "name": "993 Turbo",
+    "zero_60": 3.7,
+    "quarter_mile": 12.0,
+    "quarter_speed": 119,
+    "top_speed": 180,
+    "braking_60_0_ft": 112,
+    "lateral_g": 0.95
+  },
+  "993_gt2": {
+    "name": "993 GT2",
+    "zero_60": 3.9,
+    "quarter_mile": 12.1,
+    "quarter_speed": 121,
+    "top_speed": 189,
+    "lateral_g": 1.01
+  },
+  "996_carrera": {
+    "name": "996 Carrera",
+    "zero_60": 5.0,
+    "quarter_mile": 13.4,
+    "quarter_speed": 105,
+    "top_speed": 174,
+    "braking_60_0_ft": 115,
+    "lateral_g": 0.92
+  },
+  "996_gt3": {
+    "name": "996 GT3",
+    "zero_60": 4.3,
+    "quarter_mile": 12.8,
+    "quarter_speed": 111,
+    "top_speed": 190,
+    "braking_60_0_ft": 106,
+    "lateral_g": 1.01
+  },
+  "996_turbo": {
+    "name": "996 Turbo",
+    "zero_60": 3.7,
+    "quarter_mile": 12.0,
+    "quarter_speed": 120,
+    "top_speed": 189,
+    "braking_60_0_ft": 102,
+    "lateral_g": 0.98
+  },
+  "996_gt2": {
+    "name": "996 GT2",
+    "zero_60": 3.7,
+    "quarter_mile": 11.8,
+    "quarter_speed": 123,
+    "top_speed": 196,
+    "lateral_g": 1.02
+  },
+  "997_carrera_s": {
+    "name": "997 Carrera S",
+    "zero_60": 4.5,
+    "quarter_mile": 13.0,
+    "quarter_speed": 109,
+    "top_speed": 182,
+    "braking_60_0_ft": 102,
+    "lateral_g": 0.97
+  },
+  "997_gt3": {
+    "name": "997.1 GT3",
+    "zero_60": 4.1,
+    "quarter_mile": 12.5,
+    "quarter_speed": 114,
+    "top_speed": 193,
+    "braking_60_0_ft": 98,
+    "lateral_g": 1.04,
+    "nurburgring": "7:42"
+  },
+  "997_gt3_rs": {
+    "name": "997.1 GT3 RS",
+    "zero_60": 4.0,
+    "quarter_mile": 12.3,
+    "quarter_speed": 117,
+    "top_speed": 194,
+    "lateral_g": 1.08,
+    "nurburgring": "7:33"
+  },
+  "997_turbo": {
+    "name": "997 Turbo",
+    "zero_60": 3.4,
+    "quarter_mile": 11.6,
+    "quarter_speed": 125,
+    "top_speed": 193,
+    "braking_60_0_ft": 97,
+    "lateral_g": 1.01
+  },
+  "997_gt2_rs": {
+    "name": "997 GT2 RS",
+    "zero_60": 3.3,
+    "quarter_mile": 11.0,
+    "quarter_speed": 131,
+    "top_speed": 205,
+    "lateral_g": 1.1,
+    "nurburgring": "7:18"
+  },
+  "997_gt3_rs_40": {
+    "name": "997 GT3 RS 4.0",
+    "zero_60": 3.8,
+    "quarter_mile": 11.8,
+    "quarter_speed": 122,
+    "top_speed": 193,
+    "lateral_g": 1.12,
+    "nurburgring": "7:27"
+  },
+  "991_carrera_s": {
+    "name": "991 Carrera S",
+    "zero_60": 3.9,
+    "quarter_mile": 12.2,
+    "quarter_speed": 115,
+    "top_speed": 188,
+    "braking_60_0_ft": 97,
+    "lateral_g": 1.02
+  },
+  "991_gt3": {
+    "name": "991.1 GT3",
+    "zero_60": 3.3,
+    "quarter_mile": 11.5,
+    "quarter_speed": 126,
+    "top_speed": 196,
+    "braking_60_0_ft": 94,
+    "lateral_g": 1.08,
+    "nurburgring": "7:25"
+  },
+  "991_gt3_rs": {
+    "name": "991 GT3 RS",
+    "zero_60": 3.1,
+    "quarter_mile": 11.1,
+    "quarter_speed": 129,
+    "top_speed": 193,
+    "lateral_g": 1.14,
+    "nurburgring": "7:10"
+  },
+  "991_turbo_s": {
+    "name": "991 Turbo S",
+    "zero_60": 2.8,
+    "quarter_mile": 10.8,
+    "quarter_speed": 134,
+    "top_speed": 205,
+    "braking_60_0_ft": 89,
+    "lateral_g": 1.07,
+    "nurburgring": "7:18"
+  },
+  "991_gt2_rs": {
+    "name": "991 GT2 RS",
+    "zero_60": 2.7,
+    "quarter_mile": 10.3,
+    "quarter_speed": 141,
+    "top_speed": 211,
+    "lateral_g": 1.18,
+    "nurburgring": "6:47.3"
+  },
+  "992_carrera_s": {
+    "name": "992 Carrera S",
+    "zero_60": 3.3,
+    "quarter_mile": 11.4,
+    "quarter_speed": 125,
+    "top_speed": 191,
+    "braking_60_0_ft": 93,
+    "lateral_g": 1.05
+  },
+  "992_turbo_s": {
+    "name": "992 Turbo S",
+    "zero_60": 2.2,
+    "quarter_mile": 10.1,
+    "quarter_speed": 141,
+    "top_speed": 205,
+    "braking_60_0_ft": 85,
+    "lateral_g": 1.12,
+    "nurburgring": "7:07.9"
+  },
+  "992_gt3": {
+    "name": "992 GT3",
+    "zero_60": 3.2,
+    "quarter_mile": 11.2,
+    "quarter_speed": 128,
+    "top_speed": 197,
+    "braking_60_0_ft": 91,
+    "lateral_g": 1.13,
+    "nurburgring": "6:59.9"
+  },
+  "992_gt3_rs": {
+    "name": "992 GT3 RS",
+    "zero_60": 3.0,
+    "quarter_mile": 10.9,
+    "quarter_speed": 134,
+    "top_speed": 184,
+    "lateral_g": 1.25,
+    "nurburgring": "6:49.3"
+  },
+  "918_spyder": {
+    "name": "918 Spyder",
+    "zero_60": 2.2,
+    "quarter_mile": 9.8,
+    "quarter_speed": 143,
+    "top_speed": 214,
+    "braking_60_0_ft": 89,
+    "lateral_g": 1.15,
+    "nurburgring": "6:57"
+  },
+  "carrera_gt": {
+    "name": "Carrera GT",
+    "zero_60": 3.5,
+    "quarter_mile": 11.2,
+    "quarter_speed": 131,
+    "top_speed": 205,
+    "braking_60_0_ft": 95,
+    "lateral_g": 1.04,
+    "nurburgring": "7:28"
+  },
+  "taycan_turbo_s": {
+    "name": "Taycan Turbo S",
+    "zero_60": 2.4,
+    "quarter_mile": 10.5,
+    "quarter_speed": 131,
+    "top_speed": 162,
+    "braking_60_0_ft": 92,
+    "lateral_g": 1.05,
+    "nurburgring": "7:33"
+  }
+}

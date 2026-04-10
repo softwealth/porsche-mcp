@@ -1,0 +1,235 @@
+{
+  "996": {
+    "intervals": {
+      "10000": {
+        "services": [
+          "Oil and filter change",
+          "Inspect brake pads and rotors",
+          "Check tire pressure and condition",
+          "Inspect drive belts",
+          "Check coolant level",
+          "Inspect exhaust system"
+        ],
+        "note": "Minor service"
+      },
+      "20000": {
+        "services": [
+          "Oil and filter change",
+          "Replace air filter",
+          "Replace cabin filter",
+          "Inspect spark plugs",
+          "Brake fluid flush",
+          "Inspect suspension components",
+          "Check/adjust valve clearance",
+          "Rotate tires"
+        ],
+        "note": "Intermediate service"
+      },
+      "30000": {
+        "services": [
+          "Oil and filter change",
+          "Inspect brake system",
+          "Check coolant condition",
+          "Inspect all hoses and belts",
+          "Transmission fluid check/change"
+        ],
+        "note": "Minor service"
+      },
+      "40000": {
+        "services": [
+          "Oil and filter change",
+          "Replace spark plugs",
+          "Replace air filter",
+          "Replace cabin filter",
+          "Brake fluid flush",
+          "Replace fuel filter",
+          "Inspect/replace drive belts",
+          "Full suspension inspection",
+          "PDK/Tiptronic fluid change"
+        ],
+        "note": "Major service"
+      },
+      "60000": {
+        "services": [
+          "All 40K services plus:",
+          "Replace coolant",
+          "Inspect IMS bearing condition (oil analysis)",
+          "Inspect RMS for leaks",
+          "Replace all accessory drive belts",
+          "Replace water pump if showing signs of wear",
+          "Full brake system overhaul if needed"
+        ],
+        "note": "Major service + IMS check"
+      },
+      "100000": {
+        "services": [
+          "All 60K services plus:",
+          "IMS bearing replacement (if not already done)",
+          "Replace all coolant hoses",
+          "Replace motor mounts",
+          "Transmission mount replacement",
+          "Full fluid flush all systems",
+          "Consider clutch replacement"
+        ],
+        "note": "Major overhaul"
+      }
+    },
+    "enthusiast_recommendations": [
+      "IMS bearing retrofit at earliest opportunity",
+      "Oil analysis every oil change (Blackstone Labs)",
+      "Short oil change intervals - 5,000 miles max",
+      "Replace AOS preventively at 60K",
+      "Upgrade plastic coolant fittings to aluminum"
+    ]
+  },
+  "997": {
+    "intervals": {
+      "10000": {
+        "services": [
+          "Oil and filter change",
+          "Inspect brakes",
+          "Tire check",
+          "Fluid level check"
+        ],
+        "note": "Minor service"
+      },
+      "20000": {
+        "services": [
+          "Oil and filter change",
+          "Air filter",
+          "Cabin filter",
+          "Brake fluid flush",
+          "Inspect spark plugs"
+        ],
+        "note": "Intermediate"
+      },
+      "40000": {
+        "services": [
+          "Oil and filter change",
+          "Spark plugs",
+          "Air + cabin filter",
+          "Brake fluid",
+          "All belts",
+          "PDK fluid (if equipped)",
+          "Full inspection"
+        ],
+        "note": "Major service"
+      },
+      "60000": {
+        "services": [
+          "All 40K plus coolant replacement",
+          "AOS replacement",
+          "All drive belts",
+          "Full suspension inspection"
+        ],
+        "note": "Major service"
+      }
+    },
+    "enthusiast_recommendations": [
+      "IMS bearing replacement (997.1 only - 2005-2008)",
+      "AOS replacement every 60K",
+      "PDK fluid change every 40K miles",
+      "Oil analysis program"
+    ]
+  },
+  "991": {
+    "intervals": {
+      "10000": {
+        "services": [
+          "Oil and filter change",
+          "Brake inspection",
+          "Tire check",
+          "All fluid levels"
+        ],
+        "note": "Minor service"
+      },
+      "20000": {
+        "services": [
+          "Oil and filter",
+          "Air filter",
+          "Cabin filter",
+          "Brake fluid",
+          "Spark plug inspection"
+        ],
+        "note": "Intermediate"
+      },
+      "40000": {
+        "services": [
+          "Oil and filter",
+          "Spark plugs",
+          "All filters",
+          "Brake fluid",
+          "PDK fluid change",
+          "Full belt inspection",
+          "Full suspension check"
+        ],
+        "note": "Major service"
+      },
+      "80000": {
+        "services": [
+          "All 40K services",
+          "Coolant replacement",
+          "All drive belts",
+          "Full brake system overhaul",
+          "Motor mount inspection"
+        ],
+        "note": "Major overhaul"
+      }
+    },
+    "enthusiast_recommendations": [
+      "PDK fluid every 40K miles (not 'lifetime')",
+      "Brake fluid flush every 2 years",
+      "Track use: increase all intervals by 2x frequency"
+    ]
+  },
+  "air_cooled_general": {
+    "intervals": {
+      "3000": {
+        "services": [
+          "Oil and filter change",
+          "Valve adjustment check",
+          "General inspection"
+        ],
+        "note": "Air-cooled engines need shorter intervals"
+      },
+      "6000": {
+        "services": [
+          "Oil and filter",
+          "Adjust valves",
+          "Inspect ignition points/timing",
+          "Check compression"
+        ],
+        "note": "Minor service"
+      },
+      "12000": {
+        "services": [
+          "Oil and filter",
+          "Valve adjustment",
+          "Replace spark plugs",
+          "Clean/replace air filter",
+          "Inspect brake system",
+          "Adjust clutch",
+          "Check all rubber parts"
+        ],
+        "note": "Annual major service"
+      },
+      "24000": {
+        "services": [
+          "All 12K services",
+          "Replace ignition wires",
+          "Replace fuel filter",
+          "Full brake service",
+          "Inspect chain tensioners",
+          "Check all oil seals"
+        ],
+        "note": "Biennial major service"
+      }
+    },
+    "enthusiast_recommendations": [
+      "Use ONLY air-cooled specific oils (Brad Penn, Driven Racing)",
+      "Check valve adjustment every 3K miles",
+      "Inspect chain tensioners at every service",
+      "Thermal cycling is critical - always warm up fully"
+    ]
+  }
+}

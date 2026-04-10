@@ -1,0 +1,394 @@
+{
+  "964": {
+    "engine_oil": {
+      "type": "15W-50 or 5W-40 (Mobil 1)",
+      "capacity_qt": 11.5,
+      "filter_pn": "930.107.764.00"
+    },
+    "transmission_manual": {
+      "type": "GL-4 75W-90",
+      "capacity_qt": 3.0
+    },
+    "transmission_auto": {
+      "type": "ATF Dexron III",
+      "capacity_qt": 7.5
+    },
+    "brake_fluid": {
+      "type": "DOT 4",
+      "capacity_oz": 32
+    },
+    "power_steering": {
+      "type": "Pentosin CHF 11S"
+    },
+    "coolant": {
+      "type": "N/A - Air-cooled"
+    }
+  },
+  "993": {
+    "engine_oil": {
+      "type": "5W-40 or 15W-50 Synthetic",
+      "capacity_qt": 11.5,
+      "filter_pn": "930.107.764.00"
+    },
+    "transmission_manual": {
+      "type": "GL-4 75W-90",
+      "capacity_qt": 3.0
+    },
+    "transmission_auto": {
+      "type": "ATF Dexron III (Tiptronic)",
+      "capacity_qt": 7.5
+    },
+    "brake_fluid": {
+      "type": "DOT 4",
+      "capacity_oz": 32
+    },
+    "power_steering": {
+      "type": "Pentosin CHF 11S"
+    },
+    "coolant": {
+      "type": "N/A - Air-cooled"
+    }
+  },
+  "996": {
+    "engine_oil": {
+      "type": "0W-40 Mobil 1 (Porsche A40)",
+      "capacity_qt": 8.75,
+      "filter_pn": "996.107.225.53"
+    },
+    "transmission_manual": {
+      "type": "MTF 75W-90 GL-4",
+      "capacity_qt": 2.6
+    },
+    "transmission_auto": {
+      "type": "ATF (Tiptronic) Esso LT 71141",
+      "capacity_qt": 8.5
+    },
+    "brake_fluid": {
+      "type": "DOT 4 (Ate Typ 200)",
+      "capacity_oz": 40
+    },
+    "coolant": {
+      "type": "Porsche OEM coolant (G12+)",
+      "capacity_qt": 25.4,
+      "mix_ratio": "50/50"
+    },
+    "power_steering": {
+      "type": "Pentosin CHF 11S"
+    },
+    "ac_refrigerant": {
+      "type": "R134a",
+      "capacity_oz": 28
+    }
+  },
+  "997": {
+    "engine_oil": {
+      "type": "0W-40 Mobil 1 (Porsche A40)",
+      "capacity_qt": 8.75,
+      "filter_pn": "997.107.225.52"
+    },
+    "transmission_manual": {
+      "type": "MTF 75W-90 GL-4",
+      "capacity_qt": 2.6
+    },
+    "pdk": {
+      "type": "Pentosin FFL-4",
+      "capacity_qt": 6.5
+    },
+    "brake_fluid": {
+      "type": "DOT 4 (Ate Typ 200)",
+      "capacity_oz": 40
+    },
+    "coolant": {
+      "type": "Porsche OEM coolant (G12++)",
+      "capacity_qt": 25.4,
+      "mix_ratio": "50/50"
+    },
+    "power_steering": {
+      "type": "Pentosin CHF 11S"
+    },
+    "ac_refrigerant": {
+      "type": "R134a",
+      "capacity_oz": 28
+    }
+  },
+  "991": {
+    "engine_oil": {
+      "type": "0W-40 Mobil 1 (Porsche A40)",
+      "capacity_qt": 8.5,
+      "filter_pn": "9A1.115.466.A"
+    },
+    "pdk": {
+      "type": "Pentosin FFL-4",
+      "capacity_qt": 6.5
+    },
+    "transmission_manual": {
+      "type": "MTF 75W-90 (991 GT3)",
+      "capacity_qt": 3.0
+    },
+    "brake_fluid": {
+      "type": "DOT 4 (Porsche OEM)",
+      "capacity_oz": 40
+    },
+    "coolant": {
+      "type": "Porsche OEM G13 coolant",
+      "capacity_qt": 24.0,
+      "mix_ratio": "50/50"
+    },
+    "power_steering": {
+      "type": "Electric (no fluid)"
+    },
+    "ac_refrigerant": {
+      "type": "R1234yf (late), R134a (early)",
+      "capacity_oz": 26
+    }
+  },
+  "992": {
+    "engine_oil": {
+      "type": "0W-40 (Porsche C40)",
+      "capacity_qt": 8.5,
+      "filter_pn": "992.107.225.10"
+    },
+    "pdk": {
+      "type": "Pentosin FFL-4",
+      "capacity_qt": 6.5
+    },
+    "transmission_manual": {
+      "type": "MTF 75W-90 (GT3)",
+      "capacity_qt": 3.0
+    },
+    "brake_fluid": {
+      "type": "DOT 4 (Porsche OEM)",
+      "capacity_oz": 40
+    },
+    "coolant": {
+      "type": "Porsche G13 coolant",
+      "capacity_qt": 24.0,
+      "mix_ratio": "50/50"
+    },
+    "power_steering": {
+      "type": "Electric (no fluid)"
+    },
+    "ac_refrigerant": {
+      "type": "R1234yf",
+      "capacity_oz": 24
+    }
+  },
+  "986_boxster": {
+    "engine_oil": {
+      "type": "0W-40 Mobil 1 (Porsche A40)",
+      "capacity_qt": 8.0,
+      "filter_pn": "996.107.225.53"
+    },
+    "transmission_manual": {
+      "type": "MTF 75W-90 GL-4",
+      "capacity_qt": 2.6
+    },
+    "transmission_auto": {
+      "type": "ATF Esso LT 71141 (Tiptronic)",
+      "capacity_qt": 8.0
+    },
+    "brake_fluid": {
+      "type": "DOT 4",
+      "capacity_oz": 36
+    },
+    "coolant": {
+      "type": "Porsche OEM G12+",
+      "capacity_qt": 18.0,
+      "mix_ratio": "50/50"
+    },
+    "power_steering": {
+      "type": "Pentosin CHF 11S"
+    },
+    "ac_refrigerant": {
+      "type": "R134a",
+      "capacity_oz": 26
+    }
+  },
+  "987_boxster": {
+    "engine_oil": {
+      "type": "0W-40 Mobil 1",
+      "capacity_qt": 8.0,
+      "filter_pn": "996.107.225.53"
+    },
+    "transmission_manual": {
+      "type": "MTF 75W-90 GL-4",
+      "capacity_qt": 2.4
+    },
+    "pdk": {
+      "type": "Pentosin FFL-3",
+      "capacity_qt": 6.0
+    },
+    "brake_fluid": {
+      "type": "DOT 4",
+      "capacity_oz": 36
+    },
+    "coolant": {
+      "type": "G12++",
+      "capacity_qt": 18.0,
+      "mix_ratio": "50/50"
+    },
+    "power_steering": {
+      "type": "Pentosin CHF 11S"
+    },
+    "ac_refrigerant": {
+      "type": "R134a",
+      "capacity_oz": 26
+    }
+  },
+  "718": {
+    "engine_oil": {
+      "type": "0W-40 (Porsche A40)",
+      "capacity_qt": 6.5,
+      "filter_pn": "9A1.115.466.A"
+    },
+    "pdk": {
+      "type": "Pentosin FFL-4",
+      "capacity_qt": 6.5
+    },
+    "transmission_manual": {
+      "type": "MTF 75W-90",
+      "capacity_qt": 2.4
+    },
+    "brake_fluid": {
+      "type": "DOT 4",
+      "capacity_oz": 36
+    },
+    "coolant": {
+      "type": "Porsche G13",
+      "capacity_qt": 16.0,
+      "mix_ratio": "50/50"
+    },
+    "power_steering": {
+      "type": "Electric"
+    },
+    "ac_refrigerant": {
+      "type": "R1234yf",
+      "capacity_oz": 22
+    }
+  },
+  "cayenne_955": {
+    "engine_oil": {
+      "type": "5W-40 Synthetic (V8: 0W-40)",
+      "capacity_qt_v6": 8.0,
+      "capacity_qt_v8": 8.5,
+      "filter_pn": "958.107.222.00"
+    },
+    "transmission_auto": {
+      "type": "ATF Esso LT 71141 (Tiptronic)",
+      "capacity_qt": 9.5
+    },
+    "transfer_case": {
+      "type": "ATF",
+      "capacity_qt": 1.5
+    },
+    "front_diff": {
+      "type": "75W-90 GL-5",
+      "capacity_qt": 1.2
+    },
+    "rear_diff": {
+      "type": "75W-90 GL-5",
+      "capacity_qt": 1.5
+    },
+    "brake_fluid": {
+      "type": "DOT 4",
+      "capacity_oz": 48
+    },
+    "coolant": {
+      "type": "G12+",
+      "capacity_qt": 30.0,
+      "mix_ratio": "50/50"
+    },
+    "power_steering": {
+      "type": "Pentosin CHF 11S"
+    },
+    "ac_refrigerant": {
+      "type": "R134a",
+      "capacity_oz": 32
+    }
+  },
+  "macan": {
+    "engine_oil": {
+      "type": "0W-40 (Porsche A40)",
+      "capacity_qt_4cyl": 5.7,
+      "capacity_qt_v6": 7.5,
+      "filter_pn": "95B.115.466.A"
+    },
+    "pdk": {
+      "type": "DSG fluid (PDK)",
+      "capacity_qt": 6.5
+    },
+    "transfer_case": {
+      "type": "Transfer case fluid",
+      "capacity_qt": 1.0
+    },
+    "rear_diff": {
+      "type": "75W-90 GL-5",
+      "capacity_qt": 1.3
+    },
+    "brake_fluid": {
+      "type": "DOT 4",
+      "capacity_oz": 40
+    },
+    "coolant": {
+      "type": "G13",
+      "capacity_qt": 22.0,
+      "mix_ratio": "50/50"
+    },
+    "power_steering": {
+      "type": "Electric"
+    },
+    "ac_refrigerant": {
+      "type": "R1234yf",
+      "capacity_oz": 24
+    }
+  },
+  "panamera": {
+    "engine_oil": {
+      "type": "0W-40 (Porsche A40/C40)",
+      "capacity_qt": 9.0,
+      "filter_pn": "970.107.225.10"
+    },
+    "pdk": {
+      "type": "Pentosin FFL-4",
+      "capacity_qt": 9.0
+    },
+    "brake_fluid": {
+      "type": "DOT 4",
+      "capacity_oz": 40
+    },
+    "coolant": {
+      "type": "G13",
+      "capacity_qt": 28.0,
+      "mix_ratio": "50/50"
+    },
+    "power_steering": {
+      "type": "Electric"
+    },
+    "ac_refrigerant": {
+      "type": "R1234yf",
+      "capacity_oz": 28
+    }
+  },
+  "taycan": {
+    "engine_oil": {
+      "type": "N/A - Electric",
+      "capacity_qt": 0
+    },
+    "transmission": {
+      "type": "EV gearbox fluid (Castrol BOT 352 E1)",
+      "capacity_qt": 1.5
+    },
+    "brake_fluid": {
+      "type": "DOT 4 ESP",
+      "capacity_oz": 32
+    },
+    "coolant": {
+      "type": "G13 + battery coolant (separate circuits)",
+      "capacity_qt": 30.0
+    },
+    "ac_refrigerant": {
+      "type": "R1234yf (dual evaporator)",
+      "capacity_oz": 36
+    }
+  }
+}

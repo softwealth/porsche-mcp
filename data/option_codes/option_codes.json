@@ -1,0 +1,157 @@
+{
+  "P01": {
+    "description": "Comfort Package",
+    "includes": "Heated seats, power folding mirrors, auto-dimming mirrors"
+  },
+  "P13": {
+    "description": "Power Sport Seats (14-way)",
+    "desirability": "High"
+  },
+  "P15": {
+    "description": "Comfort Seats (18-way adaptive)",
+    "desirability": "High"
+  },
+  "P73": {
+    "description": "Smoking Package (ashtray, lighter)",
+    "desirability": "Low"
+  },
+  "P77": {
+    "description": "Porsche Doppelkupplung (PDK)",
+    "desirability": "High for daily, lower for purists"
+  },
+  "060": {
+    "description": "Rubber floor mats",
+    "desirability": "Low"
+  },
+  "139": {
+    "description": "Seat heating",
+    "desirability": "Medium"
+  },
+  "220": {
+    "description": "Porsche Stability Management (PSM) delete",
+    "desirability": "Niche - track cars"
+  },
+  "224": {
+    "description": "PASM (Porsche Active Suspension Management)",
+    "desirability": "Very High"
+  },
+  "250": {
+    "description": "Power steering plus",
+    "desirability": "Medium"
+  },
+  "288": {
+    "description": "Bi-Xenon headlights with PDLS",
+    "desirability": "High"
+  },
+  "340": {
+    "description": "Heated seats",
+    "desirability": "High"
+  },
+  "342": {
+    "description": "Heated steering wheel",
+    "desirability": "Medium"
+  },
+  "350": {
+    "description": "Heated windshield",
+    "desirability": "Medium"
+  },
+  "377": {
+    "description": "Alcantara steering wheel",
+    "desirability": "Very High (GT cars)"
+  },
+  "396": {
+    "description": "Sport seats plus (carbon fiber)",
+    "desirability": "Very High"
+  },
+  "403": {
+    "description": "Roof Transport System (factory rails)",
+    "desirability": "Low on 911"
+  },
+  "431": {
+    "description": "Rear wiper",
+    "desirability": "Low"
+  },
+  "454": {
+    "description": "Cruise control / adaptive cruise",
+    "desirability": "Medium"
+  },
+  "490": {
+    "description": "Sound Package Plus (Bose or Burmester)",
+    "desirability": "High"
+  },
+  "583": {
+    "description": "Smoking package delete (adds lidded storage)",
+    "desirability": "Medium"
+  },
+  "602": {
+    "description": "GT3 Aerokit Cup",
+    "desirability": "Very High (GT3)"
+  },
+  "610": {
+    "description": "PDLS+ (Porsche Dynamic Light System Plus)",
+    "desirability": "High"
+  },
+  "630": {
+    "description": "Front axle lift system",
+    "desirability": "Very High \u2014 critical for low cars"
+  },
+  "636": {
+    "description": "Sport Chrono Package",
+    "includes": "Launch control, dynamic engine mounts, stopwatch, Sport Plus mode",
+    "desirability": "Very High"
+  },
+  "639": {
+    "description": "Carbon ceramic brakes (PCCB)",
+    "desirability": "Very High for track, mixed for street",
+    "note": "$8-15K replacement cost"
+  },
+  "642": {
+    "description": "Yellow brake calipers (PCCB indicator)",
+    "desirability": "High"
+  },
+  "650": {
+    "description": "Power sunroof",
+    "desirability": "Low on 911 (adds weight/height)"
+  },
+  "680": {
+    "description": "Burmester High-End Surround Sound",
+    "desirability": "Very High"
+  },
+  "691": {
+    "description": "Full bucket seats (GT3/GT4)",
+    "desirability": "Very High"
+  },
+  "748": {
+    "description": "Fire extinguisher",
+    "desirability": "Medium"
+  },
+  "810": {
+    "description": "Floor mats (embroidered)",
+    "desirability": "Medium"
+  },
+  "840": {
+    "description": "SportDesign side skirts",
+    "desirability": "Medium"
+  },
+  "XDJ": {
+    "description": "Porsche Exclusive Manufaktur interior",
+    "desirability": "Very High"
+  },
+  "XEH": {
+    "description": "Extended Range Fuel Tank (GT cars)",
+    "desirability": "Very High for touring GT3/GT4"
+  },
+  "XLF": {
+    "description": "Full carbon fiber interior package",
+    "desirability": "Very High"
+  },
+  "XSC": {
+    "description": "Sport Exhaust System (PSE)",
+    "desirability": "Very High",
+    "note": "Louder, more aggressive exhaust note with valve control"
+  },
+  "XRD": {
+    "description": "Radio delete (lightweight)",
+    "desirability": "Niche \u2014 track/collector cars"
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "6202": {
+    "name": "Signal Red",
+    "german": "Signalrot",
+    "hex": "#CC0000",
+    "years": "1965-1973",
+    "type": "Solid",
+    "models": [
+      "911",
+      "912"
+    ]
+  },
+  "6404": {
+    "name": "Irish Green",
+    "german": "Irishgr\u00fcn",
+    "hex": "#006633",
+    "years": "1965-1973",
+    "type": "Solid",
+    "models": [
+      "911",
+      "912"
+    ]
+  },
+  "6805": {
+    "name": "Bahia Red",
+    "german": "Bahiarot",
+    "hex": "#8B0000",
+    "years": "1968-1971",
+    "type": "Solid",
+    "models": [
+      "911"
+    ]
+  },
+  "027": {
+    "name": "Indian Red",
+    "german": "Indischrot",
+    "hex": "#B22222",
+    "years": "1970-1985",
+    "type": "Solid",
+    "models": [
+      "911"
+    ]
+  },
+  "936": {
+    "name": "Grand Prix White",
+    "german": "Grand Prix Wei\u00df",
+    "hex": "#F5F5F5",
+    "years": "1970-1998",
+    "type": "Solid",
+    "models": [
+      "911",
+      "964",
+      "993"
+    ]
+  },
+  "700": {
+    "name": "Black",
+    "german": "Schwarz",
+    "hex": "#0A0A0A",
+    "years": "1950-present",
+    "type": "Solid",
+    "models": [
+      "All"
+    ]
+  },
+  "80K": {
+    "name": "Guards Red",
+    "german": "Indischrot",
+    "hex": "#CC0000",
+    "years": "1984-present",
+    "type": "Solid",
+    "models": [
+      "All 911s"
+    ]
+  },
+  "L3AZ": {
+    "name": "Speed Yellow",
+    "german": "Speedgelb",
+    "hex": "#FFD700",
+    "years": "1995-2005",
+    "type": "Solid",
+    "models": [
+      "993",
+      "996",
+      "986"
+    ]
+  },
+  "37W": {
+    "name": "Riviera Blue",
+    "german": "Rivierablau",
+    "hex": "#0070C0",
+    "years": "1995-1997",
+    "type": "Solid",
+    "models": [
+      "993"
+    ]
+  },
+  "92M": {
+    "name": "Zenith Blue Metallic",
+    "german": "Zenithblau Met.",
+    "hex": "#1C3A5E",
+    "years": "1996-1998",
+    "type": "Metallic",
+    "models": [
+      "993"
+    ]
+  },
+  "22D": {
+    "name": "Arena Red Metallic",
+    "german": "Arenarot Met.",
+    "hex": "#6B1C24",
+    "years": "1997-2004",
+    "type": "Metallic",
+    "models": [
+      "996",
+      "986"
+    ]
+  },
+  "39P": {
+    "name": "Lapis Blue",
+    "german": "Lapisblau",
+    "hex": "#1F3A5F",
+    "years": "1999-2001",
+    "type": "Metallic",
+    "models": [
+      "996",
+      "986"
+    ]
+  },
+  "3S4": {
+    "name": "Orient Red Metallic",
+    "german": "Orientrot Met.",
+    "hex": "#7C1E25",
+    "years": "1999-2004",
+    "type": "Metallic",
+    "models": [
+      "996"
+    ]
+  },
+  "9A3": {
+    "name": "Carrara White",
+    "german": "Carrarawei\u00df",
+    "hex": "#EAEAEA",
+    "years": "2005-present",
+    "type": "Solid",
+    "models": [
+      "997",
+      "991",
+      "992"
+    ]
+  },
+  "2T": {
+    "name": "Racing Yellow",
+    "german": "Racinggelb",
+    "hex": "#FFE600",
+    "years": "2005-present",
+    "type": "Solid",
+    "models": [
+      "997",
+      "991",
+      "992",
+      "718"
+    ]
+  },
+  "M5B": {
+    "name": "GT Silver Metallic",
+    "german": "GT Silber Met.",
+    "hex": "#C0C0C0",
+    "years": "2004-present",
+    "type": "Metallic",
+    "models": [
+      "997",
+      "991",
+      "992"
+    ]
+  },
+  "Z8": {
+    "name": "Basalt Black Metallic",
+    "german": "Basaltschwarz Met.",
+    "hex": "#1E1E1E",
+    "years": "2005-2012",
+    "type": "Metallic",
+    "models": [
+      "997"
+    ]
+  },
+  "M7Y": {
+    "name": "Aqua Blue Metallic",
+    "german": "Aquablau Met.",
+    "hex": "#2E7D9B",
+    "years": "2011-2013",
+    "type": "Metallic",
+    "models": [
+      "991"
+    ]
+  },
+  "H1": {
+    "name": "Rhodium Silver Metallic",
+    "german": "Rhodiumsilber Met.",
+    "hex": "#9B9BA5",
+    "years": "2012-2019",
+    "type": "Metallic",
+    "models": [
+      "991"
+    ]
+  },
+  "Y1": {
+    "name": "Miami Blue",
+    "german": "Miamiblau",
+    "hex": "#00BFFF",
+    "years": "2016-present",
+    "type": "Solid",
+    "models": [
+      "991",
+      "992",
+      "718"
+    ]
+  },
+  "W1": {
+    "name": "White",
+    "german": "Wei\u00df",
+    "hex": "#FFFFFF",
+    "years": "2012-present",
+    "type": "Solid",
+    "models": [
+      "991",
+      "992"
+    ]
+  },
+  "Q9": {
+    "name": "Crayon",
+    "german": "Kreide",
+    "hex": "#D3D3C7",
+    "years": "2017-present",
+    "type": "Solid",
+    "models": [
+      "991",
+      "992",
+      "718"
+    ]
+  },
+  "N3": {
+    "name": "Shark Blue",
+    "german": "Haiblau",
+    "hex": "#2056A0",
+    "years": "2021-present",
+    "type": "Solid",
+    "models": [
+      "992"
+    ]
+  },
+  "6A": {
+    "name": "Python Green",
+    "german": "Pythongr\u00fcn",
+    "hex": "#4A7C3F",
+    "years": "2019-present",
+    "type": "Metallic",
+    "models": [
+      "992"
+    ]
+  },
+  "M8S": {
+    "name": "Gentian Blue Metallic",
+    "german": "Enzianblau Met.",
+    "hex": "#1B2A50",
+    "years": "2017-present",
+    "type": "Metallic",
+    "models": [
+      "992",
+      "991.2"
+    ]
+  },
+  "K5": {
+    "name": "Aventurine Green Metallic",
+    "german": "Aventuringr\u00fcn Met.",
+    "hex": "#3B5E3A",
+    "years": "2020-present",
+    "type": "Metallic",
+    "models": [
+      "992"
+    ]
+  },
+  "C2": {
+    "name": "Ice Grey Metallic",
+    "german": "Eisgrau Met.",
+    "hex": "#B0B5B9",
+    "years": "2020-present",
+    "type": "Metallic",
+    "models": [
+      "992"
+    ]
+  },
+  "D6": {
+    "name": "Shade Green",
+    "german": "Schattengr\u00fcn",
+    "hex": "#2F4538",
+    "years": "2022-present",
+    "type": "Metallic",
+    "models": [
+      "992"
+    ]
+  },
+  "X2": {
+    "name": "Ruby Star",
+    "german": "Ruby Star",
+    "hex": "#A02050",
+    "years": "2023 (PTS revival)",
+    "type": "Metallic",
+    "models": [
+      "992"
+    ]
+  },
+  "C9Z": {
+    "name": "Frozen Blue Metallic",
+    "german": "Frozenblau Met.",
+    "hex": "#5588BB",
+    "years": "2020-present",
+    "type": "Metallic",
+    "models": [
+      "Taycan"
+    ]
+  }
+}

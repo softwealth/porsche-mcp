@@ -1,0 +1,424 @@
+{
+  "996": [
+    {
+      "name": "IMS Bearing Failure",
+      "description": "The intermediate shaft bearing can fail catastrophically, sending metal debris throughout the engine. Single-row bearings (2000-2005) are most at risk.",
+      "affected_years": "1999-2005",
+      "symptoms": [
+        "Metallic debris in oil",
+        "Rumbling noise from engine",
+        "Oil pressure warning",
+        "Engine seizure"
+      ],
+      "severity": 5,
+      "cost_low": 2000,
+      "cost_high": 12000,
+      "diy_difficulty": 4,
+      "prevention": "Replace with IMS Solution ceramic bearing or LN Engineering retrofit. Use quality oil (Motul, LiquiMoly) and change every 5k miles.",
+      "fix": "IMS bearing replacement (engine-out recommended). If bearing has failed and damaged engine, full rebuild $15-25K."
+    },
+    {
+      "name": "Bore Scoring",
+      "description": "Cylinders develop scoring/gouging on cylinder walls, typically cylinders 1 and 6. Caused by localized overheating from insufficient oil spray or debris.",
+      "affected_years": "1999-2005",
+      "symptoms": [
+        "Knocking on cold start",
+        "Excessive oil consumption (1qt per 500mi)",
+        "Smoke from exhaust",
+        "Rough idle when cold"
+      ],
+      "severity": 5,
+      "cost_low": 8000,
+      "cost_high": 25000,
+      "diy_difficulty": 5,
+      "prevention": "Short oil change intervals, proper warm-up, LN Engineering cylinder coating if doing preventive rebuild.",
+      "fix": "Engine rebuild with Nikasil or LN Engineering coated cylinders. Or engine replacement."
+    },
+    {
+      "name": "Rear Main Seal (RMS) Leak",
+      "description": "The rear main seal between engine and transmission leaks oil. Common on all M96/M97 engines.",
+      "affected_years": "1999-2005",
+      "symptoms": [
+        "Oil drip from bell housing area",
+        "Oil smell",
+        "Oil on underside of transmission"
+      ],
+      "severity": 3,
+      "cost_low": 1500,
+      "cost_high": 3000,
+      "diy_difficulty": 4,
+      "prevention": "Not entirely preventable. Regular inspection.",
+      "fix": "Replace RMS. Requires transmission removal. Often done with IMS bearing and clutch at same time."
+    },
+    {
+      "name": "Coolant Pipes/Fittings",
+      "description": "Plastic coolant distribution pipes and fittings crack with age and heat cycling.",
+      "affected_years": "1999-2005",
+      "symptoms": [
+        "Coolant loss",
+        "Overheating",
+        "Sweet smell",
+        "White residue near fittings"
+      ],
+      "severity": 3,
+      "cost_low": 500,
+      "cost_high": 1500,
+      "diy_difficulty": 3,
+      "prevention": "Replace plastic fittings with aluminum upgrades from FCP Euro or Pelican Parts.",
+      "fix": "Replace cracked pipe/fitting. Upgrade to aluminum."
+    }
+  ],
+  "997": [
+    {
+      "name": "IMS Bearing Failure",
+      "description": "Same as 996 but 997.1 uses single-row bearing which is actually MORE failure-prone. 997.2 (2009+) eliminated the IMS bearing entirely.",
+      "affected_years": "2005-2008",
+      "symptoms": [
+        "Metallic debris in oil",
+        "Rumbling noise",
+        "Oil pressure warning"
+      ],
+      "severity": 5,
+      "cost_low": 2000,
+      "cost_high": 12000,
+      "diy_difficulty": 4,
+      "prevention": "IMS Solution retrofit. Only affects 997.1 (2005-2008).",
+      "fix": "Same as 996. 997.2 does NOT have this issue."
+    },
+    {
+      "name": "Bore Scoring",
+      "description": "Same issue as 996, affecting M97 engines. 3.8L engines less prone than 3.6L.",
+      "affected_years": "2005-2008",
+      "symptoms": [
+        "Cold start knock",
+        "Oil consumption",
+        "Smoke"
+      ],
+      "severity": 5,
+      "cost_low": 8000,
+      "cost_high": 25000,
+      "diy_difficulty": 5,
+      "prevention": "Short oil change intervals. Proper warm-up.",
+      "fix": "Engine rebuild or replacement."
+    },
+    {
+      "name": "AOS (Air-Oil Separator) Failure",
+      "description": "The air-oil separator diaphragm fails, causing oil to be ingested into the intake manifold.",
+      "affected_years": "2005-2012",
+      "symptoms": [
+        "White smoke from exhaust",
+        "Oil consumption increase",
+        "Rough idle",
+        "Check engine light"
+      ],
+      "severity": 3,
+      "cost_low": 400,
+      "cost_high": 1200,
+      "diy_difficulty": 3,
+      "prevention": "Replace preventively every 60K miles.",
+      "fix": "Replace AOS unit. Best done with new vacuum lines."
+    },
+    {
+      "name": "Turbo Wastegate Rattle",
+      "description": "997.2 Turbo wastegate actuator arm develops play, causing a rattling noise on deceleration.",
+      "affected_years": "2010-2012",
+      "symptoms": [
+        "Metallic rattle on decel",
+        "Rattling at idle",
+        "No performance effect"
+      ],
+      "severity": 2,
+      "cost_low": 400,
+      "cost_high": 2000,
+      "diy_difficulty": 3,
+      "prevention": "Not preventable.",
+      "fix": "Replace wastegate actuator arm or upgrade to TiAL wastegate."
+    }
+  ],
+  "993": [
+    {
+      "name": "D-Chunk Cylinder Liner Failure",
+      "description": "The Alusil cylinder liners can develop 'D-shaped' chunks that break away from the cylinder wall. More common on Varioram engines.",
+      "affected_years": "1995-1998",
+      "symptoms": [
+        "Loss of compression",
+        "Oil consumption",
+        "Rough running",
+        "Catastrophic engine failure in severe cases"
+      ],
+      "severity": 4,
+      "cost_low": 8000,
+      "cost_high": 20000,
+      "diy_difficulty": 5,
+      "prevention": "Proper warm-up, quality oil, avoid sustained high RPM when cold.",
+      "fix": "Engine rebuild with Nikasil or aftermarket sleeves."
+    },
+    {
+      "name": "Chain Tensioner Failure",
+      "description": "The hydraulic chain tensioners can fail, allowing timing chains to become loose. Updated tensioners (yellow/green) solve this.",
+      "affected_years": "1995-1998",
+      "symptoms": [
+        "Chain rattle on startup",
+        "Timing noise",
+        "Potential catastrophic valve contact"
+      ],
+      "severity": 4,
+      "cost_low": 1500,
+      "cost_high": 4000,
+      "diy_difficulty": 3,
+      "prevention": "Replace with updated tensioner pads and tensioners.",
+      "fix": "Replace chain tensioners and guides. Check chain stretch."
+    },
+    {
+      "name": "Oil Leaks (General)",
+      "description": "Air-cooled engines leak oil. The 993 is no exception. Common from cam covers, chain housing, and case halves.",
+      "affected_years": "1995-1998",
+      "symptoms": [
+        "Oil drips",
+        "Oil smell",
+        "Oil on exhaust (smoke)"
+      ],
+      "severity": 2,
+      "cost_low": 200,
+      "cost_high": 3000,
+      "diy_difficulty": 2,
+      "prevention": "Use quality gaskets. Don't overtighten.",
+      "fix": "Reseal as needed. Case half reseal requires engine removal."
+    }
+  ],
+  "964": [
+    {
+      "name": "Dual Mass Flywheel Failure",
+      "description": "The DMF can fail, especially on cars with aggressive driving. Heavy clutch pedal and chatter are signs.",
+      "affected_years": "1989-1994",
+      "symptoms": [
+        "Clutch chatter",
+        "Vibration at idle",
+        "Difficulty shifting"
+      ],
+      "severity": 3,
+      "cost_low": 2000,
+      "cost_high": 4000,
+      "diy_difficulty": 4,
+      "prevention": "Smooth clutch engagement. Replace with single-mass flywheel conversion.",
+      "fix": "Replace DMF or convert to single-mass flywheel (with appropriate clutch)."
+    },
+    {
+      "name": "Oil Leaks",
+      "description": "Cam cover, chain tensioner covers, and case half gaskets are common oil leak sources.",
+      "affected_years": "1989-1994",
+      "symptoms": [
+        "Oil drips",
+        "Oil on exhaust"
+      ],
+      "severity": 2,
+      "cost_low": 200,
+      "cost_high": 3000,
+      "diy_difficulty": 2,
+      "prevention": "Quality gaskets, proper torque.",
+      "fix": "Reseal as needed."
+    },
+    {
+      "name": "Distributor Drive Belt",
+      "description": "The rubber belt that drives the distributor can crack and fail, causing the engine to lose spark.",
+      "affected_years": "1989-1994",
+      "symptoms": [
+        "No start",
+        "Engine dies suddenly",
+        "Visible belt cracking"
+      ],
+      "severity": 3,
+      "cost_low": 50,
+      "cost_high": 300,
+      "diy_difficulty": 2,
+      "prevention": "Replace every 3-4 years or 30K miles.",
+      "fix": "Replace belt. Easy DIY."
+    }
+  ],
+  "991": [
+    {
+      "name": "Connecting Rod Recall (Early GT3)",
+      "description": "Early 991.1 GT3 engines had connecting rod bolts that could loosen, causing catastrophic engine failure. Porsche issued recall.",
+      "affected_years": "2014",
+      "symptoms": [
+        "Engine noise",
+        "Oil pressure loss",
+        "Engine seizure"
+      ],
+      "severity": 5,
+      "cost_low": 0,
+      "cost_high": 0,
+      "diy_difficulty": 5,
+      "prevention": "Verify recall was completed. Check VIN with Porsche.",
+      "fix": "Porsche replaced engines under recall. Free."
+    },
+    {
+      "name": "PDK Mechatronic Unit Issues",
+      "description": "Some PDK transmissions develop issues with the mechatronic valve body.",
+      "affected_years": "2012-2016",
+      "symptoms": [
+        "Harsh shifting",
+        "Gear hunting",
+        "Warning lights",
+        "Limp mode"
+      ],
+      "severity": 3,
+      "cost_low": 3000,
+      "cost_high": 8000,
+      "diy_difficulty": 5,
+      "prevention": "Regular PDK fluid changes every 40K miles.",
+      "fix": "Mechatronic unit replacement or rebuild."
+    }
+  ],
+  "992": [
+    {
+      "name": "Wrist Pin Noise (GT3)",
+      "description": "Some early 992 GT3s exhibit wrist pin noise, particularly on cold starts.",
+      "affected_years": "2022-2023",
+      "symptoms": [
+        "Ticking noise on cold start",
+        "Noise diminishes when warm"
+      ],
+      "severity": 2,
+      "cost_low": 0,
+      "cost_high": 5000,
+      "diy_difficulty": 5,
+      "prevention": "Not preventable. Monitor.",
+      "fix": "Porsche has addressed under warranty for affected cars."
+    }
+  ],
+  "cayenne_955": [
+    {
+      "name": "Coolant Pipe/Tube Failure",
+      "description": "Plastic coolant distribution pipes behind the engine crack and leak. Can cause catastrophic overheating if not caught.",
+      "affected_years": "2003-2006",
+      "symptoms": [
+        "Coolant loss",
+        "Overheating",
+        "Sweet smell",
+        "Steam from engine bay"
+      ],
+      "severity": 5,
+      "cost_low": 1500,
+      "cost_high": 4000,
+      "diy_difficulty": 3,
+      "prevention": "Replace plastic pipes with aluminum upgrades (Rennline, ECS).",
+      "fix": "Replace coolant pipes. Upgrade to aluminum."
+    },
+    {
+      "name": "Transfer Case Failure",
+      "description": "The transfer case can develop leaks and bearing noise.",
+      "affected_years": "2003-2006",
+      "symptoms": [
+        "Grinding noise",
+        "Vibration at speed",
+        "Fluid leak from transfer case"
+      ],
+      "severity": 4,
+      "cost_low": 2000,
+      "cost_high": 5000,
+      "diy_difficulty": 4,
+      "prevention": "Regular fluid changes.",
+      "fix": "Transfer case rebuild or replacement."
+    },
+    {
+      "name": "Air Suspension Failure",
+      "description": "Air springs and compressor wear out.",
+      "affected_years": "2003-2006",
+      "symptoms": [
+        "Vehicle sags overnight",
+        "Compressor runs constantly",
+        "Ride height warnings"
+      ],
+      "severity": 3,
+      "cost_low": 500,
+      "cost_high": 3000,
+      "diy_difficulty": 3,
+      "prevention": "Avoid overloading. Keep air lines clean.",
+      "fix": "Replace air springs and/or compressor. Coilover conversion available."
+    }
+  ],
+  "986_boxster": [
+    {
+      "name": "IMS Bearing Failure",
+      "description": "Same M96 engine IMS bearing issue as 996.",
+      "affected_years": "1997-2004",
+      "symptoms": [
+        "Metallic debris in oil",
+        "Rumbling noise",
+        "Engine seizure"
+      ],
+      "severity": 5,
+      "cost_low": 2000,
+      "cost_high": 12000,
+      "diy_difficulty": 4,
+      "prevention": "IMS Solution retrofit.",
+      "fix": "IMS bearing replacement."
+    },
+    {
+      "name": "RMS Oil Leak",
+      "description": "Rear main seal leak, same as 996.",
+      "affected_years": "1997-2004",
+      "symptoms": [
+        "Oil drip from bell housing"
+      ],
+      "severity": 3,
+      "cost_low": 1500,
+      "cost_high": 3000,
+      "diy_difficulty": 4,
+      "prevention": "None. Regular inspection.",
+      "fix": "Replace RMS. Requires trans removal."
+    },
+    {
+      "name": "Convertible Top Issues",
+      "description": "Hydraulic top mechanisms can develop leaks and motor failures.",
+      "affected_years": "1997-2004",
+      "symptoms": [
+        "Slow top operation",
+        "Top stops mid-cycle",
+        "Hydraulic fluid leak"
+      ],
+      "severity": 2,
+      "cost_low": 500,
+      "cost_high": 3000,
+      "diy_difficulty": 3,
+      "prevention": "Keep hydraulic fluid topped up. Lubricate seals.",
+      "fix": "Rebuild hydraulic cylinders or replace motor."
+    }
+  ],
+  "taycan": [
+    {
+      "name": "12V Battery Drain",
+      "description": "The 12V auxiliary battery drains quickly when the car sits, especially with connected services active.",
+      "affected_years": "2020-present",
+      "symptoms": [
+        "Won't start after sitting",
+        "12V battery warning",
+        "Electronics reset"
+      ],
+      "severity": 3,
+      "cost_low": 200,
+      "cost_high": 500,
+      "diy_difficulty": 1,
+      "prevention": "Keep plugged in. Disable unnecessary connected services.",
+      "fix": "Replace 12V battery. Software update may help."
+    },
+    {
+      "name": "Software/Infotainment Glitches",
+      "description": "PCM system can freeze, lag, or display errors.",
+      "affected_years": "2020-present",
+      "symptoms": [
+        "Screen freezes",
+        "Nav crashes",
+        "Bluetooth drops",
+        "Phantom alerts"
+      ],
+      "severity": 2,
+      "cost_low": 0,
+      "cost_high": 0,
+      "diy_difficulty": 1,
+      "prevention": "Keep software updated.",
+      "fix": "Software update at dealer. Hard reset (hold power button 10s)."
+    }
+  ]
+}

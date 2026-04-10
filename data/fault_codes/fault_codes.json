@@ -1,0 +1,238 @@
+{
+  "P0171": {
+    "description": "System Too Lean (Bank 1)",
+    "common_causes": [
+      "Vacuum leak",
+      "Faulty MAF sensor",
+      "Weak fuel pump",
+      "Cracked intake boot"
+    ],
+    "models": [
+      "996",
+      "997",
+      "991"
+    ],
+    "severity": "Medium",
+    "diy_fix": "Check intake boots for cracks, clean MAF sensor, check vacuum lines"
+  },
+  "P0174": {
+    "description": "System Too Lean (Bank 2)",
+    "common_causes": [
+      "Same as P0171 \u2014 bank 2 side"
+    ],
+    "models": [
+      "996",
+      "997",
+      "991"
+    ],
+    "severity": "Medium"
+  },
+  "P0300": {
+    "description": "Random/Multiple Cylinder Misfire",
+    "common_causes": [
+      "Bad coil pack",
+      "Worn spark plugs",
+      "Low compression (bore scoring)",
+      "Vacuum leak"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "High \u2014 investigate immediately"
+  },
+  "P0301-P0306": {
+    "description": "Cylinder X Misfire Detected",
+    "common_causes": [
+      "Bad coil pack on that cylinder",
+      "Fouled spark plug",
+      "Low compression (bore scoring)",
+      "Injector failure"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "High"
+  },
+  "P0410": {
+    "description": "Secondary Air Injection System Malfunction",
+    "common_causes": [
+      "Failed AIR pump",
+      "Check valve stuck",
+      "Relay failure",
+      "Hose disconnected"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "Low \u2014 emissions only",
+    "diy_fix": "Check AIR pump relay, inspect hoses, replace pump if failed"
+  },
+  "P0411": {
+    "description": "Secondary Air Injection Incorrect Flow",
+    "common_causes": [
+      "AIR valve stuck",
+      "Hose leak",
+      "Pump weak"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "Low"
+  },
+  "P0420": {
+    "description": "Catalyst System Efficiency Below Threshold (Bank 1)",
+    "common_causes": [
+      "Catalytic converter failure",
+      "O2 sensor failure",
+      "Exhaust leak"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "Medium"
+  },
+  "P0430": {
+    "description": "Catalyst System Efficiency Below Threshold (Bank 2)",
+    "common_causes": [
+      "Same as P0420"
+    ],
+    "models": [
+      "All"
+    ],
+    "severity": "Medium"
+  },
+  "P0442": {
+    "description": "EVAP System Leak Detected (Small)",
+    "common_causes": [
+      "Loose gas cap",
+      "EVAP canister crack",
+      "Purge valve failure"
+    ],
+    "models": [
+      "996",
+      "997",
+      "991"
+    ],
+    "severity": "Low",
+    "diy_fix": "Tighten gas cap. If persists, check EVAP canister and purge valve."
+  },
+  "P1128": {
+    "description": "Long Term Fuel Trim (Bank 1) \u2014 System Too Lean",
+    "common_causes": [
+      "Porsche-specific: Air-oil separator (AOS) failure",
+      "Vacuum leak",
+      "MAF sensor"
+    ],
+    "models": [
+      "997",
+      "987"
+    ],
+    "severity": "Medium",
+    "diy_fix": "Replace AOS if 997/987. Common fix."
+  },
+  "P1130": {
+    "description": "Long Term Fuel Trim (Bank 2) \u2014 System Too Lean",
+    "common_causes": [
+      "AOS failure",
+      "Vacuum leak"
+    ],
+    "models": [
+      "997",
+      "987"
+    ],
+    "severity": "Medium"
+  },
+  "P2096": {
+    "description": "Post Catalyst Fuel Trim System Too Lean (Bank 1)",
+    "common_causes": [
+      "Exhaust leak",
+      "O2 sensor",
+      "Cat failure"
+    ],
+    "models": [
+      "997",
+      "991"
+    ],
+    "severity": "Medium"
+  },
+  "P2404": {
+    "description": "EVAP Leak Detection Pump Sense Circuit",
+    "common_causes": [
+      "DM-TL pump failure",
+      "Wiring issue"
+    ],
+    "models": [
+      "996",
+      "997"
+    ],
+    "severity": "Low"
+  },
+  "P0016": {
+    "description": "Crankshaft/Camshaft Position Correlation (Bank 1)",
+    "common_causes": [
+      "Variocam solenoid failure",
+      "Timing chain stretch",
+      "Oil supply issue to Variocam"
+    ],
+    "models": [
+      "996",
+      "997",
+      "991"
+    ],
+    "severity": "High \u2014 check timing chain"
+  },
+  "P0017": {
+    "description": "Crankshaft/Camshaft Position Correlation (Bank 2)",
+    "common_causes": [
+      "Same as P0016"
+    ],
+    "models": [
+      "996",
+      "997",
+      "991"
+    ],
+    "severity": "High"
+  },
+  "PSM_FAULT": {
+    "description": "PSM (Porsche Stability Management) Warning",
+    "common_causes": [
+      "Wheel speed sensor failure",
+      "Steering angle sensor",
+      "Yaw sensor",
+      "Low brake fluid",
+      "ABS module"
+    ],
+    "models": [
+      "All water-cooled"
+    ],
+    "severity": "Medium \u2014 car still drivable but reduced stability control"
+  },
+  "PASM_FAULT": {
+    "description": "PASM (Active Suspension) Warning",
+    "common_causes": [
+      "PASM damper failure",
+      "Wiring harness damage",
+      "Control module",
+      "Sensor failure"
+    ],
+    "models": [
+      "997+"
+    ],
+    "severity": "Medium \u2014 reverts to fixed damping"
+  },
+  "TPMS_WARN": {
+    "description": "Tire Pressure Monitoring Warning",
+    "common_causes": [
+      "Low tire pressure",
+      "TPMS sensor battery dead (7-10 year life)",
+      "Sensor damage from tire change"
+    ],
+    "models": [
+      "All 2007+"
+    ],
+    "severity": "Low",
+    "diy_fix": "Check pressures. If all correct, sensor battery is likely dead."
+  }
+}
