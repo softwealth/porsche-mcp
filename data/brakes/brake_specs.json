@@ -1,0 +1,337 @@
+{
+  "964": {
+    "front": {
+      "rotor_diameter_mm": 298,
+      "rotor_thickness_mm": 28,
+      "min_thickness_mm": 26,
+      "caliper": "Brembo 4-piston fixed",
+      "pad_material": "Semi-metallic"
+    },
+    "rear": {
+      "rotor_diameter_mm": 299,
+      "rotor_thickness_mm": 24,
+      "min_thickness_mm": 22,
+      "caliper": "Brembo 2-piston fixed"
+    },
+    "fluid": "DOT 4",
+    "notes": "ABS available from 1991"
+  },
+  "993": {
+    "front": {
+      "rotor_diameter_mm": 304,
+      "rotor_thickness_mm": 32,
+      "min_thickness_mm": 30,
+      "caliper": "Brembo 4-piston fixed",
+      "pad_material": "Semi-metallic"
+    },
+    "rear": {
+      "rotor_diameter_mm": 299,
+      "rotor_thickness_mm": 24,
+      "min_thickness_mm": 22,
+      "caliper": "Brembo 2-piston fixed"
+    },
+    "turbo_front": {
+      "rotor_diameter_mm": 322,
+      "rotor_thickness_mm": 32,
+      "caliper": "Brembo 4-piston (red)"
+    },
+    "turbo_rear": {
+      "rotor_diameter_mm": 322,
+      "rotor_thickness_mm": 28,
+      "caliper": "Brembo 4-piston (red)"
+    },
+    "fluid": "DOT 4"
+  },
+  "996": {
+    "front": {
+      "rotor_diameter_mm": 318,
+      "rotor_thickness_mm": 28,
+      "min_thickness_mm": 26,
+      "caliper": "Brembo 4-piston fixed (black)",
+      "pad_material": "Semi-metallic"
+    },
+    "rear": {
+      "rotor_diameter_mm": 299,
+      "rotor_thickness_mm": 24,
+      "min_thickness_mm": 22,
+      "caliper": "Brembo 2-piston fixed"
+    },
+    "carrera_s_front": {
+      "rotor_diameter_mm": 330,
+      "rotor_thickness_mm": 34,
+      "caliper": "Brembo 4-piston (red)"
+    },
+    "turbo_front": {
+      "rotor_diameter_mm": 350,
+      "rotor_thickness_mm": 34,
+      "caliper": "Brembo 6-piston (red)"
+    },
+    "turbo_rear": {
+      "rotor_diameter_mm": 350,
+      "rotor_thickness_mm": 28,
+      "caliper": "Brembo 4-piston (red)"
+    },
+    "pccb_option": {
+      "front_rotor_mm": 350,
+      "rear_rotor_mm": 350,
+      "caliper_color": "Yellow",
+      "notes": "PCCB available on Turbo and GT cars"
+    },
+    "fluid": "DOT 4 (Ate Typ 200 recommended)"
+  },
+  "997": {
+    "front": {
+      "rotor_diameter_mm": 330,
+      "rotor_thickness_mm": 34,
+      "min_thickness_mm": 32,
+      "caliper": "Brembo 4-piston fixed",
+      "pad_material": "Semi-metallic"
+    },
+    "rear": {
+      "rotor_diameter_mm": 330,
+      "rotor_thickness_mm": 28,
+      "min_thickness_mm": 26,
+      "caliper": "Brembo 4-piston fixed"
+    },
+    "turbo_front": {
+      "rotor_diameter_mm": 350,
+      "rotor_thickness_mm": 34,
+      "caliper": "Brembo 6-piston (red)"
+    },
+    "turbo_rear": {
+      "rotor_diameter_mm": 350,
+      "rotor_thickness_mm": 28,
+      "caliper": "Brembo 4-piston (red)"
+    },
+    "gt3_front": {
+      "rotor_diameter_mm": 380,
+      "rotor_thickness_mm": 34,
+      "caliper": "Brembo 6-piston (yellow/PCCB)"
+    },
+    "pccb_option": {
+      "front_rotor_mm": 380,
+      "rear_rotor_mm": 350,
+      "material": "Carbon-Silicon Carbide",
+      "caliper_color": "Yellow",
+      "weight_savings_lbs": 37,
+      "replacement_cost": "$8,000-15,000"
+    },
+    "fluid": "DOT 4"
+  },
+  "991": {
+    "front": {
+      "rotor_diameter_mm": 330,
+      "rotor_thickness_mm": 34,
+      "min_thickness_mm": 32,
+      "caliper": "4-piston aluminum fixed (black)"
+    },
+    "rear": {
+      "rotor_diameter_mm": 330,
+      "rotor_thickness_mm": 28,
+      "min_thickness_mm": 26,
+      "caliper": "4-piston aluminum fixed"
+    },
+    "carrera_s_front": {
+      "rotor_diameter_mm": 350,
+      "rotor_thickness_mm": 34,
+      "caliper": "4-piston (silver or red)"
+    },
+    "turbo_front": {
+      "rotor_diameter_mm": 380,
+      "rotor_thickness_mm": 36,
+      "caliper": "6-piston (red)"
+    },
+    "turbo_rear": {
+      "rotor_diameter_mm": 380,
+      "rotor_thickness_mm": 30,
+      "caliper": "4-piston (red)"
+    },
+    "gt3_rs_front": {
+      "rotor_diameter_mm": 410,
+      "rotor_thickness_mm": 36,
+      "caliper": "6-piston (iron or PCCB)"
+    },
+    "pccb_option": {
+      "front_rotor_mm": 410,
+      "rear_rotor_mm": 390,
+      "caliper_color": "Yellow",
+      "replacement_cost": "$10,000-18,000"
+    },
+    "fluid": "DOT 4"
+  },
+  "992": {
+    "front": {
+      "rotor_diameter_mm": 350,
+      "rotor_thickness_mm": 34,
+      "min_thickness_mm": 32,
+      "caliper": "4-piston aluminum fixed (black)"
+    },
+    "rear": {
+      "rotor_diameter_mm": 350,
+      "rotor_thickness_mm": 28,
+      "min_thickness_mm": 26,
+      "caliper": "4-piston aluminum fixed"
+    },
+    "turbo_s_front": {
+      "rotor_diameter_mm": 410,
+      "rotor_thickness_mm": 36,
+      "caliper": "10-piston (red)"
+    },
+    "turbo_s_rear": {
+      "rotor_diameter_mm": 390,
+      "rotor_thickness_mm": 32,
+      "caliper": "4-piston (red)"
+    },
+    "gt3_front": {
+      "rotor_diameter_mm": 408,
+      "rotor_thickness_mm": 36,
+      "caliper": "6-piston aluminum (iron or PCCB)"
+    },
+    "gt3_rs_front": {
+      "rotor_diameter_mm": 410,
+      "rotor_thickness_mm": 36,
+      "caliper": "6-piston (PCCB standard)"
+    },
+    "pccb": {
+      "front_rotor_mm": 410,
+      "rear_rotor_mm": 390,
+      "caliper_color": "Yellow",
+      "notes": "Standard on GT3 RS and Turbo S, optional on others"
+    },
+    "fluid": "DOT 4"
+  },
+  "986_boxster": {
+    "front": {
+      "rotor_diameter_mm": 298,
+      "rotor_thickness_mm": 24,
+      "caliper": "Brembo 4-piston (base) or single-piston (early)"
+    },
+    "rear": {
+      "rotor_diameter_mm": 292,
+      "rotor_thickness_mm": 20,
+      "caliper": "Single-piston sliding"
+    },
+    "boxster_s_front": {
+      "rotor_diameter_mm": 318,
+      "rotor_thickness_mm": 28,
+      "caliper": "Brembo 4-piston (red)"
+    },
+    "fluid": "DOT 4"
+  },
+  "987_boxster_cayman": {
+    "front": {
+      "rotor_diameter_mm": 318,
+      "rotor_thickness_mm": 28,
+      "caliper": "Brembo 4-piston fixed"
+    },
+    "rear": {
+      "rotor_diameter_mm": 299,
+      "rotor_thickness_mm": 24,
+      "caliper": "Brembo 2-piston fixed"
+    },
+    "s_front": {
+      "rotor_diameter_mm": 330,
+      "rotor_thickness_mm": 34,
+      "caliper": "Brembo 4-piston (red)"
+    },
+    "pccb_option": {
+      "front_rotor_mm": 350,
+      "rear_rotor_mm": 350,
+      "caliper_color": "Yellow"
+    },
+    "fluid": "DOT 4"
+  },
+  "718": {
+    "front": {
+      "rotor_diameter_mm": 330,
+      "rotor_thickness_mm": 28,
+      "caliper": "4-piston aluminum fixed"
+    },
+    "rear": {
+      "rotor_diameter_mm": 299,
+      "rotor_thickness_mm": 24,
+      "caliper": "4-piston aluminum fixed"
+    },
+    "gts_s_front": {
+      "rotor_diameter_mm": 350,
+      "rotor_thickness_mm": 34,
+      "caliper": "4-piston (red)"
+    },
+    "gt4_front": {
+      "rotor_diameter_mm": 380,
+      "rotor_thickness_mm": 34,
+      "caliper": "6-piston (aluminum)"
+    },
+    "gt4_rs_front": {
+      "rotor_diameter_mm": 408,
+      "rotor_thickness_mm": 36,
+      "caliper": "6-piston (PCCB available)"
+    },
+    "fluid": "DOT 4"
+  },
+  "cayenne": {
+    "955_front": {
+      "rotor_diameter_mm": 350,
+      "rotor_thickness_mm": 34,
+      "caliper": "Brembo 6-piston (Turbo)"
+    },
+    "955_rear": {
+      "rotor_diameter_mm": 330,
+      "rotor_thickness_mm": 28,
+      "caliper": "Single-piston sliding"
+    },
+    "e3_front": {
+      "rotor_diameter_mm": 390,
+      "rotor_thickness_mm": 36,
+      "caliper": "6-piston (Turbo GT)"
+    },
+    "e3_rear": {
+      "rotor_diameter_mm": 358,
+      "rotor_thickness_mm": 28,
+      "caliper": "4-piston"
+    },
+    "pccb_option": {
+      "front_rotor_mm": 420,
+      "rear_rotor_mm": 370,
+      "caliper_color": "Yellow",
+      "notes": "Largest PCCB rotors Porsche makes"
+    },
+    "fluid": "DOT 4"
+  },
+  "macan": {
+    "front": {
+      "rotor_diameter_mm": 350,
+      "rotor_thickness_mm": 34,
+      "caliper": "6-piston fixed (GTS/Turbo)"
+    },
+    "rear": {
+      "rotor_diameter_mm": 330,
+      "rotor_thickness_mm": 22,
+      "caliper": "Single-piston sliding"
+    },
+    "pccb_option": {
+      "available": false,
+      "notes": "PCCB not available on Macan"
+    },
+    "fluid": "DOT 4"
+  },
+  "taycan": {
+    "front": {
+      "rotor_diameter_mm": 390,
+      "rotor_thickness_mm": 36,
+      "caliper": "6-piston fixed (Turbo S: 10-piston)"
+    },
+    "rear": {
+      "rotor_diameter_mm": 358,
+      "rotor_thickness_mm": 28,
+      "caliper": "4-piston fixed"
+    },
+    "pccb_option": {
+      "front_rotor_mm": 420,
+      "rear_rotor_mm": 390,
+      "caliper_color": "Yellow"
+    },
+    "fluid": "DOT 4 ESP",
+    "notes": "Regenerative braking handles most deceleration. Friction brakes last much longer."
+  }
+}

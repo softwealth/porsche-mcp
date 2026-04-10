@@ -1,0 +1,814 @@
+{
+  "metadata": {
+    "description": "Porsche transmission gear ratios database",
+    "version": "1.0.0",
+    "last_updated": "2026-04-10",
+    "source": "Porsche factory specifications, workshop manuals"
+  },
+  "transmissions": [
+    {
+      "code": "915",
+      "name": "Porsche 915 Transmission",
+      "type": "manual",
+      "gears": 5,
+      "gear_ratios": {
+        "1st": 3.182,
+        "2nd": 1.833,
+        "3rd": 1.261,
+        "4th": 0.926,
+        "5th": 0.710,
+        "reverse": 3.325
+      },
+      "final_drive_ratio": 3.875,
+      "models": ["911 SC", "911 Carrera 3.0", "911 Carrera 3.2"],
+      "years": "1972-1986",
+      "fluid": {
+        "type": "GL-4 gear oil (75W-90 or 80W-90)",
+        "capacity_liters": 2.5
+      },
+      "notes": "Side-shift pattern. Dog-leg 1st gear on earlier versions.",
+      "known_issues": [
+        "2nd gear synchro wear is common",
+        "Input shaft bearing failure causes whining noise",
+        "Shift rod bushings wear causing vague shift feel",
+        "Oil leaks from output flange seals",
+        "Spring plate (guibo) failure at rear output"
+      ]
+    },
+    {
+      "code": "930_4speed",
+      "name": "930 Turbo 4-Speed",
+      "type": "manual",
+      "gears": 4,
+      "gear_ratios": {
+        "1st": 2.857,
+        "2nd": 1.647,
+        "3rd": 1.130,
+        "4th": 0.821,
+        "reverse": 2.750
+      },
+      "final_drive_ratio": 4.222,
+      "models": ["911 Turbo (930) 3.0", "911 Turbo (930) 3.3"],
+      "years": "1975-1989",
+      "fluid": {
+        "type": "GL-4 80W-90 gear oil",
+        "capacity_liters": 2.5
+      },
+      "notes": "Based on 915 but only 4 speeds. Turbo engine torque band made 4 speeds adequate.",
+      "known_issues": [
+        "Synchro wear (all gears)",
+        "Limited gear selection makes highway cruising noisy",
+        "Input shaft bearing failure",
+        "Difficult to source OEM replacement parts"
+      ]
+    },
+    {
+      "code": "G50",
+      "name": "Getrag G50 Transmission",
+      "type": "manual",
+      "gears": 5,
+      "gear_ratios": {
+        "1st": 3.500,
+        "2nd": 2.059,
+        "3rd": 1.407,
+        "4th": 1.086,
+        "5th": 0.868,
+        "reverse": 2.857
+      },
+      "final_drive_ratio": 3.444,
+      "variants": [
+        {
+          "code": "G50/00",
+          "application": "964 Carrera 2",
+          "final_drive": 3.444
+        },
+        {
+          "code": "G50/01",
+          "application": "964 Carrera 4",
+          "final_drive": 3.444
+        },
+        {
+          "code": "G50/03",
+          "application": "964 Turbo 3.6",
+          "final_drive": 3.444
+        },
+        {
+          "code": "G50/10",
+          "application": "993 Carrera",
+          "final_drive": 3.444
+        },
+        {
+          "code": "G50/20",
+          "application": "993 Carrera 4",
+          "final_drive": 3.444
+        },
+        {
+          "code": "G50/21",
+          "application": "993 Turbo",
+          "final_drive": 3.444,
+          "gear_ratios": {
+            "1st": 3.818,
+            "2nd": 2.150,
+            "3rd": 1.560,
+            "4th": 1.212,
+            "5th": 0.937,
+            "reverse": 2.857
+          }
+        },
+        {
+          "code": "G50/31",
+          "application": "993 Carrera RS / GT2",
+          "final_drive": 3.444
+        }
+      ],
+      "models": [
+        "964 Carrera 2/4",
+        "964 Turbo 3.6",
+        "993 Carrera",
+        "993 Carrera 4",
+        "993 Carrera RS",
+        "993 Turbo",
+        "993 GT2"
+      ],
+      "years": "1987-1998",
+      "fluid": {
+        "type": "GL-4 75W-90 synthetic gear oil",
+        "capacity_liters": 3.0
+      },
+      "notes": "Borg-Warner synchros. Conventional H-pattern with 1st top-left. Hydraulic clutch actuation. Major improvement over the 915.",
+      "known_issues": [
+        "5th gear pop-out under deceleration (worn synchro hub or detent)",
+        "Input shaft bearing noise (whining at speed)",
+        "Clutch release bearing failure",
+        "Diff side cover leaks",
+        "Guide tube wear causes clutch engagement issues"
+      ]
+    },
+    {
+      "code": "G50/52",
+      "name": "G50 6-Speed Transmission",
+      "type": "manual",
+      "gears": 6,
+      "gear_ratios": {
+        "1st": 3.818,
+        "2nd": 2.150,
+        "3rd": 1.560,
+        "4th": 1.212,
+        "5th": 0.937,
+        "6th": 0.750,
+        "reverse": 2.857
+      },
+      "final_drive_ratio": 3.444,
+      "models": ["993 Turbo S", "993 GT2 (late)"],
+      "years": "1996-1998",
+      "fluid": {
+        "type": "GL-4 75W-90 synthetic gear oil",
+        "capacity_liters": 3.0
+      },
+      "notes": "6-speed variant of the G50 used in late high-performance 993 models.",
+      "known_issues": [
+        "Same as G50/21 - 5th/6th gear synchro wear",
+        "Diff bearing noise at high mileage"
+      ]
+    },
+    {
+      "code": "G96",
+      "name": "Porsche G96 Transmission",
+      "type": "manual",
+      "gears": 6,
+      "gear_ratios": {
+        "1st": 3.82,
+        "2nd": 2.15,
+        "3rd": 1.56,
+        "4th": 1.21,
+        "5th": 0.97,
+        "6th": 0.78,
+        "reverse": 3.55
+      },
+      "final_drive_ratio": 3.44,
+      "variants": [
+        {
+          "code": "G96/00",
+          "application": "996 Carrera (3.4L)",
+          "final_drive": 3.44
+        },
+        {
+          "code": "G96/01",
+          "application": "996 Carrera (3.6L)",
+          "final_drive": 3.44
+        },
+        {
+          "code": "G96/30",
+          "application": "996 GT3",
+          "final_drive": 3.44
+        },
+        {
+          "code": "G96/50",
+          "application": "997 Carrera",
+          "final_drive": 3.44
+        },
+        {
+          "code": "G96/79",
+          "application": "997 GT3",
+          "final_drive": 3.89
+        },
+        {
+          "code": "G96/96",
+          "application": "997 GT3 RS",
+          "final_drive": 3.89
+        }
+      ],
+      "models": [
+        "996 Carrera",
+        "996 Carrera 4",
+        "996 GT3",
+        "996 GT3 RS",
+        "997 Carrera (997.1)",
+        "997 Carrera S (997.1)",
+        "997 GT3",
+        "997 GT3 RS"
+      ],
+      "years": "1999-2011",
+      "fluid": {
+        "type": "MTF-1 (Porsche factory) or GL-4 75W-90 synthetic",
+        "capacity_liters": 2.8
+      },
+      "notes": "Cable-shift mechanism. Derived from G50 architecture but redesigned for water-cooled 911 platform.",
+      "known_issues": [
+        "Shift cable bushings wear causing sloppy shifting",
+        "2nd gear synchro wear on early G96/00",
+        "Clutch slave cylinder failure (plastic piston)",
+        "Flywheel bolt loosening on dual-mass flywheel versions"
+      ]
+    },
+    {
+      "code": "G97",
+      "name": "Porsche G97 Transmission (Carrera GT)",
+      "type": "manual",
+      "gears": 6,
+      "gear_ratios": {
+        "1st": 3.17,
+        "2nd": 2.05,
+        "3rd": 1.52,
+        "4th": 1.17,
+        "5th": 0.93,
+        "6th": 0.75,
+        "reverse": 3.04
+      },
+      "final_drive_ratio": 3.44,
+      "models": ["Carrera GT"],
+      "years": "2004-2006",
+      "fluid": {
+        "type": "Porsche factory fill synthetic gear oil",
+        "capacity_liters": 4.0
+      },
+      "notes": "Bespoke 6-speed manual with PCCC (Porsche Ceramic Composite Clutch). Beech wood shift knob. Very precise shift action. Lightweight magnesium housing.",
+      "known_issues": [
+        "Clutch judder at low speed (ceramic clutch characteristic)",
+        "Very expensive clutch replacement ($20,000+)",
+        "Limited parts availability"
+      ]
+    },
+    {
+      "code": "A86/05",
+      "name": "Tiptronic S (5-speed)",
+      "type": "tiptronic",
+      "gears": 5,
+      "gear_ratios": {
+        "1st": 3.66,
+        "2nd": 2.00,
+        "3rd": 1.41,
+        "4th": 1.00,
+        "5th": 0.74,
+        "reverse": 4.10
+      },
+      "final_drive_ratio": 3.67,
+      "torque_converter_stall_ratio": 2.0,
+      "models": [
+        "996 Carrera",
+        "996 Carrera 4",
+        "997 Carrera (997.1)",
+        "997 Carrera S (997.1)",
+        "986 Boxster",
+        "987 Boxster/Cayman (987.1)"
+      ],
+      "years": "1999-2008",
+      "fluid": {
+        "type": "Esso LT 71141 / Mobil LT 71141 (ATF)",
+        "capacity_liters": 9.0
+      },
+      "notes": "ZF 5HP19 based. Torque converter automatic with manual shift mode via console lever or steering wheel buttons.",
+      "known_issues": [
+        "Torque converter shudder at low speeds",
+        "Valve body wear causing harsh shifts",
+        "Speed sensor failures",
+        "Mechatronic unit issues at high mileage",
+        "Transmission cooler line leaks"
+      ]
+    },
+    {
+      "code": "G86_5speed",
+      "name": "986 Boxster 5-Speed Manual",
+      "type": "manual",
+      "gears": 5,
+      "gear_ratios": {
+        "1st": 3.50,
+        "2nd": 2.12,
+        "3rd": 1.43,
+        "4th": 1.03,
+        "5th": 0.79,
+        "reverse": 3.44
+      },
+      "final_drive_ratio": 3.89,
+      "models": ["986 Boxster 2.5/2.7"],
+      "years": "1997-2004",
+      "fluid": {
+        "type": "MTF-1 or GL-4 75W-90",
+        "capacity_liters": 2.5
+      },
+      "notes": "Base transmission for the Boxster. 5-speed standard.",
+      "known_issues": [
+        "2nd gear synchro wear",
+        "Cable shift mechanism wear",
+        "Clutch slave cylinder failure"
+      ]
+    },
+    {
+      "code": "G86_6speed",
+      "name": "986/987 6-Speed Manual",
+      "type": "manual",
+      "gears": 6,
+      "gear_ratios": {
+        "1st": 3.82,
+        "2nd": 2.20,
+        "3rd": 1.52,
+        "4th": 1.22,
+        "5th": 1.02,
+        "6th": 0.84,
+        "reverse": 3.55
+      },
+      "final_drive_ratio": 3.44,
+      "models": [
+        "986 Boxster S",
+        "987 Boxster / Boxster S",
+        "987 Cayman / Cayman S"
+      ],
+      "years": "2000-2012",
+      "fluid": {
+        "type": "MTF-1 or GL-4 75W-90 synthetic",
+        "capacity_liters": 2.5
+      },
+      "notes": "6-speed version adapted for mid-engine layout. Shared architecture with G96.",
+      "known_issues": [
+        "Shift cable adjustment needed periodically",
+        "2nd gear synchro can be weak",
+        "Clutch slave cylinder failure",
+        "Throwout bearing noise at high mileage"
+      ]
+    },
+    {
+      "code": "PDK_7speed",
+      "name": "PDK 7-Speed (DKG)",
+      "type": "PDK",
+      "gears": 7,
+      "gear_ratios": {
+        "1st": 3.91,
+        "2nd": 2.29,
+        "3rd": 1.58,
+        "4th": 1.18,
+        "5th": 0.94,
+        "6th": 0.79,
+        "7th": 0.62,
+        "reverse": 3.55
+      },
+      "final_drive_ratio": 3.33,
+      "variants": [
+        {
+          "application": "997.2 Carrera",
+          "final_drive": 3.33
+        },
+        {
+          "application": "997.2 Carrera S",
+          "final_drive": 3.09
+        },
+        {
+          "application": "991 Carrera",
+          "final_drive": 3.56
+        },
+        {
+          "application": "991 Carrera S",
+          "final_drive": 3.33
+        },
+        {
+          "application": "991 GT3 (PDK only)",
+          "final_drive": 3.09,
+          "gear_ratios": {
+            "1st": 3.91,
+            "2nd": 2.29,
+            "3rd": 1.63,
+            "4th": 1.23,
+            "5th": 0.97,
+            "6th": 0.79,
+            "7th": 0.62
+          }
+        },
+        {
+          "application": "981 Boxster/Cayman",
+          "final_drive": 3.89
+        },
+        {
+          "application": "718 Boxster/Cayman",
+          "final_drive": 3.56
+        },
+        {
+          "application": "718 Cayman GT4 / Boxster Spyder (PDK)",
+          "final_drive": 3.33
+        }
+      ],
+      "models": [
+        "997.2 Carrera/S/4/4S/GTS",
+        "991.1 Carrera/S/4/4S/GTS",
+        "991.2 Carrera/S/4/4S/GTS",
+        "991 GT3",
+        "991 GT3 RS",
+        "981 Boxster/Cayman",
+        "718 Boxster/Cayman",
+        "718 Cayman GT4"
+      ],
+      "years": "2009-2024",
+      "fluid": {
+        "type": "Pentosin FFL-2 (dual-clutch fluid)",
+        "capacity_liters": 8.5
+      },
+      "notes": "Dual-clutch automated manual. Odd gears (1,3,5,7) on one clutch, even gears (2,4,6) + reverse on the other. Sub-100ms shift times. 7th is an overdrive for fuel economy.",
+      "known_issues": [
+        "Mechatronic unit valve body wear at high mileage",
+        "Clutch plate wear on early units in heavy traffic",
+        "Rear main seal oil leak can contaminate clutch",
+        "Shift fork wear on heavily tracked cars",
+        "Software updates needed for shift quality on early 997.2 units"
+      ]
+    },
+    {
+      "code": "PDK_8speed",
+      "name": "PDK 8-Speed (992)",
+      "type": "PDK",
+      "gears": 8,
+      "gear_ratios": {
+        "1st": 4.62,
+        "2nd": 3.04,
+        "3rd": 2.08,
+        "4th": 1.56,
+        "5th": 1.23,
+        "6th": 1.02,
+        "7th": 0.85,
+        "8th": 0.65,
+        "reverse": 4.02
+      },
+      "final_drive_ratio": 3.09,
+      "variants": [
+        {
+          "application": "992 Carrera",
+          "final_drive": 3.09
+        },
+        {
+          "application": "992 Carrera S/GTS",
+          "final_drive": 2.73
+        },
+        {
+          "application": "992 Turbo/Turbo S",
+          "final_drive": 2.73,
+          "gear_ratios": {
+            "1st": 4.62,
+            "2nd": 3.04,
+            "3rd": 2.15,
+            "4th": 1.58,
+            "5th": 1.23,
+            "6th": 1.02,
+            "7th": 0.85,
+            "8th": 0.65
+          }
+        },
+        {
+          "application": "992 GT3 (PDK option)",
+          "final_drive": 2.73
+        }
+      ],
+      "models": [
+        "992 Carrera",
+        "992 Carrera S",
+        "992 Carrera 4/4S",
+        "992 GTS",
+        "992 Turbo",
+        "992 Turbo S",
+        "992 GT3 (PDK option)"
+      ],
+      "years": "2020-present",
+      "fluid": {
+        "type": "Pentosin FFL-4 (dual-clutch fluid)",
+        "capacity_liters": 9.0
+      },
+      "notes": "New 8-speed dual-clutch unit with wider ratio spread. Odd gears (1,3,5,7) on one clutch, even (2,4,6,8) + reverse on the other. Significantly improved low-speed manners over 7-speed PDK.",
+      "known_issues": [
+        "Generally very reliable (still new platform)",
+        "Occasional software-related shift hesitation resolved by updates",
+        "Some reports of low-speed clutch judder in hot weather"
+      ]
+    },
+    {
+      "code": "G97_7MT",
+      "name": "7-Speed Manual Transmission",
+      "type": "manual",
+      "gears": 7,
+      "gear_ratios": {
+        "1st": 3.31,
+        "2nd": 1.95,
+        "3rd": 1.41,
+        "4th": 1.13,
+        "5th": 0.95,
+        "6th": 0.81,
+        "7th": 0.67,
+        "reverse": 3.39
+      },
+      "final_drive_ratio": 3.44,
+      "variants": [
+        {
+          "application": "991 Carrera",
+          "final_drive": 3.44
+        },
+        {
+          "application": "991 Carrera S",
+          "final_drive": 3.15
+        },
+        {
+          "application": "991 GTS",
+          "final_drive": 3.15
+        },
+        {
+          "application": "992 Carrera S",
+          "final_drive": 3.15
+        },
+        {
+          "application": "992 Carrera GTS (Sport Manual)",
+          "final_drive": 3.15
+        }
+      ],
+      "models": [
+        "991 Carrera/S/4/4S/GTS",
+        "992 Carrera S/4S/GTS"
+      ],
+      "years": "2012-present",
+      "fluid": {
+        "type": "GL-4 75W-90 synthetic gear oil",
+        "capacity_liters": 2.6
+      },
+      "notes": "World first 7-speed manual. 7th gear is a tall overdrive for highway fuel economy. Rev-match (auto-blip) became standard on 991.2+.",
+      "known_issues": [
+        "1st-to-2nd shift can feel notchy until warmed up",
+        "7th gear not usable for performance driving (overdrive only)",
+        "Clutch delay valve annoys enthusiasts (can be removed)",
+        "Some reports of 2nd gear grind when cold"
+      ]
+    },
+    {
+      "code": "GT3_6MT",
+      "name": "GT3/GT4 6-Speed Manual",
+      "type": "manual",
+      "gears": 6,
+      "gear_ratios": {
+        "1st": 3.31,
+        "2nd": 1.95,
+        "3rd": 1.41,
+        "4th": 1.13,
+        "5th": 0.90,
+        "6th": 0.73,
+        "reverse": 3.39
+      },
+      "final_drive_ratio": 3.89,
+      "variants": [
+        {
+          "application": "991.2 GT3 (6MT option)",
+          "final_drive": 3.89
+        },
+        {
+          "application": "991.2 GT3 Touring",
+          "final_drive": 3.89
+        },
+        {
+          "application": "992 GT3",
+          "final_drive": 3.61
+        },
+        {
+          "application": "981 Cayman GT4",
+          "final_drive": 3.89
+        },
+        {
+          "application": "718 Cayman GT4 / Boxster Spyder",
+          "final_drive": 3.33
+        }
+      ],
+      "models": [
+        "991.2 GT3",
+        "991.2 GT3 Touring",
+        "992 GT3",
+        "992 GT3 Touring",
+        "981 Cayman GT4",
+        "718 Cayman GT4",
+        "718 Boxster Spyder"
+      ],
+      "years": "2015-present",
+      "fluid": {
+        "type": "GL-4 75W-90 synthetic gear oil",
+        "capacity_liters": 2.5
+      },
+      "notes": "Purpose-built 6-speed for GT cars. Shorter shift throw than 7-speed. No overdrive compromises.",
+      "known_issues": [
+        "Generally very robust",
+        "Minor notchiness in first few thousand miles (break-in)",
+        "Clutch delay valve present on some early cars"
+      ]
+    },
+    {
+      "code": "PDK_Cayenne_8AT",
+      "name": "Tiptronic S 8-Speed (Cayenne)",
+      "type": "tiptronic",
+      "gears": 8,
+      "gear_ratios": {
+        "1st": 4.71,
+        "2nd": 3.14,
+        "3rd": 2.11,
+        "4th": 1.67,
+        "5th": 1.29,
+        "6th": 1.00,
+        "7th": 0.84,
+        "8th": 0.67,
+        "reverse": 3.32
+      },
+      "final_drive_ratio": 3.15,
+      "variants": [
+        {
+          "application": "Cayenne (9YA) base/S",
+          "final_drive": 3.15
+        },
+        {
+          "application": "Cayenne Turbo/Turbo GT",
+          "final_drive": 3.56
+        },
+        {
+          "application": "Cayenne E-Hybrid",
+          "final_drive": 3.15
+        },
+        {
+          "application": "Cayenne (958) base/S/Diesel",
+          "final_drive": 3.55
+        },
+        {
+          "application": "Cayenne (958) Turbo",
+          "final_drive": 3.27
+        }
+      ],
+      "models": [
+        "Cayenne (958)",
+        "Cayenne (9YA/9YB)"
+      ],
+      "years": "2011-present",
+      "fluid": {
+        "type": "ZF Lifeguard Fluid 8 (ATF)",
+        "capacity_liters": 9.5
+      },
+      "notes": "ZF 8HP based torque converter automatic. Not a true PDK (dual-clutch). Excellent shift quality.",
+      "known_issues": [
+        "Torque converter shudder at high mileage",
+        "Valve body solenoid wear",
+        "Mechatronic sleeve connector leaks on early 958",
+        "Transfer case fluid often neglected"
+      ]
+    },
+    {
+      "code": "PDK_Panamera_8speed",
+      "name": "Panamera PDK 8-Speed",
+      "type": "PDK",
+      "gears": 8,
+      "gear_ratios": {
+        "1st": 4.82,
+        "2nd": 3.19,
+        "3rd": 2.15,
+        "4th": 1.60,
+        "5th": 1.23,
+        "6th": 1.02,
+        "7th": 0.83,
+        "8th": 0.64,
+        "reverse": 3.99
+      },
+      "final_drive_ratio": 3.15,
+      "variants": [
+        {
+          "application": "Panamera (971) base/4",
+          "final_drive": 3.15
+        },
+        {
+          "application": "Panamera GTS",
+          "final_drive": 3.07
+        },
+        {
+          "application": "Panamera Turbo/Turbo S",
+          "final_drive": 2.73
+        },
+        {
+          "application": "Panamera 4 E-Hybrid",
+          "final_drive": 3.15
+        }
+      ],
+      "models": [
+        "Panamera (971)",
+        "Panamera Sport Turismo"
+      ],
+      "years": "2017-present",
+      "fluid": {
+        "type": "Pentosin FFL-3 (dual-clutch fluid)",
+        "capacity_liters": 10.0
+      },
+      "notes": "True PDK dual-clutch for Panamera. Larger and heavier than 911 PDK but same operating principle.",
+      "known_issues": [
+        "Generally reliable",
+        "Mechatronic unit rare failures",
+        "Clutch pack wear if driven extensively in stop-and-go traffic"
+      ]
+    },
+    {
+      "code": "PDK_Macan_7speed",
+      "name": "Macan PDK 7-Speed",
+      "type": "PDK",
+      "gears": 7,
+      "gear_ratios": {
+        "1st": 3.77,
+        "2nd": 2.27,
+        "3rd": 1.58,
+        "4th": 1.15,
+        "5th": 0.88,
+        "6th": 0.75,
+        "7th": 0.62,
+        "reverse": 3.44
+      },
+      "final_drive_ratio": 3.67,
+      "variants": [
+        {
+          "application": "Macan (95B) base/S",
+          "final_drive": 3.67
+        },
+        {
+          "application": "Macan GTS",
+          "final_drive": 3.44
+        },
+        {
+          "application": "Macan Turbo",
+          "final_drive": 3.44
+        }
+      ],
+      "models": [
+        "Macan (95B)"
+      ],
+      "years": "2014-2024",
+      "fluid": {
+        "type": "Pentosin FFL-2 (dual-clutch fluid)",
+        "capacity_liters": 7.0
+      },
+      "notes": "Compact PDK dual-clutch for the Macan platform. All-wheel drive standard with front-biased Haldex-type system.",
+      "known_issues": [
+        "Clutch wear in heavy city traffic",
+        "Occasional shudder at low speed creep",
+        "Transfer case PTU fluid changes often missed"
+      ]
+    },
+    {
+      "code": "Taycan_2speed",
+      "name": "Taycan 2-Speed Rear Transmission",
+      "type": "automatic_EV",
+      "gears": 2,
+      "gear_ratios": {
+        "1st": 15.5,
+        "2nd": 8.05
+      },
+      "front_motor_ratio": 8.05,
+      "models": [
+        "Taycan 4S",
+        "Taycan Turbo",
+        "Taycan Turbo S",
+        "Taycan GTS",
+        "Taycan (RWD base - single speed 8.05 ratio)"
+      ],
+      "years": "2020-present",
+      "fluid": {
+        "type": "Porsche E-Transmission fluid (synthetic)",
+        "capacity_liters": 1.2
+      },
+      "notes": "World first 2-speed transmission for a production EV. 1st gear for launch, 2nd gear above ~60 mph. Front motor (AWD variants) uses single fixed ratio of 8.05.",
+      "known_issues": [
+        "Generally very reliable simple design",
+        "Rare reports of shift clunk between 1st and 2nd",
+        "Software calibration updates improve shift quality"
+      ]
+    }
+  ]
+}
+ENDOFJSON; __hermes_rc=$?; printf '__HERMES_FENCE_a9f7b3__'; exit $__hermes_rc

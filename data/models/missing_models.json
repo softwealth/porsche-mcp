@@ -1,0 +1,866 @@
+{
+  "911_early": {
+    "name": "Porsche 911 (Original)",
+    "generation": "901/911",
+    "years": "1964-1973",
+    "year_start": 1964,
+    "year_end": 1973,
+    "era": "air-cooled",
+    "layout": "RR",
+    "body_style": "Coupe/Targa",
+    "variants": [
+      {
+        "name": "911 2.0",
+        "engine_code": "901/01",
+        "displacement_cc": 1991,
+        "hp": 130,
+        "hp_rpm": 6100,
+        "torque_lb_ft": 128,
+        "transmission_options": [
+          "5-speed manual (901/911)"
+        ],
+        "curb_weight_lbs": 2380,
+        "zero_to_sixty": 8.3,
+        "top_speed_mph": 131,
+        "years": "1964-1967",
+        "msrp_usd": 6500
+      },
+      {
+        "name": "911S 2.0",
+        "engine_code": "901/02",
+        "displacement_cc": 1991,
+        "hp": 160,
+        "hp_rpm": 6600,
+        "torque_lb_ft": 132,
+        "curb_weight_lbs": 2360,
+        "zero_to_sixty": 7.6,
+        "top_speed_mph": 140,
+        "years": "1967-1968",
+        "notes": "Weber carbs, forged pistons"
+      },
+      {
+        "name": "911T 2.0",
+        "engine_code": "901/03",
+        "displacement_cc": 1991,
+        "hp": 110,
+        "hp_rpm": 5800,
+        "torque_lb_ft": 116,
+        "curb_weight_lbs": 2360,
+        "zero_to_sixty": 9.1,
+        "top_speed_mph": 124,
+        "years": "1968-1969",
+        "notes": "Touring \u2014 base model"
+      },
+      {
+        "name": "911E 2.0",
+        "engine_code": "901/09",
+        "displacement_cc": 1991,
+        "hp": 140,
+        "hp_rpm": 6500,
+        "torque_lb_ft": 129,
+        "curb_weight_lbs": 2370,
+        "zero_to_sixty": 7.8,
+        "top_speed_mph": 137,
+        "years": "1969",
+        "notes": "Einspritzung (fuel injection)"
+      },
+      {
+        "name": "911T 2.2",
+        "engine_code": "911/07",
+        "displacement_cc": 2195,
+        "hp": 125,
+        "hp_rpm": 5800,
+        "torque_lb_ft": 131,
+        "curb_weight_lbs": 2370,
+        "zero_to_sixty": 8.5,
+        "top_speed_mph": 127,
+        "years": "1970-1971"
+      },
+      {
+        "name": "911E 2.2",
+        "engine_code": "911/01",
+        "displacement_cc": 2195,
+        "hp": 155,
+        "hp_rpm": 6200,
+        "torque_lb_ft": 141,
+        "curb_weight_lbs": 2380,
+        "zero_to_sixty": 7.2,
+        "top_speed_mph": 137,
+        "years": "1970-1971"
+      },
+      {
+        "name": "911S 2.2",
+        "engine_code": "911/02",
+        "displacement_cc": 2195,
+        "hp": 180,
+        "hp_rpm": 6500,
+        "torque_lb_ft": 147,
+        "curb_weight_lbs": 2350,
+        "zero_to_sixty": 6.6,
+        "top_speed_mph": 145,
+        "years": "1970-1971"
+      },
+      {
+        "name": "911T 2.4",
+        "engine_code": "911/57",
+        "displacement_cc": 2341,
+        "hp": 130,
+        "hp_rpm": 5600,
+        "torque_lb_ft": 144,
+        "curb_weight_lbs": 2370,
+        "zero_to_sixty": 7.9,
+        "top_speed_mph": 130,
+        "years": "1972-1973"
+      },
+      {
+        "name": "911E 2.4",
+        "engine_code": "911/52",
+        "displacement_cc": 2341,
+        "hp": 165,
+        "hp_rpm": 6200,
+        "torque_lb_ft": 151,
+        "curb_weight_lbs": 2380,
+        "zero_to_sixty": 7.0,
+        "top_speed_mph": 140,
+        "years": "1972-1973"
+      },
+      {
+        "name": "911S 2.4",
+        "engine_code": "911/53",
+        "displacement_cc": 2341,
+        "hp": 190,
+        "hp_rpm": 6500,
+        "torque_lb_ft": 158,
+        "curb_weight_lbs": 2350,
+        "zero_to_sixty": 6.2,
+        "top_speed_mph": 149,
+        "years": "1972-1973"
+      },
+      {
+        "name": "Carrera RS 2.7",
+        "engine_code": "911/83",
+        "displacement_cc": 2687,
+        "hp": 210,
+        "hp_rpm": 6300,
+        "torque_lb_ft": 188,
+        "curb_weight_lbs": 2116,
+        "zero_to_sixty": 5.8,
+        "top_speed_mph": 152,
+        "years": "1973",
+        "production_numbers": 1580,
+        "notes": "Lightweight homologation special. Ducktail spoiler. Most valuable air-cooled 911."
+      }
+    ],
+    "wheelbase_in": 87.0,
+    "length_in": 163.9,
+    "width_in": 63.4,
+    "height_in": 52.0,
+    "fuel_tank_gal": 16.4,
+    "notable_features": [
+      "Targa body from 1967",
+      "MFI on E/S models from 1969",
+      "External oil filler moved to right rear in 1972"
+    ]
+  },
+  "912": {
+    "name": "Porsche 912",
+    "generation": "912",
+    "years": "1965-1969",
+    "year_start": 1965,
+    "year_end": 1969,
+    "era": "air-cooled",
+    "layout": "RR",
+    "body_style": "Coupe/Targa",
+    "variants": [
+      {
+        "name": "912",
+        "engine_code": "616/36",
+        "displacement_cc": 1582,
+        "hp": 90,
+        "hp_rpm": 5800,
+        "torque_lb_ft": 86,
+        "transmission_options": [
+          "4-speed manual",
+          "5-speed manual (optional)"
+        ],
+        "curb_weight_lbs": 2140,
+        "zero_to_sixty": 11.6,
+        "top_speed_mph": 115,
+        "msrp_usd": 4790,
+        "production_numbers": 30300
+      },
+      {
+        "name": "912 Targa",
+        "engine_code": "616/36",
+        "displacement_cc": 1582,
+        "hp": 90,
+        "curb_weight_lbs": 2200,
+        "top_speed_mph": 112,
+        "years": "1967-1969",
+        "production_numbers": 2562
+      }
+    ],
+    "wheelbase_in": 87.0,
+    "length_in": 163.9,
+    "width_in": 63.4,
+    "height_in": 52.0,
+    "fuel_tank_gal": 16.4,
+    "notable_features": [
+      "911 body with 356-derived flat-4",
+      "Outsold the 911 initially",
+      "Budget Porsche of its era"
+    ]
+  },
+  "914": {
+    "name": "Porsche 914",
+    "generation": "914",
+    "years": "1969-1976",
+    "year_start": 1969,
+    "year_end": 1976,
+    "era": "air-cooled",
+    "layout": "MR",
+    "body_style": "Targa",
+    "variants": [
+      {
+        "name": "914 1.7",
+        "engine": "VW Flat-4 1679cc",
+        "hp": 80,
+        "torque_lb_ft": 98,
+        "curb_weight_lbs": 2070,
+        "zero_to_sixty": 12.5,
+        "top_speed_mph": 109,
+        "years": "1970-1973",
+        "production_numbers": 65000
+      },
+      {
+        "name": "914 2.0",
+        "engine": "VW Flat-4 1971cc",
+        "hp": 100,
+        "torque_lb_ft": 107,
+        "curb_weight_lbs": 2090,
+        "zero_to_sixty": 10.5,
+        "top_speed_mph": 115,
+        "years": "1973-1976",
+        "production_numbers": 43000
+      },
+      {
+        "name": "914/6",
+        "engine_code": "901/36",
+        "displacement_cc": 1991,
+        "hp": 110,
+        "torque_lb_ft": 115,
+        "curb_weight_lbs": 2070,
+        "zero_to_sixty": 8.7,
+        "top_speed_mph": 125,
+        "years": "1970-1972",
+        "production_numbers": 3360,
+        "notes": "911 flat-6 engine. Much more desirable than flat-4 versions."
+      },
+      {
+        "name": "914/6 GT",
+        "engine_code": "911/20",
+        "displacement_cc": 1991,
+        "hp": 210,
+        "torque_lb_ft": 152,
+        "curb_weight_lbs": 1850,
+        "top_speed_mph": 150,
+        "years": "1970",
+        "production_numbers": 11,
+        "notes": "Factory race car. Won its class at Le Mans 1970."
+      }
+    ],
+    "wheelbase_in": 96.5,
+    "length_in": 158.1,
+    "width_in": 65.0,
+    "height_in": 48.0,
+    "fuel_tank_gal": 16.4,
+    "notable_features": [
+      "Only mid-engine production Porsche until Boxster",
+      "Removable Targa roof",
+      "Joint venture with VW"
+    ]
+  },
+  "911_g_body": {
+    "name": "Porsche 911 (G-Body)",
+    "generation": "G-Body",
+    "years": "1974-1989",
+    "year_start": 1974,
+    "year_end": 1989,
+    "era": "air-cooled",
+    "layout": "RR",
+    "body_style": "Coupe/Targa/Cabriolet",
+    "variants": [
+      {
+        "name": "911 2.7 (1974-1977)",
+        "engine_code": "911/92",
+        "displacement_cc": 2687,
+        "hp": 150,
+        "torque_lb_ft": 175,
+        "curb_weight_lbs": 2470,
+        "zero_to_sixty": 8.0,
+        "top_speed_mph": 130,
+        "years": "1974-1977"
+      },
+      {
+        "name": "911 Carrera 2.7 (1974-1975)",
+        "engine_code": "911/83",
+        "displacement_cc": 2687,
+        "hp": 175,
+        "torque_lb_ft": 188,
+        "curb_weight_lbs": 2470,
+        "zero_to_sixty": 7.0,
+        "top_speed_mph": 143,
+        "years": "1974-1975"
+      },
+      {
+        "name": "911 SC 3.0",
+        "engine_code": "930/25",
+        "displacement_cc": 2994,
+        "hp": 180,
+        "hp_rpm": 5500,
+        "torque_lb_ft": 175,
+        "transmission_options": [
+          "5-speed manual (915)",
+          "3-speed Sportomatic"
+        ],
+        "curb_weight_lbs": 2556,
+        "zero_to_sixty": 6.3,
+        "top_speed_mph": 141,
+        "years": "1978-1983",
+        "production_numbers": 57972,
+        "notes": "SC = Super Carrera. Ferry Porsche's favorite 911."
+      },
+      {
+        "name": "911 Carrera 3.2",
+        "engine_code": "930/20",
+        "displacement_cc": 3164,
+        "hp": 217,
+        "hp_rpm": 5900,
+        "torque_lb_ft": 195,
+        "transmission_options": [
+          "5-speed manual (G50)",
+          "3-speed Sportomatic (early)"
+        ],
+        "curb_weight_lbs": 2670,
+        "zero_to_sixty": 5.6,
+        "top_speed_mph": 152,
+        "years": "1984-1989",
+        "production_numbers": 76473,
+        "notes": "First 911 with G50 getrag transmission. Last of the G-body."
+      },
+      {
+        "name": "911 Speedster (G-body)",
+        "engine_code": "930/20",
+        "displacement_cc": 3164,
+        "hp": 217,
+        "curb_weight_lbs": 2580,
+        "top_speed_mph": 148,
+        "years": "1989",
+        "production_numbers": 2065,
+        "notes": "Low-profile windshield, humped engine cover. Final G-body special."
+      }
+    ],
+    "wheelbase_in": 89.4,
+    "length_in": 168.9,
+    "width_in": 65.0,
+    "height_in": 52.0,
+    "fuel_tank_gal": 21.1,
+    "notable_features": [
+      "Impact bumpers (accordion style)",
+      "Cabriolet returned in 1983",
+      "G50 gearbox from 1987",
+      "Galvanized body from 1976"
+    ]
+  },
+  "930_turbo": {
+    "name": "Porsche 930 Turbo",
+    "generation": "930",
+    "years": "1975-1989",
+    "year_start": 1975,
+    "year_end": 1989,
+    "era": "air-cooled",
+    "layout": "RR",
+    "body_style": "Coupe/Targa/Cabriolet/Slantnose",
+    "variants": [
+      {
+        "name": "930 Turbo 3.0",
+        "engine_code": "930/50",
+        "displacement_cc": 2994,
+        "hp": 260,
+        "torque_lb_ft": 291,
+        "transmission_options": [
+          "4-speed manual (930)"
+        ],
+        "curb_weight_lbs": 2870,
+        "zero_to_sixty": 5.2,
+        "top_speed_mph": 155,
+        "years": "1975-1977",
+        "production_numbers": 2850
+      },
+      {
+        "name": "930 Turbo 3.3",
+        "engine_code": "930/60",
+        "displacement_cc": 3299,
+        "hp": 300,
+        "torque_lb_ft": 317,
+        "transmission_options": [
+          "4-speed manual (930)",
+          "5-speed manual (G50/50 from 1989)"
+        ],
+        "curb_weight_lbs": 2920,
+        "zero_to_sixty": 5.0,
+        "top_speed_mph": 167,
+        "years": "1978-1989",
+        "notes": "Intercooler added. Tea tray spoiler."
+      },
+      {
+        "name": "930 Turbo S (Slantnose/Flachbau)",
+        "engine_code": "930/66",
+        "displacement_cc": 3299,
+        "hp": 330,
+        "torque_lb_ft": 332,
+        "curb_weight_lbs": 2890,
+        "zero_to_sixty": 4.6,
+        "top_speed_mph": 173,
+        "years": "1986-1989",
+        "production_numbers": 948,
+        "notes": "Factory slantnose option (M505/M506). Pop-up headlights. Extremely collectible."
+      },
+      {
+        "name": "930 Turbo Cabriolet",
+        "engine_code": "930/66",
+        "displacement_cc": 3299,
+        "hp": 300,
+        "curb_weight_lbs": 3010,
+        "top_speed_mph": 161,
+        "years": "1987-1989",
+        "production_numbers": 1360
+      }
+    ],
+    "wheelbase_in": 89.4,
+    "length_in": 168.9,
+    "width_in": 69.9,
+    "height_in": 52.0,
+    "fuel_tank_gal": 21.1,
+    "notable_features": [
+      "Whale tail spoiler",
+      "Wide body fenders (+3in each side)",
+      "Single turbo KKK K26",
+      "Legendary turbo lag \u2014 earned nickname 'widowmaker'"
+    ]
+  },
+  "959": {
+    "name": "Porsche 959",
+    "generation": "959",
+    "years": "1986-1993",
+    "year_start": 1986,
+    "year_end": 1993,
+    "era": "air-cooled",
+    "layout": "RR/AWD",
+    "body_style": "Coupe",
+    "variants": [
+      {
+        "name": "959 Komfort",
+        "engine_code": "959",
+        "displacement_cc": 2849,
+        "hp": 450,
+        "hp_rpm": 6500,
+        "torque_lb_ft": 369,
+        "transmission_options": [
+          "6-speed manual"
+        ],
+        "curb_weight_lbs": 3190,
+        "zero_to_sixty": 3.6,
+        "top_speed_mph": 197,
+        "production_numbers": 268,
+        "msrp_usd": 225000,
+        "notes": "Street version with full interior and comfort features."
+      },
+      {
+        "name": "959 Sport",
+        "engine_code": "959",
+        "displacement_cc": 2849,
+        "hp": 515,
+        "torque_lb_ft": 398,
+        "curb_weight_lbs": 2976,
+        "zero_to_sixty": 3.3,
+        "top_speed_mph": 211,
+        "production_numbers": 29,
+        "notes": "Lightweight version. Roll cage, no rear seats, minimal sound deadening."
+      }
+    ],
+    "wheelbase_in": 89.4,
+    "length_in": 167.7,
+    "width_in": 72.4,
+    "height_in": 47.2,
+    "fuel_tank_gal": 22.7,
+    "production_total": 337,
+    "notable_features": [
+      "Twin sequential turbos (first in a production car)",
+      "AWD with variable torque split (PSK)",
+      "Kevlar/Aramid composite body panels",
+      "Hollow-spoke magnesium wheels with tire pressure monitoring",
+      "Electronically adjustable ride height",
+      "Once the fastest production car in the world"
+    ]
+  },
+  "carrera_gt": {
+    "name": "Porsche Carrera GT",
+    "generation": "980",
+    "years": "2004-2007",
+    "year_start": 2004,
+    "year_end": 2007,
+    "era": "water-cooled",
+    "layout": "MR",
+    "body_style": "Roadster",
+    "variants": [
+      {
+        "name": "Carrera GT",
+        "engine_code": "M80/01",
+        "displacement_cc": 5733,
+        "hp": 612,
+        "hp_rpm": 8000,
+        "torque_lb_ft": 435,
+        "torque_rpm": 5750,
+        "transmission_options": [
+          "6-speed manual (ceramic composite clutch)"
+        ],
+        "curb_weight_lbs": 3043,
+        "zero_to_sixty": 3.5,
+        "quarter_mile": 11.2,
+        "top_speed_mph": 205,
+        "msrp_usd": 448000,
+        "production_numbers": 1270
+      }
+    ],
+    "wheelbase_in": 107.5,
+    "length_in": 181.6,
+    "width_in": 75.6,
+    "height_in": 45.9,
+    "fuel_tank_gal": 24.3,
+    "notable_features": [
+      "V10 derived from cancelled LMP1 program",
+      "Carbon fiber monocoque chassis",
+      "Ceramic composite clutch (notoriously difficult)",
+      "Raised wooden shift knob (beechwood, homage to 917)",
+      "No traction control or stability control",
+      "Carbon ceramic brakes standard"
+    ]
+  },
+  "918_spyder": {
+    "name": "Porsche 918 Spyder",
+    "generation": "918",
+    "years": "2013-2015",
+    "year_start": 2013,
+    "year_end": 2015,
+    "era": "water-cooled",
+    "layout": "MR/AWD",
+    "body_style": "Roadster",
+    "variants": [
+      {
+        "name": "918 Spyder",
+        "engine_code": "M18/02",
+        "displacement_cc": 4593,
+        "hp": 887,
+        "hp_rpm": 8500,
+        "torque_lb_ft": 944,
+        "transmission_options": [
+          "7-speed PDK"
+        ],
+        "curb_weight_lbs": 3692,
+        "zero_to_sixty": 2.2,
+        "quarter_mile": 9.8,
+        "top_speed_mph": 214,
+        "msrp_usd": 845000,
+        "production_numbers": 918,
+        "notes": "Combined 887hp: 608hp V8 + 279hp electric motors. 12.4 miles electric-only range."
+      },
+      {
+        "name": "918 Spyder Weissach Package",
+        "hp": 887,
+        "curb_weight_lbs": 3616,
+        "zero_to_sixty": 2.1,
+        "top_speed_mph": 214,
+        "production_numbers": 294,
+        "notes": "Magnesium wheels, exposed carbon fiber, lighter by 76lbs. Nurburgring record setter."
+      }
+    ],
+    "wheelbase_in": 107.4,
+    "length_in": 182.8,
+    "width_in": 76.4,
+    "height_in": 45.8,
+    "fuel_tank_gal": 17.7,
+    "notable_features": [
+      "Plug-in hybrid V8",
+      "Top-exit exhaust pipes",
+      "Carbon fiber monocoque",
+      "Set 6:57 Nurburgring record (2013)",
+      "Part of the 'Holy Trinity' with P1 and LaFerrari"
+    ]
+  },
+  "panamera_970": {
+    "name": "Porsche Panamera (970)",
+    "generation": "970",
+    "years": "2010-2016",
+    "year_start": 2010,
+    "year_end": 2016,
+    "era": "water-cooled",
+    "layout": "FR/AWD",
+    "body_style": "Sedan/Liftback",
+    "variants": [
+      {
+        "name": "Panamera",
+        "engine": "3.6L V6",
+        "hp": 300,
+        "torque_lb_ft": 295,
+        "curb_weight_lbs": 3880,
+        "zero_to_sixty": 6.0,
+        "top_speed_mph": 160,
+        "years": "2010-2016"
+      },
+      {
+        "name": "Panamera S",
+        "engine": "4.8L V8",
+        "hp": 400,
+        "torque_lb_ft": 369,
+        "curb_weight_lbs": 3990,
+        "zero_to_sixty": 5.0,
+        "top_speed_mph": 175,
+        "years": "2010-2013"
+      },
+      {
+        "name": "Panamera 4S",
+        "engine": "4.8L V8 AWD",
+        "hp": 400,
+        "torque_lb_ft": 369,
+        "curb_weight_lbs": 4145,
+        "zero_to_sixty": 4.8,
+        "top_speed_mph": 174,
+        "years": "2010-2013"
+      },
+      {
+        "name": "Panamera GTS",
+        "engine": "4.8L V8",
+        "hp": 430,
+        "torque_lb_ft": 383,
+        "curb_weight_lbs": 4145,
+        "zero_to_sixty": 4.4,
+        "top_speed_mph": 178,
+        "years": "2012-2016"
+      },
+      {
+        "name": "Panamera Turbo",
+        "engine": "4.8L Twin-Turbo V8",
+        "hp": 500,
+        "torque_lb_ft": 516,
+        "curb_weight_lbs": 4343,
+        "zero_to_sixty": 3.9,
+        "top_speed_mph": 188,
+        "years": "2010-2016"
+      },
+      {
+        "name": "Panamera Turbo S",
+        "engine": "4.8L Twin-Turbo V8",
+        "hp": 550,
+        "torque_lb_ft": 553,
+        "curb_weight_lbs": 4365,
+        "zero_to_sixty": 3.6,
+        "top_speed_mph": 192,
+        "years": "2012-2016"
+      },
+      {
+        "name": "Panamera S E-Hybrid",
+        "engine": "3.0L V6 Supercharged + Electric",
+        "hp": 416,
+        "torque_lb_ft": 435,
+        "curb_weight_lbs": 4630,
+        "zero_to_sixty": 5.2,
+        "top_speed_mph": 167,
+        "years": "2014-2016"
+      }
+    ],
+    "wheelbase_in": 115.0,
+    "length_in": 197.0,
+    "width_in": 76.0,
+    "height_in": 55.8,
+    "fuel_tank_gal": 21.1,
+    "notable_features": [
+      "First Porsche 4-door",
+      "Liftback rear hatch",
+      "Air suspension standard on Turbo"
+    ]
+  },
+  "panamera_971": {
+    "name": "Porsche Panamera (971)",
+    "generation": "971",
+    "years": "2017-present",
+    "year_start": 2017,
+    "year_end": 2025,
+    "era": "water-cooled",
+    "layout": "FR/AWD",
+    "body_style": "Sedan/Sport Turismo",
+    "variants": [
+      {
+        "name": "Panamera",
+        "engine": "3.0L Twin-Turbo V6",
+        "hp": 330,
+        "torque_lb_ft": 331,
+        "curb_weight_lbs": 4020,
+        "zero_to_sixty": 5.2,
+        "top_speed_mph": 164
+      },
+      {
+        "name": "Panamera 4S",
+        "engine": "2.9L Twin-Turbo V6 AWD",
+        "hp": 440,
+        "torque_lb_ft": 405,
+        "curb_weight_lbs": 4310,
+        "zero_to_sixty": 4.0,
+        "top_speed_mph": 183
+      },
+      {
+        "name": "Panamera GTS",
+        "engine": "4.0L Twin-Turbo V8",
+        "hp": 473,
+        "torque_lb_ft": 457,
+        "curb_weight_lbs": 4398,
+        "zero_to_sixty": 3.7,
+        "top_speed_mph": 186
+      },
+      {
+        "name": "Panamera Turbo",
+        "engine": "4.0L Twin-Turbo V8",
+        "hp": 550,
+        "torque_lb_ft": 567,
+        "curb_weight_lbs": 4486,
+        "zero_to_sixty": 3.2,
+        "top_speed_mph": 190
+      },
+      {
+        "name": "Panamera Turbo S",
+        "engine": "4.0L Twin-Turbo V8",
+        "hp": 620,
+        "torque_lb_ft": 604,
+        "curb_weight_lbs": 4552,
+        "zero_to_sixty": 2.9,
+        "top_speed_mph": 196
+      },
+      {
+        "name": "Panamera 4 E-Hybrid",
+        "engine": "2.9L V6 Turbo + Electric",
+        "hp": 455,
+        "torque_lb_ft": 516,
+        "curb_weight_lbs": 4784,
+        "zero_to_sixty": 4.4,
+        "top_speed_mph": 172
+      },
+      {
+        "name": "Panamera Turbo S E-Hybrid",
+        "engine": "4.0L V8 Turbo + Electric",
+        "hp": 690,
+        "torque_lb_ft": 641,
+        "curb_weight_lbs": 5235,
+        "zero_to_sixty": 3.0,
+        "top_speed_mph": 196,
+        "notes": "Most powerful Panamera ever"
+      }
+    ],
+    "wheelbase_in": 116.1,
+    "length_in": 198.8,
+    "width_in": 76.3,
+    "height_in": 55.6,
+    "fuel_tank_gal": 23.7,
+    "notable_features": [
+      "MSB platform shared with Bentley",
+      "Sport Turismo wagon body",
+      "Full-width rear LED light bar"
+    ]
+  },
+  "taycan": {
+    "name": "Porsche Taycan",
+    "generation": "Y1A",
+    "years": "2020-present",
+    "year_start": 2020,
+    "year_end": 2025,
+    "era": "electric",
+    "layout": "RR/AWD",
+    "body_style": "Sedan/Sport Turismo/Cross Turismo",
+    "variants": [
+      {
+        "name": "Taycan (base RWD)",
+        "engine": "Single Rear Motor",
+        "hp": 402,
+        "torque_lb_ft": 254,
+        "curb_weight_lbs": 4565,
+        "zero_to_sixty": 4.8,
+        "top_speed_mph": 143,
+        "years": "2021-present",
+        "notes": "Rear-wheel drive, Performance Battery"
+      },
+      {
+        "name": "Taycan 4S",
+        "engine": "Dual Motor AWD",
+        "hp": 562,
+        "torque_lb_ft": 479,
+        "curb_weight_lbs": 4940,
+        "zero_to_sixty": 3.4,
+        "top_speed_mph": 155
+      },
+      {
+        "name": "Taycan GTS",
+        "engine": "Dual Motor AWD",
+        "hp": 590,
+        "torque_lb_ft": 626,
+        "curb_weight_lbs": 5060,
+        "zero_to_sixty": 3.3,
+        "top_speed_mph": 155
+      },
+      {
+        "name": "Taycan Turbo",
+        "engine": "Dual Motor AWD",
+        "hp": 670,
+        "torque_lb_ft": 626,
+        "curb_weight_lbs": 5121,
+        "zero_to_sixty": 2.8,
+        "top_speed_mph": 161
+      },
+      {
+        "name": "Taycan Turbo S",
+        "engine": "Dual Motor AWD",
+        "hp": 750,
+        "torque_lb_ft": 774,
+        "curb_weight_lbs": 5165,
+        "zero_to_sixty": 2.4,
+        "top_speed_mph": 162,
+        "notes": "With overboost/launch control"
+      },
+      {
+        "name": "Taycan Cross Turismo",
+        "engine": "Dual Motor AWD",
+        "hp": "469-750",
+        "curb_weight_lbs": 5200,
+        "notes": "Raised wagon body. Available in 4, 4S, GTS, Turbo, Turbo S."
+      },
+      {
+        "name": "Taycan Sport Turismo",
+        "engine": "Dual Motor AWD",
+        "hp": "402-750",
+        "curb_weight_lbs": 5100,
+        "notes": "Sloped wagon body without raised ride height."
+      }
+    ],
+    "wheelbase_in": 114.2,
+    "length_in": 195.4,
+    "width_in": 77.4,
+    "height_in": 54.3,
+    "battery_kwh": "79.2 (Performance) / 93.4 (Performance Plus)",
+    "range_miles": "200-246 (EPA, varies by variant)",
+    "charging": "800V architecture, 270kW DC fast charging, 22kW AC",
+    "notable_features": [
+      "800V architecture (industry first)",
+      "2-speed rear transmission",
+      "Fastest charging EV at launch",
+      "Nurburgring EV record holder"
+    ]
+  }
+}
