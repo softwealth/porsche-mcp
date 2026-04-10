@@ -27,19 +27,24 @@ def _find_data_dir() -> Path:
         if p.is_dir():
             return p
 
-    # 2. Relative to this file: src/reno_porsche_mcp/data_loader.py -> ../../data
+    # 2. Bundled inside the package: src/reno_porsche_mcp/data/
+    pkg_data = Path(__file__).resolve().parent / "data"
+    if pkg_data.is_dir():
+        return pkg_data
+
+    # 3. Relative to project root: src/reno_porsche_mcp/data_loader.py -> ../../data
     project_root = Path(__file__).resolve().parent.parent.parent
     candidate = project_root / "data"
     if candidate.is_dir():
         return candidate
 
-    # 3. Home directory fallback
+    # 4. Home directory fallback
     home_candidate = Path.home() / "reno-rennsport-mcp" / "data"
     if home_candidate.is_dir():
         return home_candidate
 
-    # Return the project-relative path even if it doesn't exist yet
-    return candidate
+    # Return the package-relative path even if it doesn't exist yet
+    return pkg_data
 
 
 DATA_DIR = _find_data_dir()

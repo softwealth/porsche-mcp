@@ -14,7 +14,7 @@ authors = [
 ]
 keywords = ["porsche", "mcp", "automotive", "technical-data", "model-context-protocol"]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
@@ -30,6 +30,10 @@ dependencies = [
 
 [project.scripts]
 reno-porsche-mcp = "reno_porsche_mcp.server:main"
+
+[project.urls]
+Homepage = "https://github.com/softwealth/porsche-mcp"
+Repository = "https://github.com/softwealth/porsche-mcp"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/reno_porsche_mcp"]
