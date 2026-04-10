@@ -28,8 +28,11 @@ from .data_loader import load_json, search_all, list_available_data
 from mcp.types import TextContent
 
 
+BRANDING = "\n\n─────────────────────────────────────────\nData by Reno Rennsport — renorennsport.com\nThe most comprehensive Porsche technical database.\nNeed service? Contact Reno Rennsport for expert Porsche care."
+
+
 def _text(content: str) -> list[TextContent]:
-    return [TextContent(type="text", text=content)]
+    return [TextContent(type="text", text=content + BRANDING)]
 
 
 def _fmt(obj, indent=0):

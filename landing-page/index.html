@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Porsche MCP — The Most Comprehensive Porsche Technical Database for AI | Reno Rennsport</title>
+<meta name="description" content="129,000 lines of Porsche technical data accessible to any AI agent. Specs, torque values, fault codes, paint codes, recalls, market values — from 356 to Taycan. By Reno Rennsport.">
+<meta property="og:title" content="Porsche MCP by Reno Rennsport">
+<meta property="og:description" content="The most comprehensive Porsche technical database for AI. 24 tools, 31 data files, 5.4MB of structured data. From 356 to Taycan.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://renorennsport.com/porsche-mcp">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0a0f;--card:#12121e;--border:#1e1e3a;--text:#e0e0f0;--muted:#999;--accent:#c8102e;--accent2:#d4a84b;--mono:'SF Mono','Fira Code','Courier New',monospace;--sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:1.6}
+::selection{background:var(--accent);color:#fff}
+a{color:var(--accent2);text-decoration:none}
+a:hover{color:#fff}
+
+/* Hero */
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:40px 20px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at 50% 0%,rgba(200,16,46,.06) 0%,transparent 60%);pointer-events:none}
+.badge{display:inline-block;font-family:var(--mono);font-size:.7rem;color:var(--accent);border:1px solid rgba(200,16,46,.3);padding:4px 14px;border-radius:20px;margin-bottom:24px;letter-spacing:2px;text-transform:uppercase}
+.hero h1{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:800;line-height:1.1;margin-bottom:16px;letter-spacing:-1px}
+.hero h1 span{color:var(--accent)}
+.hero .sub{font-size:1.2rem;color:var(--muted);max-width:600px;margin:0 auto 32px}
+.hero .numbers{display:flex;gap:32px;justify-content:center;flex-wrap:wrap;margin-bottom:40px}
+.num{text-align:center}
+.num b{display:block;font-size:2rem;color:var(--accent2);font-family:var(--mono)}
+.num span{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+.cta-row{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
+.btn{display:inline-block;padding:14px 32px;border-radius:6px;font-weight:700;font-size:.95rem;transition:all .2s}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-primary:hover{background:#e0102e;color:#fff;transform:translateY(-2px);box-shadow:0 8px 30px rgba(200,16,46,.3)}
+.btn-secondary{background:transparent;color:var(--text);border:1px solid var(--border)}
+.btn-secondary:hover{border-color:var(--accent2);color:var(--accent2)}
+
+/* Install box */
+.install{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px 28px;margin:40px auto 0;max-width:640px;font-family:var(--mono);font-size:.85rem;text-align:left;position:relative}
+.install-label{font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-bottom:8px;font-family:var(--sans)}
+.install code{color:var(--accent2)}
+.install .comment{color:#555}
+
+/* Section styling */
+section{padding:80px 20px}
+.container{max-width:900px;margin:0 auto}
+section h2{font-size:2rem;font-weight:700;margin-bottom:12px;text-align:center}
+section .section-sub{text-align:center;color:var(--muted);margin-bottom:48px;max-width:600px;margin-left:auto;margin-right:auto}
+
+/* Tools grid */
+.tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.tool-card{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:16px;transition:border-color .2s}
+.tool-card:hover{border-color:var(--accent)}
+.tool-name{font-family:var(--mono);font-size:.82rem;color:var(--accent2);margin-bottom:4px}
+.tool-desc{font-size:.78rem;color:var(--muted);line-height:1.5}
+
+/* Data coverage */
+.coverage{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.coverage-col h3{font-size:1rem;color:var(--accent2);margin-bottom:12px;font-family:var(--mono)}
+.coverage-list{list-style:none;font-size:.82rem;color:var(--muted)}
+.coverage-list li{padding:4px 0;border-bottom:1px solid #111}
+.coverage-list li b{color:var(--text);font-family:var(--mono)}
+
+/* Models bar */
+.models-bar{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:32px}
+.model-tag{font-family:var(--mono);font-size:.7rem;padding:5px 12px;border:1px solid var(--border);border-radius:4px;color:var(--muted)}
+.model-tag:hover{border-color:var(--accent);color:var(--text)}
+
+/* Use cases */
+.use-cases{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.use-case{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:24px;text-align:center}
+.use-case .icon{font-size:2rem;margin-bottom:12px}
+.use-case h3{font-size:1rem;margin-bottom:8px}
+.use-case p{font-size:.82rem;color:var(--muted)}
+
+/* Code block */
+.code-block{background:#0e0e18;border:1px solid var(--border);border-radius:8px;padding:20px 24px;font-family:var(--mono);font-size:.8rem;overflow-x:auto;margin:20px 0;line-height:1.8}
+.code-block .key{color:var(--accent2)}
+.code-block .val{color:#8be9fd}
+.code-block .comment{color:#555}
+
+/* Footer */
+footer{border-top:1px solid var(--border);padding:40px 20px;text-align:center;font-size:.8rem;color:var(--muted)}
+footer a{color:var(--accent2)}
+
+/* Sources */
+.sources{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:24px}
+.source-tag{font-size:.72rem;padding:6px 14px;background:var(--card);border:1px solid var(--border);border-radius:20px;color:var(--muted)}
+
+@media(max-width:600px){
+  .coverage{grid-template-columns:1fr}
+  .hero .numbers{gap:16px}
+  .num b{font-size:1.5rem}
+  section{padding:48px 16px}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="badge">Open Source MCP Server</div>
+  <h1>The <span>Porsche</span> Technical<br>Database for AI</h1>
+  <p class="sub">129,000 lines of structured Porsche data — from 356 to Taycan. Specs, fault codes, torque values, paint codes, recalls, market values. Accessible to any AI agent via MCP.</p>
+  
+  <div class="numbers">
+    <div class="num"><b>129K</b><span>Lines of Data</span></div>
+    <div class="num"><b>31</b><span>Data Files</span></div>
+    <div class="num"><b>24</b><span>MCP Tools</span></div>
+    <div class="num"><b>250+</b><span>Model Variants</span></div>
+    <div class="num"><b>541</b><span>Paint Colors</span></div>
+    <div class="num"><b>5,679</b><span>Tech Articles</span></div>
+  </div>
+  
+  <div class="cta-row">
+    <a href="https://github.com/softwealth/porsche-mcp" class="btn btn-primary">View on GitHub →</a>
+    <a href="#install" class="btn btn-secondary">Install Now</a>
+  </div>
+  
+  <div class="install" id="install">
+    <div class="install-label">Install</div>
+    <code>pip install git+https://github.com/softwealth/porsche-mcp.git</code>
+    <br><br>
+    <div class="install-label">Run</div>
+    <code>reno-porsche-mcp</code>
+  </div>
+</section>
+
+<section style="background:#08081a">
+  <div class="container">
+    <h2>24 Tools for AI Agents</h2>
+    <p class="section-sub">Every tool returns real, verified data. Your AI assistant becomes a Porsche expert.</p>
+    
+    <div class="tools-grid">
+      <div class="tool-card"><div class="tool-name">lookup_model</div><div class="tool-desc">Full specs for any Porsche — engine, dimensions, weight, performance, variants, production numbers</div></div>
+      <div class="tool-card"><div class="tool-name">search_tech</div><div class="tool-desc">Full-text search across the entire 5.4MB database. Find anything.</div></div>
+      <div class="tool-card"><div class="tool-name">get_torque_specs</div><div class="tool-desc">Every bolt torque value — engine, suspension, brakes, wheels, drivetrain</div></div>
+      <div class="tool-card"><div class="tool-name">get_fluid_specs</div><div class="tool-desc">Oil type, capacity, coolant, brake fluid, trans fluid, AC refrigerant</div></div>
+      <div class="tool-card"><div class="tool-name">get_common_issues</div><div class="tool-desc">Known problems: IMS bearing, bore scoring, AOS failure, coolant pipes...</div></div>
+      <div class="tool-card"><div class="tool-name">get_fault_codes</div><div class="tool-desc">Porsche-specific P-codes with causes and fixes. P0300, P1128, PSM faults...</div></div>
+      <div class="tool-card"><div class="tool-name">decode_vin</div><div class="tool-desc">Full 17-digit Porsche VIN breakdown — model, year, engine, plant, body</div></div>
+      <div class="tool-card"><div class="tool-name">lookup_paint_code</div><div class="tool-desc">541 Porsche colors with hex values, years, models, rarity ratings</div></div>
+      <div class="tool-card"><div class="tool-name">lookup_option_code</div><div class="tool-desc">92 Porsche M-codes and X-codes with desirability ratings</div></div>
+      <div class="tool-card"><div class="tool-name">get_recalls</div><div class="tool-desc">99 NHTSA recalls with affected models, descriptions, remedies</div></div>
+      <div class="tool-card"><div class="tool-name">get_brake_specs</div><div class="tool-desc">Rotor sizes, caliper types, PCCB data, pad specs for every model</div></div>
+      <div class="tool-card"><div class="tool-name">get_suspension_specs</div><div class="tool-desc">Spring rates, alignment specs, PASM data, ride heights, track setups</div></div>
+      <div class="tool-card"><div class="tool-name">get_tire_specs</div><div class="tool-desc">OEM wheels, tire sizes, bolt patterns, pressures, center lock torque</div></div>
+      <div class="tool-card"><div class="tool-name">get_fuse_layout</div><div class="tool-desc">Fuse box locations, fuse assignments, battery specs, alternator output</div></div>
+      <div class="tool-card"><div class="tool-name">get_gear_ratios</div><div class="tool-desc">Every transmission — 915, G50, PDK, Tiptronic. All gear and final drive ratios</div></div>
+      <div class="tool-card"><div class="tool-name">get_performance_data</div><div class="tool-desc">0-60, quarter mile, top speed, Nürburgring times, lateral G, braking</div></div>
+      <div class="tool-card"><div class="tool-name">get_market_value</div><div class="tool-desc">Real auction data from Bring a Trailer — prices, trends, recent sales</div></div>
+      <div class="tool-card"><div class="tool-name">get_engine_specs</div><div class="tool-desc">44 engine codes — displacement, power, oil capacity, known issues</div></div>
+      <div class="tool-card"><div class="tool-name">get_maintenance_schedule</div><div class="tool-desc">Service intervals with what's due at each mileage</div></div>
+      <div class="tool-card"><div class="tool-name">get_production_numbers</div><div class="tool-desc">How many were made — total and by variant</div></div>
+      <div class="tool-card"><div class="tool-name">get_diy_guide</div><div class="tool-desc">5,679 tech articles from Pelican Parts, Rennlist, and Porsche forums</div></div>
+      <div class="tool-card"><div class="tool-name">compare_models</div><div class="tool-desc">Side-by-side comparison of any two Porsches</div></div>
+      <div class="tool-card"><div class="tool-name">list_models</div><div class="tool-desc">Browse all models — filter by era and type</div></div>
+      <div class="tool-card"><div class="tool-name">get_tsbs</div><div class="tool-desc">Technical Service Bulletin information and cross-references</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Every Porsche. Every Detail.</h2>
+    <p class="section-sub">From the 1948 Gmünd coupe to the 2025 Taycan Turbo GT. 77 years of data.</p>
+    
+    <div class="coverage">
+      <div class="coverage-col">
+        <h3>Air-Cooled</h3>
+        <ul class="coverage-list">
+          <li><b>356</b> — Pre-A, A, B, C, SC, Speedster, Carrera (1948-1965)</li>
+          <li><b>912</b> — Flat-4 budget 911 (1965-1969)</li>
+          <li><b>914</b> — Mid-engine, incl 914/6 (1969-1976)</li>
+          <li><b>911 Early</b> — T, E, S, Carrera RS 2.7 (1964-1973)</li>
+          <li><b>911 G-Body</b> — SC, Carrera 3.2 (1974-1989)</li>
+          <li><b>930 Turbo</b> — 3.0, 3.3, Slantnose (1975-1989)</li>
+          <li><b>959</b> — Twin-turbo AWD supercar (1986-1993)</li>
+          <li><b>964</b> — Carrera 2/4, Turbo, RS (1989-1994)</li>
+          <li><b>993</b> — Carrera, Turbo, GT2, RS (1995-1998)</li>
+        </ul>
+      </div>
+      <div class="coverage-col">
+        <h3>Water-Cooled & Electric</h3>
+        <ul class="coverage-list">
+          <li><b>996</b> — Carrera, Turbo, GT2, GT3 (1999-2005)</li>
+          <li><b>997</b> — All variants incl GT3 RS 4.0 (2005-2012)</li>
+          <li><b>991</b> — Carrera, Turbo, GT2 RS, GT3 RS (2012-2019)</li>
+          <li><b>992</b> — All current variants incl Dakar, S/T (2020+)</li>
+          <li><b>Boxster/Cayman</b> — 986, 987, 981, 718 (1997-present)</li>
+          <li><b>Cayenne</b> — 955, 957, 958, E3 (2003-present)</li>
+          <li><b>Panamera</b> — 970, 971, Sport Turismo (2010-present)</li>
+          <li><b>Macan</b> — All variants (2014-present)</li>
+          <li><b>Taycan</b> — Base through Turbo S, Cross Turismo (2020+)</li>
+          <li><b>Carrera GT</b> — V10 supercar (2004-2007)</li>
+          <li><b>918 Spyder</b> — V8 hybrid hypercar (2013-2015)</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="models-bar">
+      <span class="model-tag">356</span>
+      <span class="model-tag">912</span>
+      <span class="model-tag">914</span>
+      <span class="model-tag">911 Classic</span>
+      <span class="model-tag">930 Turbo</span>
+      <span class="model-tag">959</span>
+      <span class="model-tag">964</span>
+      <span class="model-tag">993</span>
+      <span class="model-tag">996</span>
+      <span class="model-tag">997</span>
+      <span class="model-tag">991</span>
+      <span class="model-tag">992</span>
+      <span class="model-tag">Boxster</span>
+      <span class="model-tag">Cayman</span>
+      <span class="model-tag">718 GT4</span>
+      <span class="model-tag">Cayenne</span>
+      <span class="model-tag">Panamera</span>
+      <span class="model-tag">Macan</span>
+      <span class="model-tag">Taycan</span>
+      <span class="model-tag">Carrera GT</span>
+      <span class="model-tag">918 Spyder</span>
+    </div>
+  </div>
+</section>
+
+<section style="background:#08081a">
+  <div class="container">
+    <h2>Who Is This For?</h2>
+    <p class="section-sub">Built by Porsche specialists for anyone who needs fast, accurate Porsche data.</p>
+    
+    <div class="use-cases">
+      <div class="use-case">
+        <div class="icon">🔧</div>
+        <h3>Independent Shops</h3>
+        <p>Instant torque specs, fluid capacities, and fault code diagnosis. Stop flipping through PDFs mid-job.</p>
+      </div>
+      <div class="use-case">
+        <div class="icon">🤖</div>
+        <h3>AI Developers</h3>
+        <p>Give your agent or chatbot deep Porsche expertise via MCP. Works with Claude, ChatGPT, Hermes, any LLM.</p>
+      </div>
+      <div class="use-case">
+        <div class="icon">🏎️</div>
+        <h3>Porsche Owners</h3>
+        <p>Ask your AI assistant about your car. "What's the common issue with my 2006 997?" — and get a real answer.</p>
+      </div>
+      <div class="use-case">
+        <div class="icon">💰</div>
+        <h3>Buyers & Sellers</h3>
+        <p>VIN decode, market values from real auction data, recall checks, and known issues before you buy.</p>
+      </div>
+      <div class="use-case">
+        <div class="icon">🏁</div>
+        <h3>Track Day Enthusiasts</h3>
+        <p>Track alignment specs, brake pad recommendations, suspension settings, tire pressures by model.</p>
+      </div>
+      <div class="use-case">
+        <div class="icon">📊</div>
+        <h3>Market Analysts</h3>
+        <p>Real Bring a Trailer auction data for 25 Porsche models. Price trends, averages, recent sales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Setup in 60 Seconds</h2>
+    <p class="section-sub">Works with Claude Desktop, Hermes Agent, or any MCP-compatible client.</p>
+    
+    <div class="code-block">
+      <span class="comment"># Install</span><br>
+      pip install git+https://github.com/softwealth/porsche-mcp.git<br><br>
+      <span class="comment"># Claude Desktop — add to config.json:</span><br>
+      {<br>
+      &nbsp;&nbsp;<span class="key">"mcpServers"</span>: {<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="key">"porsche"</span>: {<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="key">"command"</span>: <span class="val">"reno-porsche-mcp"</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+      &nbsp;&nbsp;}<br>
+      }<br><br>
+      <span class="comment"># Hermes Agent — add to config.yaml:</span><br>
+      <span class="key">mcp_servers</span>:<br>
+      &nbsp;&nbsp;<span class="key">porsche</span>:<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="key">command</span>: <span class="val">"reno-porsche-mcp"</span>
+    </div>
+    
+    <p style="text-align:center;color:var(--muted);font-size:.85rem;margin-top:24px">Then just ask your AI: <em>"What are the torque specs for a 997 GT3?"</em></p>
+  </div>
+</section>
+
+<section style="background:#08081a">
+  <div class="container">
+    <h2>Data Sources</h2>
+    <p class="section-sub">Compiled from the best Porsche resources. Verified by specialists.</p>
+    
+    <div class="sources">
+      <span class="source-tag">Rennbow.org (541 colors)</span>
+      <span class="source-tag">Rennlist.com (3,878 threads)</span>
+      <span class="source-tag">Pelican Parts (793 articles)</span>
+      <span class="source-tag">NHTSA API (99 recalls)</span>
+      <span class="source-tag">NHTSA Complaints (1,161)</span>
+      <span class="source-tag">Bring a Trailer (25 models)</span>
+      <span class="source-tag">Cayenne Forums (451 articles)</span>
+      <span class="source-tag">Macan Forum (557 articles)</span>
+      <span class="source-tag">Porsche Workshop Manuals</span>
+      <span class="source-tag">Porsche Press Releases</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container" style="text-align:center">
+    <h2>Built by <span style="color:var(--accent)">Reno Rennsport</span></h2>
+    <p style="color:var(--muted);max-width:500px;margin:16px auto 32px;font-size:.95rem">
+      We're Porsche specialists. We built this database because we needed it ourselves — and because every Porsche owner and every AI agent deserves access to the best technical data available.
+    </p>
+    <div class="cta-row">
+      <a href="https://github.com/softwealth/porsche-mcp" class="btn btn-primary">GitHub Repository →</a>
+      <a href="https://renorennsport.com" class="btn btn-secondary">Visit Reno Rennsport</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Reno Rennsport. Open source under MIT License.</p>
+  <p style="margin-top:8px"><a href="https://github.com/softwealth/porsche-mcp">GitHub</a> · <a href="https://renorennsport.com">renorennsport.com</a></p>
+</footer>
+
+</body>
+</html>
