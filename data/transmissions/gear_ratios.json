@@ -16,11 +16,15 @@
         "2nd": 1.833,
         "3rd": 1.261,
         "4th": 0.926,
-        "5th": 0.710,
+        "5th": 0.71,
         "reverse": 3.325
       },
       "final_drive_ratio": 3.875,
-      "models": ["911 SC", "911 Carrera 3.0", "911 Carrera 3.2"],
+      "models": [
+        "911 SC",
+        "911 Carrera 3.0",
+        "911 Carrera 3.2"
+      ],
       "years": "1972-1986",
       "fluid": {
         "type": "GL-4 gear oil (75W-90 or 80W-90)",
@@ -43,12 +47,15 @@
       "gear_ratios": {
         "1st": 2.857,
         "2nd": 1.647,
-        "3rd": 1.130,
+        "3rd": 1.13,
         "4th": 0.821,
-        "reverse": 2.750
+        "reverse": 2.75
       },
       "final_drive_ratio": 4.222,
-      "models": ["911 Turbo (930) 3.0", "911 Turbo (930) 3.3"],
+      "models": [
+        "911 Turbo (930) 3.0",
+        "911 Turbo (930) 3.3"
+      ],
       "years": "1975-1989",
       "fluid": {
         "type": "GL-4 80W-90 gear oil",
@@ -68,7 +75,7 @@
       "type": "manual",
       "gears": 5,
       "gear_ratios": {
-        "1st": 3.500,
+        "1st": 3.5,
         "2nd": 2.059,
         "3rd": 1.407,
         "4th": 1.086,
@@ -108,8 +115,8 @@
           "final_drive": 3.444,
           "gear_ratios": {
             "1st": 3.818,
-            "2nd": 2.150,
-            "3rd": 1.560,
+            "2nd": 2.15,
+            "3rd": 1.56,
             "4th": 1.212,
             "5th": 0.937,
             "reverse": 2.857
@@ -151,15 +158,18 @@
       "gears": 6,
       "gear_ratios": {
         "1st": 3.818,
-        "2nd": 2.150,
-        "3rd": 1.560,
+        "2nd": 2.15,
+        "3rd": 1.56,
         "4th": 1.212,
         "5th": 0.937,
-        "6th": 0.750,
+        "6th": 0.75,
         "reverse": 2.857
       },
       "final_drive_ratio": 3.444,
-      "models": ["993 Turbo S", "993 GT2 (late)"],
+      "models": [
+        "993 Turbo S",
+        "993 GT2 (late)"
+      ],
       "years": "1996-1998",
       "fluid": {
         "type": "GL-4 75W-90 synthetic gear oil",
@@ -256,7 +266,9 @@
         "reverse": 3.04
       },
       "final_drive_ratio": 3.44,
-      "models": ["Carrera GT"],
+      "models": [
+        "Carrera GT"
+      ],
       "years": "2004-2006",
       "fluid": {
         "type": "Porsche factory fill synthetic gear oil",
@@ -276,11 +288,11 @@
       "gears": 5,
       "gear_ratios": {
         "1st": 3.66,
-        "2nd": 2.00,
+        "2nd": 2.0,
         "3rd": 1.41,
-        "4th": 1.00,
+        "4th": 1.0,
         "5th": 0.74,
-        "reverse": 4.10
+        "reverse": 4.1
       },
       "final_drive_ratio": 3.67,
       "torque_converter_stall_ratio": 2.0,
@@ -312,7 +324,7 @@
       "type": "manual",
       "gears": 5,
       "gear_ratios": {
-        "1st": 3.50,
+        "1st": 3.5,
         "2nd": 2.12,
         "3rd": 1.43,
         "4th": 1.03,
@@ -320,7 +332,9 @@
         "reverse": 3.44
       },
       "final_drive_ratio": 3.89,
-      "models": ["986 Boxster 2.5/2.7"],
+      "models": [
+        "986 Boxster 2.5/2.7"
+      ],
       "years": "1997-2004",
       "fluid": {
         "type": "MTF-1 or GL-4 75W-90",
@@ -340,7 +354,7 @@
       "gears": 6,
       "gear_ratios": {
         "1st": 3.82,
-        "2nd": 2.20,
+        "2nd": 2.2,
         "3rd": 1.52,
         "4th": 1.22,
         "5th": 1.02,
@@ -580,7 +594,7 @@
         "2nd": 1.95,
         "3rd": 1.41,
         "4th": 1.13,
-        "5th": 0.90,
+        "5th": 0.9,
         "6th": 0.73,
         "reverse": 3.39
       },
@@ -639,7 +653,7 @@
         "3rd": 2.11,
         "4th": 1.67,
         "5th": 1.29,
-        "6th": 1.00,
+        "6th": 1.0,
         "7th": 0.84,
         "8th": 0.67,
         "reverse": 3.32
@@ -693,7 +707,7 @@
         "1st": 4.82,
         "2nd": 3.19,
         "3rd": 2.15,
-        "4th": 1.60,
+        "4th": 1.6,
         "5th": 1.23,
         "6th": 1.02,
         "7th": 0.83,
@@ -811,4 +825,3 @@
     }
   ]
 }
-ENDOFJSON; __hermes_rc=$?; printf '__HERMES_FENCE_a9f7b3__'; exit $__hermes_rc
